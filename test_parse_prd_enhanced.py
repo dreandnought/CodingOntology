@@ -1,6 +1,6 @@
 """
 端到端测试：用"给CCB项目增加Linux上的屏幕操控能力"作为PRD，
-测试 parse_prd 的融合增强效果。
+测试 parse_prd 四阶段流水线的增强效果。
 """
 import sys
 import os
@@ -44,7 +44,7 @@ Linux 平台的后端尚未完成，需要补充实现。
 """
 
 print("=" * 60)
-print("测试: parse_prd 融合增强模式")
+print("测试: parse_prd 四阶段流水线增强模式")
 print("=" * 60)
 print()
 print("输入 PRD:")
@@ -52,27 +52,85 @@ print("-" * 40)
 print(test_prd.strip())
 print("-" * 40)
 print()
-print("正在调用 LLM API 进行融合增强...")
+print("正在执行四阶段流水线...")
+print("  阶段 1: LLM 实体抽取")
+print("  阶段 2: 语义匹配 + 图搜索")
+print("  阶段 3: LLM 推理（3 个并行 subagent）")
+print("  阶段 4: LLM 融合")
 print()
 
 try:
     result = parse_prd(test_prd)
-    
+
     summary = result["summary"]
-    print(f"✅ 解析完成")
-    print(f"   抽取实体: {summary['entities_extracted']} 个")
-    print(f"   匹配实体: {summary['entities_matched']} 个")
-    print(f"   关系标注: {summary['relations_found']} 条")
-    print(f"   新实体: {summary['new_entities_added']} 个")
-    print(f"   增强模式: {summary.get('enhancement_mode', 'appended')}")
+    print("=" * 60)
+    print("流水线执行完成")
+    print("=" * 60)
+    print(f"  抽取实体: {summary['entities_extracted']} 个")
+    print(f"  匹配实体: {summary['entities_matched']} 个")
+    print(f"  发现关系: {summary['relations_found']} 条")
+    print(f"  推理结果:")
+    inf = summary.get("inferences", {})
+    print(f"    隐含依赖: {inf.get('dependencies', 0)} 条")
+    print(f"    隐含约束: {inf.get('constraints', 0)} 条")
+    print(f"    影响范围: {inf.get('impacts', 0)} 条")
+    print(f"  增强模式: {summary.get('enhancement_mode', 'unknown')}")
+    print(f"  流水线阶段: {' → '.join(summary.get('pipeline_stages', []))}")
     print()
-    
+
+    # 打印阶段 1 中间结果
+    trace = result.get("pipeline_trace", {})
+    stage1 = trace.get("stage1_entities", [])
+    if stage1:
+        print("=" * 60)
+        print("阶段 1 - 抽取的实体")
+        print("=" * 60)
+        for e in stage1:
+            print(f"  [{e.get('type', '?')}] {e.get('name', '?')} - {e.get('description', '')[:60]}")
+            print(f"    keywords: {e.get('search_keywords', [])}")
+        print()
+
+    # 打印阶段 2 中间结果
+    stage2_matches = trace.get("stage2_matches", [])
+    if stage2_matches:
+        print("=" * 60)
+        print("阶段 2 - 语义匹配结果")
+        print("=" * 60)
+        for m in stage2_matches:
+            status = "✅" if m.get("match") else "❌"
+            eid = m.get("matched_entity_id", "N/A") or "N/A"
+            print(f"  {status} {m.get('prd_entity_name', '?')} → {eid} (conf: {m.get('confidence', 0)})")
+        print()
+
+    stage2_subgraph = trace.get("stage2_subgraph", {})
+    if stage2_subgraph:
+        print(f"  子图: {len(stage2_subgraph.get('entities', []))} 个实体, {len(stage2_subgraph.get('relations', []))} 条关系")
+        print()
+
+    # 打印阶段 3 中间结果
+    stage3 = trace.get("stage3_inferences", {})
+    if stage3:
+        print("=" * 60)
+        print("阶段 3 - 推理结果")
+        print("=" * 60)
+        for dep in stage3.get("dependencies", []):
+            print(f"  🔗 依赖: {dep.get('source_entity', '?')} → {dep.get('dependency', '?')}")
+            print(f"     证据: {dep.get('evidence', '')[:80]}")
+        for con in stage3.get("constraints", []):
+            print(f"  📋 约束: {con.get('entity', '?')} ← {con.get('constraint', '?')}")
+            print(f"     证据: {con.get('evidence', '')[:80]}")
+        for imp in stage3.get("impacts", []):
+            print(f"  ⚡ 影响: {imp.get('entity', '?')} → {imp.get('impacted_module', '?')}")
+            print(f"     证据: {imp.get('evidence', '')[:80]}")
+        print()
+
+    # 打印阶段 4 最终结果
     enriched_prd = result["enriched_prd"]
     print("=" * 60)
-    print("增强后的 PRD")
+    print("阶段 4 - 增强后的 PRD")
     print("=" * 60)
     print(enriched_prd)
-    
+
 except Exception as e:
     print(f"❌ 测试失败: {e}")
     import traceback

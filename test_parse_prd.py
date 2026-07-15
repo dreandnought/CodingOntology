@@ -71,14 +71,16 @@ try:
     print(f"抽取实体: {summary['entities_extracted']} 个")
     print(f"匹配实体: {summary['entities_matched']} 个")
     print(f"发现关系: {summary['relations_found']} 条")
-    print(f"新实体: {summary['new_entities_added']} 个")
+    inf = summary.get("inferences", {})
+    print(f"推理结果: 依赖 {inf.get('dependencies', 0)}, 约束 {inf.get('constraints', 0)}, 影响 {inf.get('impacts', 0)}")
+    print(f"流水线阶段: {' → '.join(summary.get('pipeline_stages', []))}")
     print()
-    
+
     enriched_prd = result["enriched_prd"]
     print("=" * 60)
-    print("增强后的 PRD（最后 3000 字符 - 关系附录部分）")
+    print("增强后的 PRD（前 3000 字符）")
     print("=" * 60)
-    print(enriched_prd[-3000:])
+    print(enriched_prd[:3000])
     
 except Exception as e:
     print(f"❌ 测试失败: {e}")

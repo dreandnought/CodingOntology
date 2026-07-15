@@ -1,2 +1,6 @@
 fastmcp>=0.3.0
 requests>=2.31.0
+
+# Web dashboard (web/app.py)
+flask>=3.0.0
+pyyaml>=6.0

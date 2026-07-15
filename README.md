@@ -1,4 +1,4 @@
-# PRD Ontology MCP
+# Coding Ontology MCP
 
 为 Coding Agent（Claude Code、Cline 等）提供 PRD 增强理解的 MCP 插件。
 
@@ -79,7 +79,7 @@ claude mcp add prd-ontology \
 ```json
 {
   "mcpServers": {
-    "prd-ontology": {
+    "coding-ontology": {
       "command": "python3",
       "args": ["/absolute/path/to/CodingOntology/server.py"]
     }

@@ -1,0 +1,2859 @@
+{
+  "name": "utils",
+  "path": "src/utils/",
+  "ts_files": 555,
+  "tsx_files": 15,
+  "total_files": 570,
+  "files": [
+    {
+      "path": "src/utils/CircularBuffer.ts",
+      "lines": 84,
+      "size": 1888
+    },
+    {
+      "path": "src/utils/Cursor.ts",
+      "lines": 1530,
+      "size": 46663
+    },
+    {
+      "path": "src/utils/QueryGuard.ts",
+      "lines": 121,
+      "size": 3597
+    },
+    {
+      "path": "src/utils/Shell.ts",
+      "lines": 474,
+      "size": 16929
+    },
+    {
+      "path": "src/utils/ShellCommand.ts",
+      "lines": 465,
+      "size": 14138
+    },
+    {
+      "path": "src/utils/abortController.ts",
+      "lines": 99,
+      "size": 3364
+    },
+    {
+      "path": "src/utils/activityManager.ts",
+      "lines": 164,
+      "size": 4973
+    },
+    {
+      "path": "src/utils/advisor.ts",
+      "lines": 145,
+      "size": 5585
+    },
+    {
+      "path": "src/utils/agentContext.ts",
+      "lines": 178,
+      "size": 6660
+    },
+    {
+      "path": "src/utils/agentId.ts",
+      "lines": 99,
+      "size": 2805
+    },
+    {
+      "path": "src/utils/agentSwarmsEnabled.ts",
+      "lines": 44,
+      "size": 1417
+    },
+    {
+      "path": "src/utils/agenticSessionSearch.ts",
+      "lines": 307,
+      "size": 10067
+    },
+    {
+      "path": "src/utils/analyzeContext.ts",
+      "lines": 1382,
+      "size": 42931
+    },
+    {
+      "path": "src/utils/ansiToPng.ts",
+      "lines": 334,
+      "size": 214955
+    },
+    {
+      "path": "src/utils/ansiToSvg.ts",
+      "lines": 272,
+      "size": 8212
+    },
+    {
+      "path": "src/utils/api.ts",
+      "lines": 718,
+      "size": 26078
+    },
+    {
+      "path": "src/utils/apiPreconnect.ts",
+      "lines": 71,
+      "size": 2843
+    },
+    {
+      "path": "src/utils/appleTerminalBackup.ts",
+      "lines": 124,
+      "size": 2798
+    },
+    {
+      "path": "src/utils/argumentSubstitution.ts",
+      "lines": 145,
+      "size": 5079
+    },
+    {
+      "path": "src/utils/array.ts",
+      "lines": 13,
+      "size": 364
+    },
+    {
+      "path": "src/utils/asciicast.ts",
+      "lines": 239,
+      "size": 7755
+    },
+    {
+      "path": "src/utils/attachments.ts",
+      "lines": 3997,
+      "size": 127423
+    },
+    {
+      "path": "src/utils/attribution.ts",
+      "lines": 393,
+      "size": 13346
+    },
+    {
+      "path": "src/utils/auth.ts",
+      "lines": 2002,
+      "size": 65436
+    },
+    {
+      "path": "src/utils/authFileDescriptor.ts",
+      "lines": 196,
+      "size": 6787
+    },
+    {
+      "path": "src/utils/authPortable.ts",
+      "lines": 19,
+      "size": 674
+    },
+    {
+      "path": "src/utils/autoModeDenials.ts",
+      "lines": 26,
+      "size": 720
+    },
+    {
+      "path": "src/utils/autoRunIssue.tsx",
+      "lines": 122,
+      "size": 10579
+    },
+    {
+      "path": "src/utils/autoUpdater.ts",
+      "lines": 561,
+      "size": 18012
+    },
+    {
+      "path": "src/utils/aws.ts",
+      "lines": 74,
+      "size": 2305
+    },
+    {
+      "path": "src/utils/awsAuthStatusManager.ts",
+      "lines": 81,
+      "size": 2043
+    },
+    {
+      "path": "src/utils/background/remote/preconditions.ts",
+      "lines": 235,
+      "size": 7336
+    },
+    {
+      "path": "src/utils/background/remote/remoteSession.ts",
+      "lines": 98,
+      "size": 3050
+    },
+    {
+      "path": "src/utils/backgroundHousekeeping.ts",
+      "lines": 94,
+      "size": 3213
+    },
+    {
+      "path": "src/utils/bash/ParsedCommand.ts",
+      "lines": 318,
+      "size": 9221
+    },
+    {
+      "path": "src/utils/bash/ShellSnapshot.ts",
+      "lines": 582,
+      "size": 21780
+    },
+    {
+      "path": "src/utils/bash/ast.ts",
+      "lines": 2679,
+      "size": 112054
+    },
+    {
+      "path": "src/utils/bash/bashParser.ts",
+      "lines": 4436,
+      "size": 130810
+    },
+    {
+      "path": "src/utils/bash/bashPipeCommand.ts",
+      "lines": 294,
+      "size": 10708
+    },
+    {
+      "path": "src/utils/bash/commands.ts",
+      "lines": 1339,
+      "size": 51078
+    },
+    {
+      "path": "src/utils/bash/heredoc.ts",
+      "lines": 733,
+      "size": 31458
+    },
+    {
+      "path": "src/utils/bash/parser.ts",
+      "lines": 230,
+      "size": 6652
+    },
+    {
+      "path": "src/utils/bash/prefix.ts",
+      "lines": 204,
+      "size": 6222
+    },
+    {
+      "path": "src/utils/bash/registry.ts",
+      "lines": 53,
+      "size": 1433
+    },
+    {
+      "path": "src/utils/bash/shellCompletion.ts",
+      "lines": 259,
+      "size": 7874
+    },
+    {
+      "path": "src/utils/bash/shellPrefix.ts",
+      "lines": 28,
+      "size": 1028
+    },
+    {
+      "path": "src/utils/bash/shellQuote.ts",
+      "lines": 304,
+      "size": 10824
+    },
+    {
+      "path": "src/utils/bash/shellQuoting.ts",
+      "lines": 128,
+      "size": 4718
+    },
+    {
+      "path": "src/utils/bash/specs/alias.ts",
+      "lines": 14,
+      "size": 313
+    },
+    {
+      "path": "src/utils/bash/specs/index.ts",
+      "lines": 18,
+      "size": 380
+    },
+    {
+      "path": "src/utils/bash/specs/nohup.ts",
+      "lines": 13,
+      "size": 274
+    },
+    {
+      "path": "src/utils/bash/specs/pyright.ts",
+      "lines": 91,
+      "size": 2670
+    },
+    {
+      "path": "src/utils/bash/specs/sleep.ts",
+      "lines": 13,
+      "size": 315
+    },
+    {
+      "path": "src/utils/bash/specs/srun.ts",
+      "lines": 31,
+      "size": 654
+    },
+    {
+      "path": "src/utils/bash/specs/time.ts",
+      "lines": 13,
+      "size": 244
+    },
+    {
+      "path": "src/utils/bash/specs/timeout.ts",
+      "lines": 20,
+      "size": 426
+    },
+    {
+      "path": "src/utils/bash/treeSitterAnalysis.ts",
+      "lines": 506,
+      "size": 17594
+    },
+    {
+      "path": "src/utils/betas.ts",
+      "lines": 434,
+      "size": 15682
+    },
+    {
+      "path": "src/utils/billing.ts",
+      "lines": 78,
+      "size": 2413
+    },
+    {
+      "path": "src/utils/binaryCheck.ts",
+      "lines": 53,
+      "size": 1466
+    },
+    {
+      "path": "src/utils/browser.ts",
+      "lines": 68,
+      "size": 1867
+    },
+    {
+      "path": "src/utils/bufferedWriter.ts",
+      "lines": 100,
+      "size": 2584
+    },
+    {
+      "path": "src/utils/bundledMode.ts",
+      "lines": 22,
+      "size": 618
+    },
+    {
+      "path": "src/utils/caCerts.ts",
+      "lines": 115,
+      "size": 4401
+    },
+    {
+      "path": "src/utils/caCertsConfig.ts",
+      "lines": 88,
+      "size": 3608
+    },
+    {
+      "path": "src/utils/cachePaths.ts",
+      "lines": 38,
+      "size": 1411
+    },
+    {
+      "path": "src/utils/classifierApprovals.ts",
+      "lines": 88,
+      "size": 2448
+    },
+    {
+      "path": "src/utils/classifierApprovalsHook.ts",
+      "lines": 17,
+      "size": 531
+    },
+    {
+      "path": "src/utils/claudeCodeHints.ts",
+      "lines": 193,
+      "size": 6472
+    },
+    {
+      "path": "src/utils/claudeDesktop.ts",
+      "lines": 152,
+      "size": 4063
+    },
+    {
+      "path": "src/utils/claudeInChrome/chromeNativeHost.ts",
+      "lines": 527,
+      "size": 13876
+    },
+    {
+      "path": "src/utils/claudeInChrome/common.ts",
+      "lines": 540,
+      "size": 14489
+    },
+    {
+      "path": "src/utils/claudeInChrome/mcpServer.ts",
+      "lines": 293,
+      "size": 11104
+    },
+    {
+      "path": "src/utils/claudeInChrome/prompt.ts",
+      "lines": 83,
+      "size": 5605
+    },
+    {
+      "path": "src/utils/claudeInChrome/setup.ts",
+      "lines": 400,
+      "size": 13011
+    },
+    {
+      "path": "src/utils/claudeInChrome/setupPortable.ts",
+      "lines": 233,
+      "size": 6767
+    },
+    {
+      "path": "src/utils/claudeInChrome/toolRendering.tsx",
+      "lines": 262,
+      "size": 33862
+    },
+    {
+      "path": "src/utils/claudemd.ts",
+      "lines": 1479,
+      "size": 46391
+    },
+    {
+      "path": "src/utils/cleanup.ts",
+      "lines": 602,
+      "size": 17770
+    },
+    {
+      "path": "src/utils/cleanupRegistry.ts",
+      "lines": 25,
+      "size": 900
+    },
+    {
+      "path": "src/utils/cliArgs.ts",
+      "lines": 60,
+      "size": 2067
+    },
+    {
+      "path": "src/utils/cliHighlight.ts",
+      "lines": 54,
+      "size": 2140
+    },
+    {
+      "path": "src/utils/codeIndexing.ts",
+      "lines": 206,
+      "size": 6110
+    },
+    {
+      "path": "src/utils/collapseBackgroundBashNotifications.ts",
+      "lines": 84,
+      "size": 2750
+    },
+    {
+      "path": "src/utils/collapseHookSummaries.ts",
+      "lines": 59,
+      "size": 1714
+    },
+    {
+      "path": "src/utils/collapseReadSearch.ts",
+      "lines": 1109,
+      "size": 37902
+    },
+    {
+      "path": "src/utils/collapseTeammateShutdowns.ts",
+      "lines": 55,
+      "size": 1322
+    },
+    {
+      "path": "src/utils/combinedAbortSignal.ts",
+      "lines": 47,
+      "size": 1714
+    },
+    {
+      "path": "src/utils/commandLifecycle.ts",
+      "lines": 21,
+      "size": 440
+    },
+    {
+      "path": "src/utils/commitAttribution.ts",
+      "lines": 961,
+      "size": 29594
+    },
+    {
+      "path": "src/utils/completionCache.ts",
+      "lines": 166,
+      "size": 5654
+    },
+    {
+      "path": "src/utils/computerUse/appNames.ts",
+      "lines": 196,
+      "size": 6575
+    },
+    {
+      "path": "src/utils/computerUse/cleanup.ts",
+      "lines": 86,
+      "size": 3298
+    },
+    {
+      "path": "src/utils/computerUse/common.ts",
+      "lines": 61,
+      "size": 2617
+    },
+    {
+      "path": "src/utils/computerUse/computerUseLock.ts",
+      "lines": 215,
+      "size": 7135
+    },
+    {
+      "path": "src/utils/computerUse/drainRunLoop.ts",
+      "lines": 79,
+      "size": 2821
+    },
+    {
+      "path": "src/utils/computerUse/escHotkey.ts",
+      "lines": 54,
+      "size": 1965
+    },
+    {
+      "path": "src/utils/computerUse/executor.ts",
+      "lines": 658,
+      "size": 23812
+    },
+    {
+      "path": "src/utils/computerUse/gates.ts",
+      "lines": 72,
+      "size": 2563
+    },
+    {
+      "path": "src/utils/computerUse/hostAdapter.ts",
+      "lines": 69,
+      "size": 2771
+    },
+    {
+      "path": "src/utils/computerUse/inputLoader.ts",
+      "lines": 45,
+      "size": 1484
+    },
+    {
+      "path": "src/utils/computerUse/mcpServer.ts",
+      "lines": 106,
+      "size": 4123
+    },
+    {
+      "path": "src/utils/computerUse/setup.ts",
+      "lines": 53,
+      "size": 2020
+    },
+    {
+      "path": "src/utils/computerUse/swiftLoader.ts",
+      "lines": 39,
+      "size": 1229
+    },
+    {
+      "path": "src/utils/computerUse/toolRendering.tsx",
+      "lines": 125,
+      "size": 17706
+    },
+    {
+      "path": "src/utils/computerUse/wrapper.tsx",
+      "lines": 336,
+      "size": 49436
+    },
+    {
+      "path": "src/utils/concurrentSessions.ts",
+      "lines": 204,
+      "size": 6808
+    },
+    {
+      "path": "src/utils/config.ts",
+      "lines": 1817,
+      "size": 63496
+    },
+    {
+      "path": "src/utils/configConstants.ts",
+      "lines": 21,
+      "size": 733
+    },
+    {
+      "path": "src/utils/contentArray.ts",
+      "lines": 51,
+      "size": 1621
+    },
+    {
+      "path": "src/utils/context.ts",
+      "lines": 221,
+      "size": 6871
+    },
+    {
+      "path": "src/utils/contextAnalysis.ts",
+      "lines": 272,
+      "size": 7733
+    },
+    {
+      "path": "src/utils/contextSuggestions.ts",
+      "lines": 235,
+      "size": 7258
+    },
+    {
+      "path": "src/utils/controlMessageCompat.ts",
+      "lines": 32,
+      "size": 1216
+    },
+    {
+      "path": "src/utils/conversationRecovery.ts",
+      "lines": 597,
+      "size": 21077
+    },
+    {
+      "path": "src/utils/cron.ts",
+      "lines": 308,
+      "size": 9462
+    },
+    {
+      "path": "src/utils/cronJitterConfig.ts",
+      "lines": 75,
+      "size": 3414
+    },
+    {
+      "path": "src/utils/cronScheduler.ts",
+      "lines": 565,
+      "size": 21478
+    },
+    {
+      "path": "src/utils/cronTasks.ts",
+      "lines": 458,
+      "size": 17301
+    },
+    {
+      "path": "src/utils/cronTasksLock.ts",
+      "lines": 195,
+      "size": 6259
+    },
+    {
+      "path": "src/utils/crossProjectResume.ts",
+      "lines": 75,
+      "size": 2104
+    },
+    {
+      "path": "src/utils/crypto.ts",
+      "lines": 13,
+      "size": 763
+    },
+    {
+      "path": "src/utils/cwd.ts",
+      "lines": 32,
+      "size": 985
+    },
+    {
+      "path": "src/utils/debug.ts",
+      "lines": 268,
+      "size": 8000
+    },
+    {
+      "path": "src/utils/debugFilter.ts",
+      "lines": 157,
+      "size": 5069
+    },
+    {
+      "path": "src/utils/deepLink/banner.ts",
+      "lines": 123,
+      "size": 4694
+    },
+    {
+      "path": "src/utils/deepLink/parseDeepLink.ts",
+      "lines": 170,
+      "size": 5715
+    },
+    {
+      "path": "src/utils/deepLink/protocolHandler.ts",
+      "lines": 136,
+      "size": 4943
+    },
+    {
+      "path": "src/utils/deepLink/registerProtocol.ts",
+      "lines": 348,
+      "size": 11858
+    },
+    {
+      "path": "src/utils/deepLink/terminalLauncher.ts",
+      "lines": 557,
+      "size": 17786
+    },
+    {
+      "path": "src/utils/deepLink/terminalPreference.ts",
+      "lines": 54,
+      "size": 1897
+    },
+    {
+      "path": "src/utils/desktopDeepLink.ts",
+      "lines": 236,
+      "size": 7130
+    },
+    {
+      "path": "src/utils/detectRepository.ts",
+      "lines": 178,
+      "size": 6063
+    },
+    {
+      "path": "src/utils/diagLogs.ts",
+      "lines": 94,
+      "size": 2784
+    },
+    {
+      "path": "src/utils/diff.ts",
+      "lines": 177,
+      "size": 4855
+    },
+    {
+      "path": "src/utils/directMemberMessage.ts",
+      "lines": 69,
+      "size": 1715
+    },
+    {
+      "path": "src/utils/displayTags.ts",
+      "lines": 51,
+      "size": 2256
+    },
+    {
+      "path": "src/utils/doctorContextWarnings.ts",
+      "lines": 265,
+      "size": 8071
+    },
+    {
+      "path": "src/utils/doctorDiagnostic.ts",
+      "lines": 625,
+      "size": 20502
+    },
+    {
+      "path": "src/utils/dxt/helpers.ts",
+      "lines": 88,
+      "size": 2599
+    },
+    {
+      "path": "src/utils/dxt/zip.ts",
+      "lines": 226,
+      "size": 7704
+    },
+    {
+      "path": "src/utils/earlyInput.ts",
+      "lines": 191,
+      "size": 5398
+    },
+    {
+      "path": "src/utils/editor.ts",
+      "lines": 183,
+      "size": 6634
+    },
+    {
+      "path": "src/utils/effort.ts",
+      "lines": 329,
+      "size": 11583
+    },
+    {
+      "path": "src/utils/embeddedTools.ts",
+      "lines": 29,
+      "size": 1043
+    },
+    {
+      "path": "src/utils/env.ts",
+      "lines": 347,
+      "size": 10943
+    },
+    {
+      "path": "src/utils/envDynamic.ts",
+      "lines": 151,
+      "size": 5278
+    },
+    {
+      "path": "src/utils/envUtils.ts",
+      "lines": 183,
+      "size": 6246
+    },
+    {
+      "path": "src/utils/envValidation.ts",
+      "lines": 38,
+      "size": 1045
+    },
+    {
+      "path": "src/utils/errorLogSink.ts",
+      "lines": 235,
+      "size": 6557
+    },
+    {
+      "path": "src/utils/errors.ts",
+      "lines": 238,
+      "size": 7655
+    },
+    {
+      "path": "src/utils/exampleCommands.ts",
+      "lines": 184,
+      "size": 6200
+    },
+    {
+      "path": "src/utils/execFileNoThrow.ts",
+      "lines": 150,
+      "size": 4329
+    },
+    {
+      "path": "src/utils/execFileNoThrowPortable.ts",
+      "lines": 89,
+      "size": 2685
+    },
+    {
+      "path": "src/utils/execSyncWrapper.ts",
+      "lines": 38,
+      "size": 1203
+    },
+    {
+      "path": "src/utils/exportRenderer.tsx",
+      "lines": 98,
+      "size": 16635
+    },
+    {
+      "path": "src/utils/extraUsage.ts",
+      "lines": 23,
+      "size": 635
+    },
+    {
+      "path": "src/utils/fastMode.ts",
+      "lines": 532,
+      "size": 17723
+    },
+    {
+      "path": "src/utils/file.ts",
+      "lines": 584,
+      "size": 18256
+    },
+    {
+      "path": "src/utils/fileHistory.ts",
+      "lines": 1115,
+      "size": 34660
+    },
+    {
+      "path": "src/utils/fileOperationAnalytics.ts",
+      "lines": 71,
+      "size": 2287
+    },
+    {
+      "path": "src/utils/filePersistence/filePersistence.ts",
+      "lines": 287,
+      "size": 7763
+    },
+    {
+      "path": "src/utils/filePersistence/outputsScanner.ts",
+      "lines": 126,
+      "size": 3682
+    },
+    {
+      "path": "src/utils/filePersistence/types.ts",
+      "lines": 24,
+      "size": 471
+    },
+    {
+      "path": "src/utils/fileRead.ts",
+      "lines": 102,
+      "size": 3168
+    },
+    {
+      "path": "src/utils/fileReadCache.ts",
+      "lines": 96,
+      "size": 2432
+    },
+    {
+      "path": "src/utils/fileStateCache.ts",
+      "lines": 142,
+      "size": 4175
+    },
+    {
+      "path": "src/utils/findExecutable.ts",
+      "lines": 17,
+      "size": 553
+    },
+    {
+      "path": "src/utils/fingerprint.ts",
+      "lines": 76,
+      "size": 2248
+    },
+    {
+      "path": "src/utils/forkedAgent.ts",
+      "lines": 689,
+      "size": 24635
+    },
+    {
+      "path": "src/utils/format.ts",
+      "lines": 308,
+      "size": 9375
+    },
+    {
+      "path": "src/utils/formatBriefTimestamp.ts",
+      "lines": 81,
+      "size": 2223
+    },
+    {
+      "path": "src/utils/fpsTracker.ts",
+      "lines": 47,
+      "size": 1299
+    },
+    {
+      "path": "src/utils/frontmatterParser.ts",
+      "lines": 370,
+      "size": 12404
+    },
+    {
+      "path": "src/utils/fsOperations.ts",
+      "lines": 770,
+      "size": 24230
+    },
+    {
+      "path": "src/utils/fullscreen.ts",
+      "lines": 202,
+      "size": 8632
+    },
+    {
+      "path": "src/utils/generatedFiles.ts",
+      "lines": 136,
+      "size": 3481
+    },
+    {
+      "path": "src/utils/generators.ts",
+      "lines": 88,
+      "size": 2156
+    },
+    {
+      "path": "src/utils/genericProcessUtils.ts",
+      "lines": 184,
+      "size": 6403
+    },
+    {
+      "path": "src/utils/getWorktreePaths.ts",
+      "lines": 70,
+      "size": 2048
+    },
+    {
+      "path": "src/utils/getWorktreePathsPortable.ts",
+      "lines": 27,
+      "size": 847
+    },
+    {
+      "path": "src/utils/ghPrStatus.ts",
+      "lines": 106,
+      "size": 2823
+    },
+    {
+      "path": "src/utils/git/gitConfigParser.ts",
+      "lines": 277,
+      "size": 6645
+    },
+    {
+      "path": "src/utils/git/gitFilesystem.ts",
+      "lines": 699,
+      "size": 22340
+    },
+    {
+      "path": "src/utils/git/gitignore.ts",
+      "lines": 99,
+      "size": 3200
+    },
+    {
+      "path": "src/utils/git.ts",
+      "lines": 926,
+      "size": 30270
+    },
+    {
+      "path": "src/utils/gitDiff.ts",
+      "lines": 532,
+      "size": 16039
+    },
+    {
+      "path": "src/utils/gitSettings.ts",
+      "lines": 18,
+      "size": 838
+    },
+    {
+      "path": "src/utils/github/ghAuthStatus.ts",
+      "lines": 29,
+      "size": 942
+    },
+    {
+      "path": "src/utils/githubRepoPathMapping.ts",
+      "lines": 162,
+      "size": 5131
+    },
+    {
+      "path": "src/utils/glob.ts",
+      "lines": 130,
+      "size": 4518
+    },
+    {
+      "path": "src/utils/gracefulShutdown.ts",
+      "lines": 529,
+      "size": 20088
+    },
+    {
+      "path": "src/utils/groupToolUses.ts",
+      "lines": 182,
+      "size": 5537
+    },
+    {
+      "path": "src/utils/handlePromptSubmit.ts",
+      "lines": 610,
+      "size": 21712
+    },
+    {
+      "path": "src/utils/hash.ts",
+      "lines": 46,
+      "size": 1683
+    },
+    {
+      "path": "src/utils/headlessProfiler.ts",
+      "lines": 178,
+      "size": 6058
+    },
+    {
+      "path": "src/utils/heapDumpService.ts",
+      "lines": 303,
+      "size": 9890
+    },
+    {
+      "path": "src/utils/heatmap.ts",
+      "lines": 198,
+      "size": 5305
+    },
+    {
+      "path": "src/utils/highlightMatch.tsx",
+      "lines": 28,
+      "size": 4091
+    },
+    {
+      "path": "src/utils/hooks/AsyncHookRegistry.ts",
+      "lines": 309,
+      "size": 8913
+    },
+    {
+      "path": "src/utils/hooks/apiQueryHookHelper.ts",
+      "lines": 141,
+      "size": 4383
+    },
+    {
+      "path": "src/utils/hooks/execAgentHook.ts",
+      "lines": 339,
+      "size": 12485
+    },
+    {
+      "path": "src/utils/hooks/execHttpHook.ts",
+      "lines": 242,
+      "size": 8871
+    },
+    {
+      "path": "src/utils/hooks/execPromptHook.ts",
+      "lines": 211,
+      "size": 6822
+    },
+    {
+      "path": "src/utils/hooks/fileChangedWatcher.ts",
+      "lines": 191,
+      "size": 5309
+    },
+    {
+      "path": "src/utils/hooks/hookEvents.ts",
+      "lines": 192,
+      "size": 4492
+    },
+    {
+      "path": "src/utils/hooks/hookHelpers.ts",
+      "lines": 83,
+      "size": 2521
+    },
+    {
+      "path": "src/utils/hooks/hooksConfigManager.ts",
+      "lines": 400,
+      "size": 17497
+    },
+    {
+      "path": "src/utils/hooks/hooksConfigSnapshot.ts",
+      "lines": 133,
+      "size": 5064
+    },
+    {
+      "path": "src/utils/hooks/hooksSettings.ts",
+      "lines": 271,
+      "size": 8506
+    },
+    {
+      "path": "src/utils/hooks/postSamplingHooks.ts",
+      "lines": 70,
+      "size": 1993
+    },
+    {
+      "path": "src/utils/hooks/registerFrontmatterHooks.ts",
+      "lines": 67,
+      "size": 2277
+    },
+    {
+      "path": "src/utils/hooks/registerSkillHooks.ts",
+      "lines": 64,
+      "size": 2059
+    },
+    {
+      "path": "src/utils/hooks/sessionHooks.ts",
+      "lines": 447,
+      "size": 12132
+    },
+    {
+      "path": "src/utils/hooks/skillImprovement.ts",
+      "lines": 267,
+      "size": 8362
+    },
+    {
+      "path": "src/utils/hooks/ssrfGuard.ts",
+      "lines": 294,
+      "size": 8732
+    },
+    {
+      "path": "src/utils/hooks.ts",
+      "lines": 5022,
+      "size": 159458
+    },
+    {
+      "path": "src/utils/horizontalScroll.ts",
+      "lines": 137,
+      "size": 4302
+    },
+    {
+      "path": "src/utils/http.ts",
+      "lines": 136,
+      "size": 4928
+    },
+    {
+      "path": "src/utils/hyperlink.ts",
+      "lines": 39,
+      "size": 1465
+    },
+    {
+      "path": "src/utils/iTermBackup.ts",
+      "lines": 73,
+      "size": 1608
+    },
+    {
+      "path": "src/utils/ide.ts",
+      "lines": 1494,
+      "size": 46585
+    },
+    {
+      "path": "src/utils/idePathConversion.ts",
+      "lines": 90,
+      "size": 2602
+    },
+    {
+      "path": "src/utils/idleTimeout.ts",
+      "lines": 53,
+      "size": 1574
+    },
+    {
+      "path": "src/utils/imagePaste.ts",
+      "lines": 416,
+      "size": 14509
+    },
+    {
+      "path": "src/utils/imageResizer.ts",
+      "lines": 880,
+      "size": 26699
+    },
+    {
+      "path": "src/utils/imageStore.ts",
+      "lines": 167,
+      "size": 4320
+    },
+    {
+      "path": "src/utils/imageValidation.ts",
+      "lines": 104,
+      "size": 3619
+    },
+    {
+      "path": "src/utils/immediateCommand.ts",
+      "lines": 15,
+      "size": 547
+    },
+    {
+      "path": "src/utils/inProcessTeammateHelpers.ts",
+      "lines": 102,
+      "size": 2988
+    },
+    {
+      "path": "src/utils/ink.ts",
+      "lines": 26,
+      "size": 921
+    },
+    {
+      "path": "src/utils/intl.ts",
+      "lines": 94,
+      "size": 2824
+    },
+    {
+      "path": "src/utils/jetbrains.ts",
+      "lines": 191,
+      "size": 5805
+    },
+    {
+      "path": "src/utils/json.ts",
+      "lines": 277,
+      "size": 9144
+    },
+    {
+      "path": "src/utils/jsonRead.ts",
+      "lines": 16,
+      "size": 657
+    },
+    {
+      "path": "src/utils/keyboardShortcuts.ts",
+      "lines": 14,
+      "size": 568
+    },
+    {
+      "path": "src/utils/lazySchema.ts",
+      "lines": 8,
+      "size": 295
+    },
+    {
+      "path": "src/utils/listSessionsImpl.ts",
+      "lines": 454,
+      "size": 15071
+    },
+    {
+      "path": "src/utils/localInstaller.ts",
+      "lines": 162,
+      "size": 4810
+    },
+    {
+      "path": "src/utils/lockfile.ts",
+      "lines": 43,
+      "size": 1330
+    },
+    {
+      "path": "src/utils/log.ts",
+      "lines": 362,
+      "size": 11693
+    },
+    {
+      "path": "src/utils/logoV2Utils.ts",
+      "lines": 350,
+      "size": 9835
+    },
+    {
+      "path": "src/utils/mailbox.ts",
+      "lines": 73,
+      "size": 1596
+    },
+    {
+      "path": "src/utils/managedEnv.ts",
+      "lines": 199,
+      "size": 7908
+    },
+    {
+      "path": "src/utils/managedEnvConstants.ts",
+      "lines": 191,
+      "size": 6813
+    },
+    {
+      "path": "src/utils/markdown.ts",
+      "lines": 381,
+      "size": 11853
+    },
+    {
+      "path": "src/utils/markdownConfigLoader.ts",
+      "lines": 600,
+      "size": 21312
+    },
+    {
+      "path": "src/utils/mcp/dateTimeParser.ts",
+      "lines": 121,
+      "size": 4322
+    },
+    {
+      "path": "src/utils/mcp/elicitationValidation.ts",
+      "lines": 336,
+      "size": 9384
+    },
+    {
+      "path": "src/utils/mcpInstructionsDelta.ts",
+      "lines": 130,
+      "size": 4752
+    },
+    {
+      "path": "src/utils/mcpOutputStorage.ts",
+      "lines": 189,
+      "size": 7086
+    },
+    {
+      "path": "src/utils/mcpValidation.ts",
+      "lines": 208,
+      "size": 6300
+    },
+    {
+      "path": "src/utils/mcpWebSocketTransport.ts",
+      "lines": 200,
+      "size": 6052
+    },
+    {
+      "path": "src/utils/memoize.ts",
+      "lines": 269,
+      "size": 8612
+    },
+    {
+      "path": "src/utils/memory/types.ts",
+      "lines": 12,
+      "size": 264
+    },
+    {
+      "path": "src/utils/memory/versions.ts",
+      "lines": 8,
+      "size": 307
+    },
+    {
+      "path": "src/utils/memoryFileDetection.ts",
+      "lines": 289,
+      "size": 10212
+    },
+    {
+      "path": "src/utils/messagePredicates.ts",
+      "lines": 8,
+      "size": 427
+    },
+    {
+      "path": "src/utils/messageQueueManager.ts",
+      "lines": 547,
+      "size": 16563
+    },
+    {
+      "path": "src/utils/messages/mappers.ts",
+      "lines": 290,
+      "size": 9031
+    },
+    {
+      "path": "src/utils/messages/systemInit.ts",
+      "lines": 96,
+      "size": 3747
+    },
+    {
+      "path": "src/utils/messages.ts",
+      "lines": 5512,
+      "size": 193203
+    },
+    {
+      "path": "src/utils/model/agent.ts",
+      "lines": 157,
+      "size": 5578
+    },
+    {
+      "path": "src/utils/model/aliases.ts",
+      "lines": 25,
+      "size": 793
+    },
+    {
+      "path": "src/utils/model/antModels.ts",
+      "lines": 64,
+      "size": 1798
+    },
+    {
+      "path": "src/utils/model/bedrock.ts",
+      "lines": 265,
+      "size": 9196
+    },
+    {
+      "path": "src/utils/model/check1mAccess.ts",
+      "lines": 72,
+      "size": 2215
+    },
+    {
+      "path": "src/utils/model/configs.ts",
+      "lines": 118,
+      "size": 4286
+    },
+    {
+      "path": "src/utils/model/contextWindowUpgradeCheck.ts",
+      "lines": 47,
+      "size": 1284
+    },
+    {
+      "path": "src/utils/model/deprecation.ts",
+      "lines": 101,
+      "size": 2534
+    },
+    {
+      "path": "src/utils/model/model.ts",
+      "lines": 618,
+      "size": 21409
+    },
+    {
+      "path": "src/utils/model/modelAllowlist.ts",
+      "lines": 170,
+      "size": 6030
+    },
+    {
+      "path": "src/utils/model/modelCapabilities.ts",
+      "lines": 118,
+      "size": 4099
+    },
+    {
+      "path": "src/utils/model/modelOptions.ts",
+      "lines": 540,
+      "size": 18338
+    },
+    {
+      "path": "src/utils/model/modelStrings.ts",
+      "lines": 166,
+      "size": 5233
+    },
+    {
+      "path": "src/utils/model/modelSupportOverrides.ts",
+      "lines": 50,
+      "size": 1537
+    },
+    {
+      "path": "src/utils/model/providers.ts",
+      "lines": 40,
+      "size": 1340
+    },
+    {
+      "path": "src/utils/model/validateModel.ts",
+      "lines": 159,
+      "size": 4633
+    },
+    {
+      "path": "src/utils/modelCost.ts",
+      "lines": 231,
+      "size": 7520
+    },
+    {
+      "path": "src/utils/modifiers.ts",
+      "lines": 36,
+      "size": 1112
+    },
+    {
+      "path": "src/utils/mtls.ts",
+      "lines": 179,
+      "size": 4655
+    },
+    {
+      "path": "src/utils/nativeInstaller/download.ts",
+      "lines": 523,
+      "size": 15191
+    },
+    {
+      "path": "src/utils/nativeInstaller/index.ts",
+      "lines": 18,
+      "size": 456
+    },
+    {
+      "path": "src/utils/nativeInstaller/installer.ts",
+      "lines": 1708,
+      "size": 54752
+    },
+    {
+      "path": "src/utils/nativeInstaller/packageManagers.ts",
+      "lines": 336,
+      "size": 8963
+    },
+    {
+      "path": "src/utils/nativeInstaller/pidLock.ts",
+      "lines": 433,
+      "size": 11934
+    },
+    {
+      "path": "src/utils/notebook.ts",
+      "lines": 224,
+      "size": 6368
+    },
+    {
+      "path": "src/utils/objectGroupBy.ts",
+      "lines": 18,
+      "size": 511
+    },
+    {
+      "path": "src/utils/pasteStore.ts",
+      "lines": 104,
+      "size": 2950
+    },
+    {
+      "path": "src/utils/path.ts",
+      "lines": 155,
+      "size": 5700
+    },
+    {
+      "path": "src/utils/pdf.ts",
+      "lines": 300,
+      "size": 8148
+    },
+    {
+      "path": "src/utils/pdfUtils.ts",
+      "lines": 70,
+      "size": 2190
+    },
+    {
+      "path": "src/utils/peerAddress.ts",
+      "lines": 21,
+      "size": 981
+    },
+    {
+      "path": "src/utils/permissions/PermissionMode.ts",
+      "lines": 141,
+      "size": 3489
+    },
+    {
+      "path": "src/utils/permissions/PermissionPromptToolResultSchema.ts",
+      "lines": 127,
+      "size": 4108
+    },
+    {
+      "path": "src/utils/permissions/PermissionResult.ts",
+      "lines": 35,
+      "size": 874
+    },
+    {
+      "path": "src/utils/permissions/PermissionRule.ts",
+      "lines": 40,
+      "size": 1176
+    },
+    {
+      "path": "src/utils/permissions/PermissionUpdate.ts",
+      "lines": 389,
+      "size": 11912
+    },
+    {
+      "path": "src/utils/permissions/PermissionUpdateSchema.ts",
+      "lines": 78,
+      "size": 2402
+    },
+    {
+      "path": "src/utils/permissions/autoModeState.ts",
+      "lines": 39,
+      "size": 1095
+    },
+    {
+      "path": "src/utils/permissions/bashClassifier.ts",
+      "lines": 61,
+      "size": 1444
+    },
+    {
+      "path": "src/utils/permissions/bypassPermissionsKillswitch.ts",
+      "lines": 155,
+      "size": 4839
+    },
+    {
+      "path": "src/utils/permissions/classifierDecision.ts",
+      "lines": 98,
+      "size": 4585
+    },
+    {
+      "path": "src/utils/permissions/classifierShared.ts",
+      "lines": 39,
+      "size": 1174
+    },
+    {
+      "path": "src/utils/permissions/dangerousPatterns.ts",
+      "lines": 80,
+      "size": 2476
+    },
+    {
+      "path": "src/utils/permissions/denialTracking.ts",
+      "lines": 45,
+      "size": 1101
+    },
+    {
+      "path": "src/utils/permissions/filesystem.ts",
+      "lines": 1777,
+      "size": 62254
+    },
+    {
+      "path": "src/utils/permissions/getNextPermissionMode.ts",
+      "lines": 101,
+      "size": 3301
+    },
+    {
+      "path": "src/utils/permissions/pathValidation.ts",
+      "lines": 485,
+      "size": 16249
+    },
+    {
+      "path": "src/utils/permissions/permissionExplainer.ts",
+      "lines": 250,
+      "size": 7606
+    },
+    {
+      "path": "src/utils/permissions/permissionRuleParser.ts",
+      "lines": 198,
+      "size": 7274
+    },
+    {
+      "path": "src/utils/permissions/permissionSetup.ts",
+      "lines": 1532,
+      "size": 53439
+    },
+    {
+      "path": "src/utils/permissions/permissions.ts",
+      "lines": 1486,
+      "size": 52190
+    },
+    {
+      "path": "src/utils/permissions/permissionsLoader.ts",
+      "lines": 296,
+      "size": 8743
+    },
+    {
+      "path": "src/utils/permissions/shadowedRuleDetection.ts",
+      "lines": 234,
+      "size": 8050
+    },
+    {
+      "path": "src/utils/permissions/shellRuleMatching.ts",
+      "lines": 228,
+      "size": 6409
+    },
+    {
+      "path": "src/utils/permissions/yoloClassifier.ts",
+      "lines": 1495,
+      "size": 52160
+    },
+    {
+      "path": "src/utils/planModeV2.ts",
+      "lines": 95,
+      "size": 3051
+    },
+    {
+      "path": "src/utils/plans.ts",
+      "lines": 397,
+      "size": 12390
+    },
+    {
+      "path": "src/utils/platform.ts",
+      "lines": 150,
+      "size": 3801
+    },
+    {
+      "path": "src/utils/plugins/addDirPluginSettings.ts",
+      "lines": 71,
+      "size": 2320
+    },
+    {
+      "path": "src/utils/plugins/cacheUtils.ts",
+      "lines": 196,
+      "size": 6652
+    },
+    {
+      "path": "src/utils/plugins/dependencyResolver.ts",
+      "lines": 305,
+      "size": 11673
+    },
+    {
+      "path": "src/utils/plugins/fetchTelemetry.ts",
+      "lines": 135,
+      "size": 4922
+    },
+    {
+      "path": "src/utils/plugins/gitAvailability.ts",
+      "lines": 69,
+      "size": 2273
+    },
+    {
+      "path": "src/utils/plugins/headlessPluginInstall.ts",
+      "lines": 174,
+      "size": 6775
+    },
+    {
+      "path": "src/utils/plugins/hintRecommendation.ts",
+      "lines": 164,
+      "size": 5431
+    },
+    {
+      "path": "src/utils/plugins/installCounts.ts",
+      "lines": 292,
+      "size": 8315
+    },
+    {
+      "path": "src/utils/plugins/installedPluginsManager.ts",
+      "lines": 1268,
+      "size": 41410
+    },
+    {
+      "path": "src/utils/plugins/loadPluginAgents.ts",
+      "lines": 348,
+      "size": 12485
+    },
+    {
+      "path": "src/utils/plugins/loadPluginCommands.ts",
+      "lines": 946,
+      "size": 30541
+    },
+    {
+      "path": "src/utils/plugins/loadPluginHooks.ts",
+      "lines": 287,
+      "size": 10066
+    },
+    {
+      "path": "src/utils/plugins/loadPluginOutputStyles.ts",
+      "lines": 178,
+      "size": 5672
+    },
+    {
+      "path": "src/utils/plugins/lspPluginIntegration.ts",
+      "lines": 387,
+      "size": 12414
+    },
+    {
+      "path": "src/utils/plugins/lspRecommendation.ts",
+      "lines": 374,
+      "size": 10695
+    },
+    {
+      "path": "src/utils/plugins/managedPlugins.ts",
+      "lines": 27,
+      "size": 877
+    },
+    {
+      "path": "src/utils/plugins/marketplaceHelpers.ts",
+      "lines": 592,
+      "size": 18217
+    },
+    {
+      "path": "src/utils/plugins/marketplaceManager.ts",
+      "lines": 2643,
+      "size": 93274
+    },
+    {
+      "path": "src/utils/plugins/mcpPluginIntegration.ts",
+      "lines": 634,
+      "size": 20113
+    },
+    {
+      "path": "src/utils/plugins/mcpbHandler.ts",
+      "lines": 968,
+      "size": 31289
+    },
+    {
+      "path": "src/utils/plugins/officialMarketplace.ts",
+      "lines": 25,
+      "size": 836
+    },
+    {
+      "path": "src/utils/plugins/officialMarketplaceGcs.ts",
+      "lines": 216,
+      "size": 9338
+    },
+    {
+      "path": "src/utils/plugins/officialMarketplaceStartupCheck.ts",
+      "lines": 439,
+      "size": 15192
+    },
+    {
+      "path": "src/utils/plugins/orphanedPluginFilter.ts",
+      "lines": 114,
+      "size": 3980
+    },
+    {
+      "path": "src/utils/plugins/parseMarketplaceInput.ts",
+      "lines": 162,
+      "size": 6075
+    },
+    {
+      "path": "src/utils/plugins/performStartupChecks.tsx",
+      "lines": 70,
+      "size": 9597
+    },
+    {
+      "path": "src/utils/plugins/pluginAutoupdate.ts",
+      "lines": 284,
+      "size": 9473
+    },
+    {
+      "path": "src/utils/plugins/pluginBlocklist.ts",
+      "lines": 127,
+      "size": 4361
+    },
+    {
+      "path": "src/utils/plugins/pluginDirectories.ts",
+      "lines": 178,
+      "size": 6669
+    },
+    {
+      "path": "src/utils/plugins/pluginFlagging.ts",
+      "lines": 208,
+      "size": 5621
+    },
+    {
+      "path": "src/utils/plugins/pluginIdentifier.ts",
+      "lines": 123,
+      "size": 3928
+    },
+    {
+      "path": "src/utils/plugins/pluginInstallationHelpers.ts",
+      "lines": 595,
+      "size": 20629
+    },
+    {
+      "path": "src/utils/plugins/pluginLoader.ts",
+      "lines": 3302,
+      "size": 110261
+    },
+    {
+      "path": "src/utils/plugins/pluginOptionsStorage.ts",
+      "lines": 400,
+      "size": 15302
+    },
+    {
+      "path": "src/utils/plugins/pluginPolicy.ts",
+      "lines": 20,
+      "size": 827
+    },
+    {
+      "path": "src/utils/plugins/pluginStartupCheck.ts",
+      "lines": 341,
+      "size": 11096
+    },
+    {
+      "path": "src/utils/plugins/pluginVersioning.ts",
+      "lines": 157,
+      "size": 5340
+    },
+    {
+      "path": "src/utils/plugins/reconciler.ts",
+      "lines": 265,
+      "size": 8273
+    },
+    {
+      "path": "src/utils/plugins/refresh.ts",
+      "lines": 215,
+      "size": 8537
+    },
+    {
+      "path": "src/utils/plugins/schemas.ts",
+      "lines": 1681,
+      "size": 58914
+    },
+    {
+      "path": "src/utils/plugins/validatePlugin.ts",
+      "lines": 903,
+      "size": 28366
+    },
+    {
+      "path": "src/utils/plugins/walkPluginMarkdown.ts",
+      "lines": 69,
+      "size": 2222
+    },
+    {
+      "path": "src/utils/plugins/zipCache.ts",
+      "lines": 406,
+      "size": 13163
+    },
+    {
+      "path": "src/utils/plugins/zipCacheAdapters.ts",
+      "lines": 164,
+      "size": 5310
+    },
+    {
+      "path": "src/utils/powershell/dangerousCmdlets.ts",
+      "lines": 185,
+      "size": 6155
+    },
+    {
+      "path": "src/utils/powershell/parser.ts",
+      "lines": 1804,
+      "size": 66647
+    },
+    {
+      "path": "src/utils/powershell/staticPrefix.ts",
+      "lines": 316,
+      "size": 12277
+    },
+    {
+      "path": "src/utils/preflightChecks.tsx",
+      "lines": 151,
+      "size": 19309
+    },
+    {
+      "path": "src/utils/privacyLevel.ts",
+      "lines": 55,
+      "size": 1886
+    },
+    {
+      "path": "src/utils/process.ts",
+      "lines": 68,
+      "size": 2333
+    },
+    {
+      "path": "src/utils/processUserInput/processBashCommand.tsx",
+      "lines": 140,
+      "size": 22279
+    },
+    {
+      "path": "src/utils/processUserInput/processSlashCommand.tsx",
+      "lines": 922,
+      "size": 144807
+    },
+    {
+      "path": "src/utils/processUserInput/processTextPrompt.ts",
+      "lines": 100,
+      "size": 3272
+    },
+    {
+      "path": "src/utils/processUserInput/processUserInput.ts",
+      "lines": 605,
+      "size": 19507
+    },
+    {
+      "path": "src/utils/profilerBase.ts",
+      "lines": 46,
+      "size": 1572
+    },
+    {
+      "path": "src/utils/promptCategory.ts",
+      "lines": 49,
+      "size": 1502
+    },
+    {
+      "path": "src/utils/promptEditor.ts",
+      "lines": 188,
+      "size": 5664
+    },
+    {
+      "path": "src/utils/promptShellExecution.ts",
+      "lines": 183,
+      "size": 7011
+    },
+    {
+      "path": "src/utils/protectedNamespace.ts",
+      "lines": 3,
+      "size": 58
+    },
+    {
+      "path": "src/utils/proxy.ts",
+      "lines": 426,
+      "size": 13545
+    },
+    {
+      "path": "src/utils/queryContext.ts",
+      "lines": 179,
+      "size": 5937
+    },
+    {
+      "path": "src/utils/queryHelpers.ts",
+      "lines": 552,
+      "size": 19734
+    },
+    {
+      "path": "src/utils/queryProfiler.ts",
+      "lines": 301,
+      "size": 8894
+    },
+    {
+      "path": "src/utils/queueProcessor.ts",
+      "lines": 95,
+      "size": 3174
+    },
+    {
+      "path": "src/utils/readEditContext.ts",
+      "lines": 227,
+      "size": 7224
+    },
+    {
+      "path": "src/utils/readFileInRange.ts",
+      "lines": 383,
+      "size": 12259
+    },
+    {
+      "path": "src/utils/releaseNotes.ts",
+      "lines": 360,
+      "size": 11813
+    },
+    {
+      "path": "src/utils/renderOptions.ts",
+      "lines": 77,
+      "size": 2278
+    },
+    {
+      "path": "src/utils/ripgrep.ts",
+      "lines": 679,
+      "size": 21188
+    },
+    {
+      "path": "src/utils/sandbox/sandbox-adapter.ts",
+      "lines": 985,
+      "size": 35710
+    },
+    {
+      "path": "src/utils/sandbox/sandbox-ui-utils.ts",
+      "lines": 12,
+      "size": 389
+    },
+    {
+      "path": "src/utils/sanitization.ts",
+      "lines": 91,
+      "size": 4003
+    },
+    {
+      "path": "src/utils/screenshotClipboard.ts",
+      "lines": 121,
+      "size": 3709
+    },
+    {
+      "path": "src/utils/sdkEventQueue.ts",
+      "lines": 134,
+      "size": 4077
+    },
+    {
+      "path": "src/utils/secureStorage/fallbackStorage.ts",
+      "lines": 70,
+      "size": 2362
+    },
+    {
+      "path": "src/utils/secureStorage/index.ts",
+      "lines": 17,
+      "size": 559
+    },
+    {
+      "path": "src/utils/secureStorage/keychainPrefetch.ts",
+      "lines": 116,
+      "size": 4755
+    },
+    {
+      "path": "src/utils/secureStorage/macOsKeychainHelpers.ts",
+      "lines": 111,
+      "size": 4797
+    },
+    {
+      "path": "src/utils/secureStorage/macOsKeychainStorage.ts",
+      "lines": 231,
+      "size": 8271
+    },
+    {
+      "path": "src/utils/secureStorage/plainTextStorage.ts",
+      "lines": 84,
+      "size": 2430
+    },
+    {
+      "path": "src/utils/secureStorage/types.ts",
+      "lines": 7,
+      "size": 243
+    },
+    {
+      "path": "src/utils/semanticBoolean.ts",
+      "lines": 29,
+      "size": 1167
+    },
+    {
+      "path": "src/utils/semanticNumber.ts",
+      "lines": 36,
+      "size": 1486
+    },
+    {
+      "path": "src/utils/semver.ts",
+      "lines": 59,
+      "size": 1713
+    },
+    {
+      "path": "src/utils/sequential.ts",
+      "lines": 56,
+      "size": 1641
+    },
+    {
+      "path": "src/utils/sessionActivity.ts",
+      "lines": 133,
+      "size": 4081
+    },
+    {
+      "path": "src/utils/sessionEnvVars.ts",
+      "lines": 22,
+      "size": 590
+    },
+    {
+      "path": "src/utils/sessionEnvironment.ts",
+      "lines": 166,
+      "size": 5053
+    },
+    {
+      "path": "src/utils/sessionFileAccessHooks.ts",
+      "lines": 250,
+      "size": 8138
+    },
+    {
+      "path": "src/utils/sessionIngressAuth.ts",
+      "lines": 140,
+      "size": 4737
+    },
+    {
+      "path": "src/utils/sessionRestore.ts",
+      "lines": 551,
+      "size": 20406
+    },
+    {
+      "path": "src/utils/sessionStart.ts",
+      "lines": 232,
+      "size": 8151
+    },
+    {
+      "path": "src/utils/sessionState.ts",
+      "lines": 150,
+      "size": 5309
+    },
+    {
+      "path": "src/utils/sessionStorage.ts",
+      "lines": 5105,
+      "size": 180620
+    },
+    {
+      "path": "src/utils/sessionStoragePortable.ts",
+      "lines": 793,
+      "size": 25448
+    },
+    {
+      "path": "src/utils/sessionTitle.ts",
+      "lines": 129,
+      "size": 4757
+    },
+    {
+      "path": "src/utils/sessionUrl.ts",
+      "lines": 64,
+      "size": 1672
+    },
+    {
+      "path": "src/utils/set.ts",
+      "lines": 53,
+      "size": 1036
+    },
+    {
+      "path": "src/utils/settings/allErrors.ts",
+      "lines": 32,
+      "size": 1257
+    },
+    {
+      "path": "src/utils/settings/applySettingsChange.ts",
+      "lines": 92,
+      "size": 3656
+    },
+    {
+      "path": "src/utils/settings/changeDetector.ts",
+      "lines": 488,
+      "size": 16384
+    },
+    {
+      "path": "src/utils/settings/constants.ts",
+      "lines": 202,
+      "size": 5627
+    },
+    {
+      "path": "src/utils/settings/internalWrites.ts",
+      "lines": 37,
+      "size": 1380
+    },
+    {
+      "path": "src/utils/settings/managedPath.ts",
+      "lines": 34,
+      "size": 1095
+    },
+    {
+      "path": "src/utils/settings/mdm/constants.ts",
+      "lines": 81,
+      "size": 2617
+    },
+    {
+      "path": "src/utils/settings/mdm/rawRead.ts",
+      "lines": 130,
+      "size": 4183
+    },
+    {
+      "path": "src/utils/settings/mdm/settings.ts",
+      "lines": 316,
+      "size": 10716
+    },
+    {
+      "path": "src/utils/settings/permissionValidation.ts",
+      "lines": 262,
+      "size": 8657
+    },
+    {
+      "path": "src/utils/settings/pluginOnlyPolicy.ts",
+      "lines": 60,
+      "size": 2405
+    },
+    {
+      "path": "src/utils/settings/schemaOutput.ts",
+      "lines": 8,
+      "size": 317
+    },
+    {
+      "path": "src/utils/settings/settings.ts",
+      "lines": 1015,
+      "size": 32185
+    },
+    {
+      "path": "src/utils/settings/settingsCache.ts",
+      "lines": 80,
+      "size": 2416
+    },
+    {
+      "path": "src/utils/settings/toolValidationConfig.ts",
+      "lines": 103,
+      "size": 3100
+    },
+    {
+      "path": "src/utils/settings/types.ts",
+      "lines": 1148,
+      "size": 42784
+    },
+    {
+      "path": "src/utils/settings/validateEditTool.ts",
+      "lines": 45,
+      "size": 1695
+    },
+    {
+      "path": "src/utils/settings/validation.ts",
+      "lines": 265,
+      "size": 7951
+    },
+    {
+      "path": "src/utils/settings/validationTips.ts",
+      "lines": 164,
+      "size": 5464
+    },
+    {
+      "path": "src/utils/shell/bashProvider.ts",
+      "lines": 255,
+      "size": 11002
+    },
+    {
+      "path": "src/utils/shell/outputLimits.ts",
+      "lines": 14,
+      "size": 416
+    },
+    {
+      "path": "src/utils/shell/powershellDetection.ts",
+      "lines": 107,
+      "size": 3714
+    },
+    {
+      "path": "src/utils/shell/powershellProvider.ts",
+      "lines": 123,
+      "size": 5771
+    },
+    {
+      "path": "src/utils/shell/prefix.ts",
+      "lines": 367,
+      "size": 11216
+    },
+    {
+      "path": "src/utils/shell/readOnlyCommandValidation.ts",
+      "lines": 1893,
+      "size": 68294
+    },
+    {
+      "path": "src/utils/shell/resolveDefaultShell.ts",
+      "lines": 14,
+      "size": 496
+    },
+    {
+      "path": "src/utils/shell/shellProvider.ts",
+      "lines": 33,
+      "size": 955
+    },
+    {
+      "path": "src/utils/shell/shellToolUtils.ts",
+      "lines": 22,
+      "size": 1036
+    },
+    {
+      "path": "src/utils/shell/specPrefix.ts",
+      "lines": 241,
+      "size": 7905
+    },
+    {
+      "path": "src/utils/shellConfig.ts",
+      "lines": 167,
+      "size": 4737
+    },
+    {
+      "path": "src/utils/sideQuery.ts",
+      "lines": 222,
+      "size": 8184
+    },
+    {
+      "path": "src/utils/sideQuestion.ts",
+      "lines": 155,
+      "size": 6133
+    },
+    {
+      "path": "src/utils/signal.ts",
+      "lines": 43,
+      "size": 1447
+    },
+    {
+      "path": "src/utils/sinks.ts",
+      "lines": 16,
+      "size": 608
+    },
+    {
+      "path": "src/utils/skills/skillChangeDetector.ts",
+      "lines": 311,
+      "size": 10033
+    },
+    {
+      "path": "src/utils/slashCommandParsing.ts",
+      "lines": 60,
+      "size": 1437
+    },
+    {
+      "path": "src/utils/sleep.ts",
+      "lines": 84,
+      "size": 2882
+    },
+    {
+      "path": "src/utils/sliceAnsi.ts",
+      "lines": 91,
+      "size": 3343
+    },
+    {
+      "path": "src/utils/slowOperations.ts",
+      "lines": 286,
+      "size": 9055
+    },
+    {
+      "path": "src/utils/standaloneAgent.ts",
+      "lines": 23,
+      "size": 803
+    },
+    {
+      "path": "src/utils/startupProfiler.ts",
+      "lines": 194,
+      "size": 6079
+    },
+    {
+      "path": "src/utils/staticRender.tsx",
+      "lines": 116,
+      "size": 12236
+    },
+    {
+      "path": "src/utils/stats.ts",
+      "lines": 1061,
+      "size": 33790
+    },
+    {
+      "path": "src/utils/statsCache.ts",
+      "lines": 434,
+      "size": 13891
+    },
+    {
+      "path": "src/utils/status.tsx",
+      "lines": 362,
+      "size": 48635
+    },
+    {
+      "path": "src/utils/statusNoticeDefinitions.tsx",
+      "lines": 198,
+      "size": 30638
+    },
+    {
+      "path": "src/utils/statusNoticeHelpers.ts",
+      "lines": 20,
+      "size": 673
+    },
+    {
+      "path": "src/utils/stream.ts",
+      "lines": 76,
+      "size": 1926
+    },
+    {
+      "path": "src/utils/streamJsonStdoutGuard.ts",
+      "lines": 123,
+      "size": 3987
+    },
+    {
+      "path": "src/utils/streamlinedTransform.ts",
+      "lines": 201,
+      "size": 5941
+    },
+    {
+      "path": "src/utils/stringUtils.ts",
+      "lines": 235,
+      "size": 6595
+    },
+    {
+      "path": "src/utils/subprocessEnv.ts",
+      "lines": 99,
+      "size": 3975
+    },
+    {
+      "path": "src/utils/suggestions/commandSuggestions.ts",
+      "lines": 567,
+      "size": 18558
+    },
+    {
+      "path": "src/utils/suggestions/directoryCompletion.ts",
+      "lines": 263,
+      "size": 7098
+    },
+    {
+      "path": "src/utils/suggestions/shellHistoryCompletion.ts",
+      "lines": 119,
+      "size": 3456
+    },
+    {
+      "path": "src/utils/suggestions/skillUsageTracking.ts",
+      "lines": 55,
+      "size": 1948
+    },
+    {
+      "path": "src/utils/suggestions/slackChannelSuggestions.ts",
+      "lines": 209,
+      "size": 6391
+    },
+    {
+      "path": "src/utils/swarm/It2SetupPrompt.tsx",
+      "lines": 380,
+      "size": 42721
+    },
+    {
+      "path": "src/utils/swarm/backends/ITermBackend.ts",
+      "lines": 370,
+      "size": 12927
+    },
+    {
+      "path": "src/utils/swarm/backends/InProcessBackend.ts",
+      "lines": 339,
+      "size": 10468
+    },
+    {
+      "path": "src/utils/swarm/backends/PaneBackendExecutor.ts",
+      "lines": 354,
+      "size": 10914
+    },
+    {
+      "path": "src/utils/swarm/backends/TmuxBackend.ts",
+      "lines": 764,
+      "size": 21491
+    },
+    {
+      "path": "src/utils/swarm/backends/detection.ts",
+      "lines": 128,
+      "size": 4495
+    },
+    {
+      "path": "src/utils/swarm/backends/it2Setup.ts",
+      "lines": 245,
+      "size": 6921
+    },
+    {
+      "path": "src/utils/swarm/backends/registry.ts",
+      "lines": 464,
+      "size": 14791
+    },
+    {
+      "path": "src/utils/swarm/backends/teammateModeSnapshot.ts",
+      "lines": 87,
+      "size": 2863
+    },
+    {
+      "path": "src/utils/swarm/backends/types.ts",
+      "lines": 311,
+      "size": 9906
+    },
+    {
+      "path": "src/utils/swarm/constants.ts",
+      "lines": 33,
+      "size": 1334
+    },
+    {
+      "path": "src/utils/swarm/inProcessRunner.ts",
+      "lines": 1552,
+      "size": 53565
+    },
+    {
+      "path": "src/utils/swarm/leaderPermissionBridge.ts",
+      "lines": 54,
+      "size": 1732
+    },
+    {
+      "path": "src/utils/swarm/permissionSync.ts",
+      "lines": 928,
+      "size": 26473
+    },
+    {
+      "path": "src/utils/swarm/reconnection.ts",
+      "lines": 119,
+      "size": 3401
+    },
+    {
+      "path": "src/utils/swarm/spawnInProcess.ts",
+      "lines": 328,
+      "size": 10241
+    },
+    {
+      "path": "src/utils/swarm/spawnUtils.ts",
+      "lines": 146,
+      "size": 5202
+    },
+    {
+      "path": "src/utils/swarm/teamHelpers.ts",
+      "lines": 683,
+      "size": 21385
+    },
+    {
+      "path": "src/utils/swarm/teammateInit.ts",
+      "lines": 129,
+      "size": 4280
+    },
+    {
+      "path": "src/utils/swarm/teammateLayoutManager.ts",
+      "lines": 107,
+      "size": 3261
+    },
+    {
+      "path": "src/utils/swarm/teammateModel.ts",
+      "lines": 10,
+      "size": 467
+    },
+    {
+      "path": "src/utils/swarm/teammatePromptAddendum.ts",
+      "lines": 18,
+      "size": 771
+    },
+    {
+      "path": "src/utils/systemDirectories.ts",
+      "lines": 74,
+      "size": 2125
+    },
+    {
+      "path": "src/utils/systemPrompt.ts",
+      "lines": 123,
+      "size": 4867
+    },
+    {
+      "path": "src/utils/systemPromptType.ts",
+      "lines": 14,
+      "size": 382
+    },
+    {
+      "path": "src/utils/systemTheme.ts",
+      "lines": 119,
+      "size": 4231
+    },
+    {
+      "path": "src/utils/taggedId.ts",
+      "lines": 54,
+      "size": 1573
+    },
+    {
+      "path": "src/utils/task/TaskOutput.ts",
+      "lines": 390,
+      "size": 12474
+    },
+    {
+      "path": "src/utils/task/diskOutput.ts",
+      "lines": 451,
+      "size": 13568
+    },
+    {
+      "path": "src/utils/task/framework.ts",
+      "lines": 308,
+      "size": 9869
+    },
+    {
+      "path": "src/utils/task/outputFormatting.ts",
+      "lines": 38,
+      "size": 1188
+    },
+    {
+      "path": "src/utils/task/sdkProgress.ts",
+      "lines": 36,
+      "size": 1153
+    },
+    {
+      "path": "src/utils/taskSummary.ts",
+      "lines": 3,
+      "size": 48
+    },
+    {
+      "path": "src/utils/tasks.ts",
+      "lines": 862,
+      "size": 26354
+    },
+    {
+      "path": "src/utils/teamDiscovery.ts",
+      "lines": 81,
+      "size": 2323
+    },
+    {
+      "path": "src/utils/teamMemoryOps.ts",
+      "lines": 88,
+      "size": 2471
+    },
+    {
+      "path": "src/utils/teammate.ts",
+      "lines": 292,
+      "size": 9206
+    },
+    {
+      "path": "src/utils/teammateContext.ts",
+      "lines": 96,
+      "size": 3161
+    },
+    {
+      "path": "src/utils/teammateMailbox.ts",
+      "lines": 1183,
+      "size": 33420
+    },
+    {
+      "path": "src/utils/telemetry/betaSessionTracing.ts",
+      "lines": 491,
+      "size": 15843
+    },
+    {
+      "path": "src/utils/telemetry/bigqueryExporter.ts",
+      "lines": 252,
+      "size": 7806
+    },
+    {
+      "path": "src/utils/telemetry/events.ts",
+      "lines": 75,
+      "size": 2287
+    },
+    {
+      "path": "src/utils/telemetry/instrumentation.ts",
+      "lines": 825,
+      "size": 26741
+    },
+    {
+      "path": "src/utils/telemetry/logger.ts",
+      "lines": 26,
+      "size": 742
+    },
+    {
+      "path": "src/utils/telemetry/perfettoTracing.ts",
+      "lines": 1120,
+      "size": 29792
+    },
+    {
+      "path": "src/utils/telemetry/pluginTelemetry.ts",
+      "lines": 289,
+      "size": 10491
+    },
+    {
+      "path": "src/utils/telemetry/sessionTracing.ts",
+      "lines": 927,
+      "size": 27991
+    },
+    {
+      "path": "src/utils/telemetry/skillLoadedEvent.ts",
+      "lines": 39,
+      "size": 1425
+    },
+    {
+      "path": "src/utils/telemetryAttributes.ts",
+      "lines": 71,
+      "size": 2095
+    },
+    {
+      "path": "src/utils/teleport/api.ts",
+      "lines": 466,
+      "size": 13327
+    },
+    {
+      "path": "src/utils/teleport/environmentSelection.ts",
+      "lines": 77,
+      "size": 2695
+    },
+    {
+      "path": "src/utils/teleport/environments.ts",
+      "lines": 120,
+      "size": 3471
+    },
+    {
+      "path": "src/utils/teleport/gitBundle.ts",
+      "lines": 292,
+      "size": 9820
+    },
+    {
+      "path": "src/utils/teleport.tsx",
+      "lines": 1226,
+      "size": 175779
+    },
+    {
+      "path": "src/utils/tempfile.ts",
+      "lines": 31,
+      "size": 1170
+    },
+    {
+      "path": "src/utils/terminal.ts",
+      "lines": 131,
+      "size": 4372
+    },
+    {
+      "path": "src/utils/terminalPanel.ts",
+      "lines": 191,
+      "size": 6014
+    },
+    {
+      "path": "src/utils/textHighlighting.ts",
+      "lines": 166,
+      "size": 4540
+    },
+    {
+      "path": "src/utils/theme.ts",
+      "lines": 639,
+      "size": 26830
+    },
+    {
+      "path": "src/utils/thinking.ts",
+      "lines": 162,
+      "size": 5514
+    },
+    {
+      "path": "src/utils/timeouts.ts",
+      "lines": 39,
+      "size": 1410
+    },
+    {
+      "path": "src/utils/tmuxSocket.ts",
+      "lines": 427,
+      "size": 13693
+    },
+    {
+      "path": "src/utils/todo/types.ts",
+      "lines": 18,
+      "size": 602
+    },
+    {
+      "path": "src/utils/tokenBudget.ts",
+      "lines": 73,
+      "size": 2675
+    },
+    {
+      "path": "src/utils/tokens.ts",
+      "lines": 261,
+      "size": 9606
+    },
+    {
+      "path": "src/utils/toolErrors.ts",
+      "lines": 132,
+      "size": 4012
+    },
+    {
+      "path": "src/utils/toolPool.ts",
+      "lines": 79,
+      "size": 3136
+    },
+    {
+      "path": "src/utils/toolResultStorage.ts",
+      "lines": 1040,
+      "size": 38384
+    },
+    {
+      "path": "src/utils/toolSchemaCache.ts",
+      "lines": 26,
+      "size": 1061
+    },
+    {
+      "path": "src/utils/toolSearch.ts",
+      "lines": 756,
+      "size": 26606
+    },
+    {
+      "path": "src/utils/transcriptSearch.ts",
+      "lines": 202,
+      "size": 8039
+    },
+    {
+      "path": "src/utils/treeify.ts",
+      "lines": 170,
+      "size": 5033
+    },
+    {
+      "path": "src/utils/truncate.ts",
+      "lines": 179,
+      "size": 5719
+    },
+    {
+      "path": "src/utils/udsClient.ts",
+      "lines": 3,
+      "size": 58
+    },
+    {
+      "path": "src/utils/udsMessaging.ts",
+      "lines": 1,
+      "size": 57
+    },
+    {
+      "path": "src/utils/ultraplan/ccrSession.ts",
+      "lines": 349,
+      "size": 12987
+    },
+    {
+      "path": "src/utils/ultraplan/keyword.ts",
+      "lines": 127,
+      "size": 4691
+    },
+    {
+      "path": "src/utils/unaryLogging.ts",
+      "lines": 39,
+      "size": 1254
+    },
+    {
+      "path": "src/utils/undercover.ts",
+      "lines": 89,
+      "size": 3681
+    },
+    {
+      "path": "src/utils/user.ts",
+      "lines": 194,
+      "size": 5714
+    },
+    {
+      "path": "src/utils/userAgent.ts",
+      "lines": 10,
+      "size": 281
+    },
+    {
+      "path": "src/utils/userPromptKeywords.ts",
+      "lines": 27,
+      "size": 929
+    },
+    {
+      "path": "src/utils/uuid.ts",
+      "lines": 27,
+      "size": 888
+    },
+    {
+      "path": "src/utils/warningHandler.ts",
+      "lines": 121,
+      "size": 4486
+    },
+    {
+      "path": "src/utils/which.ts",
+      "lines": 82,
+      "size": 2392
+    },
+    {
+      "path": "src/utils/windowsPaths.ts",
+      "lines": 173,
+      "size": 6008
+    },
+    {
+      "path": "src/utils/withResolvers.ts",
+      "lines": 13,
+      "size": 444
+    },
+    {
+      "path": "src/utils/words.ts",
+      "lines": 800,
+      "size": 10960
+    },
+    {
+      "path": "src/utils/workloadContext.ts",
+      "lines": 57,
+      "size": 2337
+    },
+    {
+      "path": "src/utils/worktree.ts",
+      "lines": 1519,
+      "size": 49995
+    },
+    {
+      "path": "src/utils/worktreeModeEnabled.ts",
+      "lines": 11,
+      "size": 415
+    },
+    {
+      "path": "src/utils/xdg.ts",
+      "lines": 65,
+      "size": 1876
+    },
+    {
+      "path": "src/utils/xml.ts",
+      "lines": 16,
+      "size": 622
+    },
+    {
+      "path": "src/utils/yaml.ts",
+      "lines": 15,
+      "size": 525
+    },
+    {
+      "path": "src/utils/zodToJsonSchema.ts",
+      "lines": 23,
+      "size": 761
+    }
+  ]
+}

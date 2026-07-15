@@ -1,0 +1,79 @@
+{
+  "name": "tasks",
+  "path": "src/tasks/",
+  "ts_files": 10,
+  "tsx_files": 4,
+  "total_files": 14,
+  "files": [
+    {
+      "path": "src/tasks/DreamTask/DreamTask.ts",
+      "lines": 157,
+      "size": 4988
+    },
+    {
+      "path": "src/tasks/InProcessTeammateTask/InProcessTeammateTask.tsx",
+      "lines": 126,
+      "size": 16381
+    },
+    {
+      "path": "src/tasks/InProcessTeammateTask/types.ts",
+      "lines": 121,
+      "size": 4322
+    },
+    {
+      "path": "src/tasks/LocalAgentTask/LocalAgentTask.tsx",
+      "lines": 683,
+      "size": 82910
+    },
+    {
+      "path": "src/tasks/LocalMainSessionTask.ts",
+      "lines": 479,
+      "size": 15136
+    },
+    {
+      "path": "src/tasks/LocalShellTask/LocalShellTask.tsx",
+      "lines": 523,
+      "size": 66306
+    },
+    {
+      "path": "src/tasks/LocalShellTask/guards.ts",
+      "lines": 41,
+      "size": 1552
+    },
+    {
+      "path": "src/tasks/LocalShellTask/killShellTasks.ts",
+      "lines": 76,
+      "size": 2565
+    },
+    {
+      "path": "src/tasks/LocalWorkflowTask/LocalWorkflowTask.ts",
+      "lines": 5,
+      "size": 143
+    },
+    {
+      "path": "src/tasks/MonitorMcpTask/MonitorMcpTask.ts",
+      "lines": 5,
+      "size": 137
+    },
+    {
+      "path": "src/tasks/RemoteAgentTask/RemoteAgentTask.tsx",
+      "lines": 856,
+      "size": 126389
+    },
+    {
+      "path": "src/tasks/pillLabel.ts",
+      "lines": 82,
+      "size": 2898
+    },
+    {
+      "path": "src/tasks/stopTask.ts",
+      "lines": 100,
+      "size": 2894
+    },
+    {
+      "path": "src/tasks/types.ts",
+      "lines": 46,
+      "size": 1691
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap",
+  "path": "src/bootstrap/",
+  "ts_files": 1,
+  "tsx_files": 0,
+  "total_files": 1,
+  "files": [
+    {
+      "path": "src/bootstrap/state.ts",
+      "lines": 1758,
+      "size": 56109
+    }
+  ]
+}

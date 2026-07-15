@@ -1,0 +1,174 @@
+{
+  "name": "bridge",
+  "path": "src/bridge/",
+  "ts_files": 33,
+  "tsx_files": 0,
+  "total_files": 33,
+  "files": [
+    {
+      "path": "src/bridge/bridgeApi.ts",
+      "lines": 539,
+      "size": 18066
+    },
+    {
+      "path": "src/bridge/bridgeConfig.ts",
+      "lines": 48,
+      "size": 1695
+    },
+    {
+      "path": "src/bridge/bridgeDebug.ts",
+      "lines": 135,
+      "size": 4926
+    },
+    {
+      "path": "src/bridge/bridgeEnabled.ts",
+      "lines": 202,
+      "size": 8442
+    },
+    {
+      "path": "src/bridge/bridgeMain.ts",
+      "lines": 2999,
+      "size": 115571
+    },
+    {
+      "path": "src/bridge/bridgeMessaging.ts",
+      "lines": 461,
+      "size": 15703
+    },
+    {
+      "path": "src/bridge/bridgePermissionCallbacks.ts",
+      "lines": 43,
+      "size": 1411
+    },
+    {
+      "path": "src/bridge/bridgePointer.ts",
+      "lines": 210,
+      "size": 7611
+    },
+    {
+      "path": "src/bridge/bridgeStatusUtil.ts",
+      "lines": 163,
+      "size": 5143
+    },
+    {
+      "path": "src/bridge/bridgeUI.ts",
+      "lines": 530,
+      "size": 16780
+    },
+    {
+      "path": "src/bridge/capacityWake.ts",
+      "lines": 56,
+      "size": 1841
+    },
+    {
+      "path": "src/bridge/codeSessionApi.ts",
+      "lines": 168,
+      "size": 4840
+    },
+    {
+      "path": "src/bridge/createSession.ts",
+      "lines": 384,
+      "size": 12157
+    },
+    {
+      "path": "src/bridge/debugUtils.ts",
+      "lines": 141,
+      "size": 4240
+    },
+    {
+      "path": "src/bridge/envLessBridgeConfig.ts",
+      "lines": 165,
+      "size": 7250
+    },
+    {
+      "path": "src/bridge/flushGate.ts",
+      "lines": 71,
+      "size": 1981
+    },
+    {
+      "path": "src/bridge/inboundAttachments.ts",
+      "lines": 175,
+      "size": 6267
+    },
+    {
+      "path": "src/bridge/inboundMessages.ts",
+      "lines": 80,
+      "size": 2727
+    },
+    {
+      "path": "src/bridge/initReplBridge.ts",
+      "lines": 569,
+      "size": 23849
+    },
+    {
+      "path": "src/bridge/jwtUtils.ts",
+      "lines": 256,
+      "size": 9444
+    },
+    {
+      "path": "src/bridge/peerSessions.ts",
+      "lines": 3,
+      "size": 51
+    },
+    {
+      "path": "src/bridge/pollConfig.ts",
+      "lines": 110,
+      "size": 4562
+    },
+    {
+      "path": "src/bridge/pollConfigDefaults.ts",
+      "lines": 82,
+      "size": 4018
+    },
+    {
+      "path": "src/bridge/remoteBridgeCore.ts",
+      "lines": 1008,
+      "size": 39434
+    },
+    {
+      "path": "src/bridge/replBridge.ts",
+      "lines": 2406,
+      "size": 100537
+    },
+    {
+      "path": "src/bridge/replBridgeHandle.ts",
+      "lines": 36,
+      "size": 1473
+    },
+    {
+      "path": "src/bridge/replBridgeTransport.ts",
+      "lines": 370,
+      "size": 15523
+    },
+    {
+      "path": "src/bridge/sessionIdCompat.ts",
+      "lines": 57,
+      "size": 2536
+    },
+    {
+      "path": "src/bridge/sessionRunner.ts",
+      "lines": 550,
+      "size": 18020
+    },
+    {
+      "path": "src/bridge/trustedDevice.ts",
+      "lines": 210,
+      "size": 7764
+    },
+    {
+      "path": "src/bridge/types.ts",
+      "lines": 262,
+      "size": 10161
+    },
+    {
+      "path": "src/bridge/webhookSanitizer.ts",
+      "lines": 3,
+      "size": 74
+    },
+    {
+      "path": "src/bridge/workSecret.ts",
+      "lines": 127,
+      "size": 4672
+    }
+  ]
+}

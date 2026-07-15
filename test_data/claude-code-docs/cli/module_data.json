@@ -1,0 +1,109 @@
+{
+  "name": "cli",
+  "path": "src/cli/",
+  "ts_files": 18,
+  "tsx_files": 2,
+  "total_files": 20,
+  "files": [
+    {
+      "path": "src/cli/exit.ts",
+      "lines": 31,
+      "size": 1310
+    },
+    {
+      "path": "src/cli/handlers/agents.ts",
+      "lines": 70,
+      "size": 2089
+    },
+    {
+      "path": "src/cli/handlers/auth.ts",
+      "lines": 330,
+      "size": 10756
+    },
+    {
+      "path": "src/cli/handlers/autoMode.ts",
+      "lines": 170,
+      "size": 5742
+    },
+    {
+      "path": "src/cli/handlers/mcp.tsx",
+      "lines": 362,
+      "size": 56167
+    },
+    {
+      "path": "src/cli/handlers/plugins.ts",
+      "lines": 878,
+      "size": 31073
+    },
+    {
+      "path": "src/cli/handlers/util.tsx",
+      "lines": 110,
+      "size": 14501
+    },
+    {
+      "path": "src/cli/ndjsonSafeStringify.ts",
+      "lines": 32,
+      "size": 1408
+    },
+    {
+      "path": "src/cli/print.ts",
+      "lines": 5594,
+      "size": 212735
+    },
+    {
+      "path": "src/cli/remoteIO.ts",
+      "lines": 255,
+      "size": 9946
+    },
+    {
+      "path": "src/cli/structuredIO.ts",
+      "lines": 859,
+      "size": 28720
+    },
+    {
+      "path": "src/cli/transports/HybridTransport.ts",
+      "lines": 282,
+      "size": 10883
+    },
+    {
+      "path": "src/cli/transports/SSETransport.ts",
+      "lines": 711,
+      "size": 23758
+    },
+    {
+      "path": "src/cli/transports/SerialBatchEventUploader.ts",
+      "lines": 275,
+      "size": 9089
+    },
+    {
+      "path": "src/cli/transports/Transport.ts",
+      "lines": 7,
+      "size": 234
+    },
+    {
+      "path": "src/cli/transports/WebSocketTransport.ts",
+      "lines": 800,
+      "size": 28195
+    },
+    {
+      "path": "src/cli/transports/WorkerStateUploader.ts",
+      "lines": 131,
+      "size": 3879
+    },
+    {
+      "path": "src/cli/transports/ccrClient.ts",
+      "lines": 998,
+      "size": 33775
+    },
+    {
+      "path": "src/cli/transports/transportUtils.ts",
+      "lines": 45,
+      "size": 1767
+    },
+    {
+      "path": "src/cli/update.ts",
+      "lines": 422,
+      "size": 14487
+    }
+  ]
+}

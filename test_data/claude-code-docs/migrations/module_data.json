@@ -1,0 +1,64 @@
+{
+  "name": "migrations",
+  "path": "src/migrations/",
+  "ts_files": 11,
+  "tsx_files": 0,
+  "total_files": 11,
+  "files": [
+    {
+      "path": "src/migrations/migrateAutoUpdatesToSettings.ts",
+      "lines": 61,
+      "size": 1953
+    },
+    {
+      "path": "src/migrations/migrateBypassPermissionsAcceptedToSettings.ts",
+      "lines": 40,
+      "size": 1262
+    },
+    {
+      "path": "src/migrations/migrateEnableAllProjectMcpServersToSettings.ts",
+      "lines": 118,
+      "size": 3977
+    },
+    {
+      "path": "src/migrations/migrateFennecToOpus.ts",
+      "lines": 45,
+      "size": 1372
+    },
+    {
+      "path": "src/migrations/migrateLegacyOpusToCurrent.ts",
+      "lines": 57,
+      "size": 1974
+    },
+    {
+      "path": "src/migrations/migrateOpusToOpus1m.ts",
+      "lines": 43,
+      "size": 1347
+    },
+    {
+      "path": "src/migrations/migrateReplBridgeEnabledToRemoteControlAtStartup.ts",
+      "lines": 22,
+      "size": 1000
+    },
+    {
+      "path": "src/migrations/migrateSonnet1mToSonnet45.ts",
+      "lines": 48,
+      "size": 1582
+    },
+    {
+      "path": "src/migrations/migrateSonnet45ToSonnet46.ts",
+      "lines": 67,
+      "size": 2055
+    },
+    {
+      "path": "src/migrations/resetAutoModeOptInForDefaultOffer.ts",
+      "lines": 51,
+      "size": 2106
+    },
+    {
+      "path": "src/migrations/resetProToOpusDefault.ts",
+      "lines": 51,
+      "size": 1550
+    }
+  ]
+}

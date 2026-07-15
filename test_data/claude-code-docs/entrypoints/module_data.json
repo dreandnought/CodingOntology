@@ -1,0 +1,79 @@
+{
+  "name": "entrypoints",
+  "path": "src/entrypoints/",
+  "ts_files": 13,
+  "tsx_files": 1,
+  "total_files": 14,
+  "files": [
+    {
+      "path": "src/entrypoints/agentSdkTypes.ts",
+      "lines": 443,
+      "size": 13076
+    },
+    {
+      "path": "src/entrypoints/cli.tsx",
+      "lines": 303,
+      "size": 39275
+    },
+    {
+      "path": "src/entrypoints/init.ts",
+      "lines": 340,
+      "size": 13780
+    },
+    {
+      "path": "src/entrypoints/mcp.ts",
+      "lines": 196,
+      "size": 6270
+    },
+    {
+      "path": "src/entrypoints/sandboxTypes.ts",
+      "lines": 156,
+      "size": 5735
+    },
+    {
+      "path": "src/entrypoints/sdk/controlSchemas.ts",
+      "lines": 663,
+      "size": 19554
+    },
+    {
+      "path": "src/entrypoints/sdk/controlTypes.ts",
+      "lines": 62,
+      "size": 1204
+    },
+    {
+      "path": "src/entrypoints/sdk/coreSchemas.ts",
+      "lines": 1889,
+      "size": 56493
+    },
+    {
+      "path": "src/entrypoints/sdk/coreTypes.generated.ts",
+      "lines": 10,
+      "size": 263
+    },
+    {
+      "path": "src/entrypoints/sdk/coreTypes.ts",
+      "lines": 62,
+      "size": 1466
+    },
+    {
+      "path": "src/entrypoints/sdk/runtimeTypes.ts",
+      "lines": 22,
+      "size": 1066
+    },
+    {
+      "path": "src/entrypoints/sdk/sdkUtilityTypes.ts",
+      "lines": 6,
+      "size": 156
+    },
+    {
+      "path": "src/entrypoints/sdk/settingsTypes.generated.ts",
+      "lines": 1,
+      "size": 47
+    },
+    {
+      "path": "src/entrypoints/sdk/toolTypes.ts",
+      "lines": 1,
+      "size": 56
+    }
+  ]
+}

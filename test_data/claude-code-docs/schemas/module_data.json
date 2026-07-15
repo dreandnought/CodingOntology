@@ -1,0 +1,14 @@
+{
+  "name": "schemas",
+  "path": "src/schemas/",
+  "ts_files": 1,
+  "tsx_files": 0,
+  "total_files": 1,
+  "files": [
+    {
+      "path": "src/schemas/hooks.ts",
+      "lines": 222,
+      "size": 7884
+    }
+  ]
+}

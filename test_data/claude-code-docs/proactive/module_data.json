@@ -1,0 +1,19 @@
+{
+  "name": "proactive",
+  "path": "src/proactive/",
+  "ts_files": 2,
+  "tsx_files": 0,
+  "total_files": 2,
+  "files": [
+    {
+      "path": "src/proactive/index.ts",
+      "lines": 57,
+      "size": 1066
+    },
+    {
+      "path": "src/proactive/useProactive.ts",
+      "lines": 6,
+      "size": 88
+    }
+  ]
+}

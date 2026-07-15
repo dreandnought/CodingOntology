@@ -1,0 +1,157 @@
+"""
+SQLite 表定义和初始化。
+遵循 ONTOLOGY_BUILD_GUIDE.md 中定义的数据模型协议。
+"""
+
+import sqlite3
+import os
+
+DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "ontology.db")
+
+SCHEMA_SQL = """
+-- 实体类型表
+CREATE TABLE IF NOT EXISTS entity_types (
+    id          TEXT PRIMARY KEY,
+    name        TEXT NOT NULL,
+    description TEXT,
+    parent_id   TEXT REFERENCES entity_types(id),
+    created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+-- 关系类型表
+CREATE TABLE IF NOT EXISTS relation_types (
+    id          TEXT PRIMARY KEY,
+    name        TEXT NOT NULL,
+    description TEXT,
+    symmetric   INTEGER NOT NULL DEFAULT 0,
+    transitive  INTEGER NOT NULL DEFAULT 0,
+    created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+-- 实体实例表（核心）
+CREATE TABLE IF NOT EXISTS entities (
+    id              TEXT PRIMARY KEY,
+    type_id         TEXT NOT NULL REFERENCES entity_types(id),
+    name            TEXT NOT NULL,
+    description     TEXT,
+    status          TEXT NOT NULL DEFAULT 'active'
+                    CHECK(status IN ('active', 'deprecated', 'removed')),
+    confidence      REAL NOT NULL DEFAULT 0.8,
+    source          TEXT NOT NULL DEFAULT 'manual',
+    source_doc_id   TEXT,
+    source_ref      TEXT,
+    properties      TEXT DEFAULT '{}',
+    tags            TEXT DEFAULT '[]',
+    created_at      TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at      TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE INDEX IF NOT EXISTS idx_entities_type ON entities(type_id);
+CREATE INDEX IF NOT EXISTS idx_entities_name ON entities(name);
+CREATE INDEX IF NOT EXISTS idx_entities_status ON entities(status);
+
+-- 关系实例表（核心）
+CREATE TABLE IF NOT EXISTS relations (
+    id              TEXT PRIMARY KEY,
+    type_id         TEXT NOT NULL REFERENCES relation_types(id),
+    source_id       TEXT NOT NULL REFERENCES entities(id),
+    target_id       TEXT NOT NULL REFERENCES entities(id),
+    weight          REAL NOT NULL DEFAULT 1.0,
+    confidence      REAL NOT NULL DEFAULT 0.8,
+    source          TEXT NOT NULL DEFAULT 'manual',
+    source_doc_id   TEXT,
+    metadata        TEXT DEFAULT '{}',
+    created_at      TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at      TEXT NOT NULL DEFAULT (datetime('now')),
+    UNIQUE(type_id, source_id, target_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_relations_source ON relations(source_id);
+CREATE INDEX IF NOT EXISTS idx_relations_target ON relations(target_id);
+CREATE INDEX IF NOT EXISTS idx_relations_type ON relations(type_id);
+CREATE INDEX IF NOT EXISTS idx_relations_st ON relations(source_id, type_id);
+CREATE INDEX IF NOT EXISTS idx_relations_ts ON relations(target_id, type_id);
+
+-- 来源文档表
+CREATE TABLE IF NOT EXISTS documents (
+    id              TEXT PRIMARY KEY,
+    title           TEXT NOT NULL,
+    doc_type        TEXT NOT NULL DEFAULT 'prd',
+    url             TEXT,
+    file_path       TEXT,
+    content_hash    TEXT,
+    word_count      INTEGER,
+    status          TEXT NOT NULL DEFAULT 'parsed'
+                    CHECK(status IN ('pending', 'parsing', 'parsed', 'failed')),
+    created_at      TEXT NOT NULL DEFAULT (datetime('now')),
+    parsed_at       TEXT
+);
+"""
+
+# 预置数据
+DEFAULT_ENTITY_TYPES = [
+    ("requirement", "需求", "业务需求或用户需求", None),
+    ("function", "功能", "系统功能点", None),
+    ("module", "模块", "代码模块或子系统", None),
+    ("interface", "接口", "API 接口或服务接口", None),
+    ("data_entity", "数据实体", "数据库表或数据模型", None),
+    ("test_case", "测试用例", "测试用例或测试场景", None),
+    ("constraint", "约束", "业务约束或技术约束", None),
+    ("actor", "角色", "用户角色或系统角色", None),
+]
+
+DEFAULT_RELATION_TYPES = [
+    ("depends_on", "依赖", "A 依赖 B 才能正常工作", 0, 1),
+    ("causes", "因果", "A 的发生会导致 B", 0, 0),
+    ("constrains", "约束", "A 对 B 有约束条件", 0, 0),
+    ("impacts", "影响", "修改 A 会影响 B", 0, 0),
+    ("conflicts_with", "冲突", "A 和 B 互斥或冲突", 1, 0),
+    ("derived_from", "派生", "A 是从 B 派生/衍生出来的", 0, 1),
+    ("implements", "实现", "A 实现了 B（接口/需求）", 0, 0),
+    ("contains", "包含", "A 包含 B（父子关系）", 0, 1),
+    ("refines", "细化", "A 是对 B 的细化/补充", 0, 0),
+    ("relates_to", "关联", "A 和 B 有关联（通用关系）", 1, 0),
+]
+
+
+def get_db_path():
+    """获取数据库文件路径。可通过环境变量覆盖。"""
+    return os.environ.get("ONTOLOGY_DB_PATH", DB_PATH)
+
+
+def init_db(db_path=None):
+    """初始化数据库：创建表并插入预置数据。"""
+    path = db_path or get_db_path()
+    conn = sqlite3.connect(path)
+    conn.row_factory = sqlite3.Row
+    conn.executescript(SCHEMA_SQL)
+
+    # 插入预置实体类型
+    for row in DEFAULT_ENTITY_TYPES:
+        conn.execute(
+            "INSERT OR IGNORE INTO entity_types (id, name, description, parent_id) VALUES (?, ?, ?, ?)",
+            row,
+        )
+
+    # 插入预置关系类型
+    for row in DEFAULT_RELATION_TYPES:
+        conn.execute(
+            "INSERT OR IGNORE INTO relation_types (id, name, description, symmetric, transitive) VALUES (?, ?, ?, ?, ?)",
+            row,
+        )
+
+    conn.commit()
+    conn.close()
+    return path
+
+
+def get_connection(db_path=None):
+    """获取数据库连接。"""
+    path = db_path or get_db_path()
+    if not os.path.exists(path):
+        init_db(path)
+    conn = sqlite3.connect(path)
+    conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys = ON")
+    return conn

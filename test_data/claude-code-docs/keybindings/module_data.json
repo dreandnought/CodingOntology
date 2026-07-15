@@ -1,0 +1,84 @@
+{
+  "name": "keybindings",
+  "path": "src/keybindings/",
+  "ts_files": 13,
+  "tsx_files": 2,
+  "total_files": 15,
+  "files": [
+    {
+      "path": "src/keybindings/KeybindingContext.tsx",
+      "lines": 243,
+      "size": 26000
+    },
+    {
+      "path": "src/keybindings/KeybindingProviderSetup.tsx",
+      "lines": 308,
+      "size": 41452
+    },
+    {
+      "path": "src/keybindings/defaultBindings.ts",
+      "lines": 340,
+      "size": 11635
+    },
+    {
+      "path": "src/keybindings/loadUserBindings.ts",
+      "lines": 472,
+      "size": 14551
+    },
+    {
+      "path": "src/keybindings/match.ts",
+      "lines": 120,
+      "size": 3797
+    },
+    {
+      "path": "src/keybindings/parser.ts",
+      "lines": 203,
+      "size": 4972
+    },
+    {
+      "path": "src/keybindings/reservedShortcuts.ts",
+      "lines": 127,
+      "size": 3610
+    },
+    {
+      "path": "src/keybindings/resolver.ts",
+      "lines": 244,
+      "size": 7087
+    },
+    {
+      "path": "src/keybindings/schema.ts",
+      "lines": 236,
+      "size": 6269
+    },
+    {
+      "path": "src/keybindings/shortcutFormat.ts",
+      "lines": 63,
+      "size": 2575
+    },
+    {
+      "path": "src/keybindings/template.ts",
+      "lines": 52,
+      "size": 1721
+    },
+    {
+      "path": "src/keybindings/types.ts",
+      "lines": 17,
+      "size": 370
+    },
+    {
+      "path": "src/keybindings/useKeybinding.ts",
+      "lines": 196,
+      "size": 6862
+    },
+    {
+      "path": "src/keybindings/useShortcutDisplay.ts",
+      "lines": 59,
+      "size": 2510
+    },
+    {
+      "path": "src/keybindings/validate.ts",
+      "lines": 498,
+      "size": 13667
+    }
+  ]
+}

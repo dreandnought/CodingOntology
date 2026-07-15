@@ -1,0 +1,39 @@
+{
+  "name": "state",
+  "path": "src/state/",
+  "ts_files": 5,
+  "tsx_files": 1,
+  "total_files": 6,
+  "files": [
+    {
+      "path": "src/state/AppState.tsx",
+      "lines": 200,
+      "size": 23480
+    },
+    {
+      "path": "src/state/AppStateStore.ts",
+      "lines": 569,
+      "size": 21847
+    },
+    {
+      "path": "src/state/onChangeAppState.ts",
+      "lines": 171,
+      "size": 6197
+    },
+    {
+      "path": "src/state/selectors.ts",
+      "lines": 76,
+      "size": 2240
+    },
+    {
+      "path": "src/state/store.ts",
+      "lines": 34,
+      "size": 836
+    },
+    {
+      "path": "src/state/teammateViewHelpers.ts",
+      "lines": 141,
+      "size": 4399
+    }
+  ]
+}

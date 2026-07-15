@@ -1,0 +1,39 @@
+{
+  "name": "buddy",
+  "path": "src/buddy/",
+  "ts_files": 4,
+  "tsx_files": 2,
+  "total_files": 6,
+  "files": [
+    {
+      "path": "src/buddy/CompanionSprite.tsx",
+      "lines": 371,
+      "size": 45922
+    },
+    {
+      "path": "src/buddy/companion.ts",
+      "lines": 133,
+      "size": 3715
+    },
+    {
+      "path": "src/buddy/prompt.ts",
+      "lines": 36,
+      "size": 1451
+    },
+    {
+      "path": "src/buddy/sprites.ts",
+      "lines": 514,
+      "size": 9797
+    },
+    {
+      "path": "src/buddy/types.ts",
+      "lines": 148,
+      "size": 3805
+    },
+    {
+      "path": "src/buddy/useBuddyNotification.tsx",
+      "lines": 98,
+      "size": 9959
+    }
+  ]
+}

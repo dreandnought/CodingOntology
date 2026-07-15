@@ -1,0 +1,24 @@
+{
+  "name": "screens",
+  "path": "src/screens/",
+  "ts_files": 0,
+  "tsx_files": 3,
+  "total_files": 3,
+  "files": [
+    {
+      "path": "src/screens/Doctor.tsx",
+      "lines": 575,
+      "size": 73277
+    },
+    {
+      "path": "src/screens/REPL.tsx",
+      "lines": 5061,
+      "size": 897875
+    },
+    {
+      "path": "src/screens/ResumeConversation.tsx",
+      "lines": 399,
+      "size": 59682
+    }
+  ]
+}

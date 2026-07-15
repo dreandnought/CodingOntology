@@ -1,0 +1,2039 @@
+{
+  "name": "components",
+  "path": "src/components/",
+  "ts_files": 49,
+  "tsx_files": 357,
+  "total_files": 406,
+  "files": [
+    {
+      "path": "src/components/AgentProgressLine.tsx",
+      "lines": 136,
+      "size": 14238
+    },
+    {
+      "path": "src/components/AntModelSwitchCallout.tsx",
+      "lines": 3,
+      "size": 58
+    },
+    {
+      "path": "src/components/App.tsx",
+      "lines": 96,
+      "size": 6279
+    },
+    {
+      "path": "src/components/ApproveApiKey.tsx",
+      "lines": 123,
+      "size": 10621
+    },
+    {
+      "path": "src/components/AutoModeOptInDialog.tsx",
+      "lines": 142,
+      "size": 13302
+    },
+    {
+      "path": "src/components/AutoUpdater.tsx",
+      "lines": 198,
+      "size": 30788
+    },
+    {
+      "path": "src/components/AutoUpdaterWrapper.tsx",
+      "lines": 91,
+      "size": 11972
+    },
+    {
+      "path": "src/components/AwsAuthStatusBox.tsx",
+      "lines": 82,
+      "size": 9707
+    },
+    {
+      "path": "src/components/BaseTextInput.tsx",
+      "lines": 136,
+      "size": 19313
+    },
+    {
+      "path": "src/components/BashModeProgress.tsx",
+      "lines": 56,
+      "size": 5675
+    },
+    {
+      "path": "src/components/BridgeDialog.tsx",
+      "lines": 401,
+      "size": 34418
+    },
+    {
+      "path": "src/components/BypassPermissionsModeDialog.tsx",
+      "lines": 87,
+      "size": 9136
+    },
+    {
+      "path": "src/components/ChannelDowngradeDialog.tsx",
+      "lines": 102,
+      "size": 8253
+    },
+    {
+      "path": "src/components/ClaudeCodeHint/PluginHintMenu.tsx",
+      "lines": 78,
+      "size": 9341
+    },
+    {
+      "path": "src/components/ClaudeInChromeOnboarding.tsx",
+      "lines": 121,
+      "size": 12151
+    },
+    {
+      "path": "src/components/ClaudeMdExternalIncludesDialog.tsx",
+      "lines": 137,
+      "size": 13532
+    },
+    {
+      "path": "src/components/ClickableImageRef.tsx",
+      "lines": 73,
+      "size": 7495
+    },
+    {
+      "path": "src/components/CompactSummary.tsx",
+      "lines": 118,
+      "size": 14437
+    },
+    {
+      "path": "src/components/ConfigurableShortcutHint.tsx",
+      "lines": 57,
+      "size": 5436
+    },
+    {
+      "path": "src/components/ConsoleOAuthFlow.tsx",
+      "lines": 631,
+      "size": 79968
+    },
+    {
+      "path": "src/components/ContextSuggestions.tsx",
+      "lines": 47,
+      "size": 5952
+    },
+    {
+      "path": "src/components/ContextVisualization.tsx",
+      "lines": 489,
+      "size": 76073
+    },
+    {
+      "path": "src/components/CoordinatorAgentStatus.tsx",
+      "lines": 273,
+      "size": 36038
+    },
+    {
+      "path": "src/components/CostThresholdDialog.tsx",
+      "lines": 50,
+      "size": 4336
+    },
+    {
+      "path": "src/components/CtrlOToExpand.tsx",
+      "lines": 51,
+      "size": 6062
+    },
+    {
+      "path": "src/components/CustomSelect/SelectMulti.tsx",
+      "lines": 213,
+      "size": 29884
+    },
+    {
+      "path": "src/components/CustomSelect/index.ts",
+      "lines": 3,
+      "size": 118
+    },
+    {
+      "path": "src/components/CustomSelect/option-map.ts",
+      "lines": 50,
+      "size": 1189
+    },
+    {
+      "path": "src/components/CustomSelect/select-input-option.tsx",
+      "lines": 488,
+      "size": 58172
+    },
+    {
+      "path": "src/components/CustomSelect/select-option.tsx",
+      "lines": 68,
+      "size": 5793
+    },
+    {
+      "path": "src/components/CustomSelect/select.tsx",
+      "lines": 690,
+      "size": 115187
+    },
+    {
+      "path": "src/components/CustomSelect/use-multi-select-state.ts",
+      "lines": 414,
+      "size": 10952
+    },
+    {
+      "path": "src/components/CustomSelect/use-select-input.ts",
+      "lines": 287,
+      "size": 8770
+    },
+    {
+      "path": "src/components/CustomSelect/use-select-navigation.ts",
+      "lines": 653,
+      "size": 16388
+    },
+    {
+      "path": "src/components/CustomSelect/use-select-state.ts",
+      "lines": 157,
+      "size": 2859
+    },
+    {
+      "path": "src/components/DesktopHandoff.tsx",
+      "lines": 193,
+      "size": 19335
+    },
+    {
+      "path": "src/components/DesktopUpsell/DesktopUpsellStartup.tsx",
+      "lines": 171,
+      "size": 15520
+    },
+    {
+      "path": "src/components/DevBar.tsx",
+      "lines": 49,
+      "size": 5040
+    },
+    {
+      "path": "src/components/DevChannelsDialog.tsx",
+      "lines": 105,
+      "size": 9113
+    },
+    {
+      "path": "src/components/DiagnosticsDisplay.tsx",
+      "lines": 95,
+      "size": 13220
+    },
+    {
+      "path": "src/components/EffortCallout.tsx",
+      "lines": 265,
+      "size": 24778
+    },
+    {
+      "path": "src/components/EffortIndicator.ts",
+      "lines": 42,
+      "size": 1128
+    },
+    {
+      "path": "src/components/ExitFlow.tsx",
+      "lines": 48,
+      "size": 4364
+    },
+    {
+      "path": "src/components/ExportDialog.tsx",
+      "lines": 128,
+      "size": 19333
+    },
+    {
+      "path": "src/components/FallbackToolUseErrorMessage.tsx",
+      "lines": 116,
+      "size": 12623
+    },
+    {
+      "path": "src/components/FallbackToolUseRejectedMessage.tsx",
+      "lines": 16,
+      "size": 1754
+    },
+    {
+      "path": "src/components/FastIcon.tsx",
+      "lines": 46,
+      "size": 4627
+    },
+    {
+      "path": "src/components/Feedback.tsx",
+      "lines": 592,
+      "size": 87696
+    },
+    {
+      "path": "src/components/FeedbackSurvey/FeedbackSurvey.tsx",
+      "lines": 174,
+      "size": 19393
+    },
+    {
+      "path": "src/components/FeedbackSurvey/FeedbackSurveyView.tsx",
+      "lines": 108,
+      "size": 10660
+    },
+    {
+      "path": "src/components/FeedbackSurvey/TranscriptSharePrompt.tsx",
+      "lines": 88,
+      "size": 9933
+    },
+    {
+      "path": "src/components/FeedbackSurvey/submitTranscriptShare.ts",
+      "lines": 112,
+      "size": 3251
+    },
+    {
+      "path": "src/components/FeedbackSurvey/useDebouncedDigitInput.ts",
+      "lines": 82,
+      "size": 2722
+    },
+    {
+      "path": "src/components/FeedbackSurvey/useFeedbackSurvey.tsx",
+      "lines": 296,
+      "size": 48187
+    },
+    {
+      "path": "src/components/FeedbackSurvey/useFrustrationDetection.ts",
+      "lines": 3,
+      "size": 70
+    },
+    {
+      "path": "src/components/FeedbackSurvey/useMemorySurvey.tsx",
+      "lines": 213,
+      "size": 30418
+    },
+    {
+      "path": "src/components/FeedbackSurvey/usePostCompactSurvey.tsx",
+      "lines": 206,
+      "size": 24071
+    },
+    {
+      "path": "src/components/FeedbackSurvey/useSurveyState.tsx",
+      "lines": 100,
+      "size": 14800
+    },
+    {
+      "path": "src/components/FeedbackSurvey/utils.ts",
+      "lines": 8,
+      "size": 140
+    },
+    {
+      "path": "src/components/FileEditToolDiff.tsx",
+      "lines": 181,
+      "size": 21900
+    },
+    {
+      "path": "src/components/FileEditToolUpdatedMessage.tsx",
+      "lines": 124,
+      "size": 12097
+    },
+    {
+      "path": "src/components/FileEditToolUseRejectedMessage.tsx",
+      "lines": 170,
+      "size": 15126
+    },
+    {
+      "path": "src/components/FilePathLink.tsx",
+      "lines": 43,
+      "size": 3242
+    },
+    {
+      "path": "src/components/FullscreenLayout.tsx",
+      "lines": 637,
+      "size": 84913
+    },
+    {
+      "path": "src/components/GlobalSearchDialog.tsx",
+      "lines": 343,
+      "size": 43997
+    },
+    {
+      "path": "src/components/HelpV2/Commands.tsx",
+      "lines": 82,
+      "size": 9738
+    },
+    {
+      "path": "src/components/HelpV2/General.tsx",
+      "lines": 23,
+      "size": 3101
+    },
+    {
+      "path": "src/components/HelpV2/HelpV2.tsx",
+      "lines": 184,
+      "size": 20986
+    },
+    {
+      "path": "src/components/HighlightedCode/Fallback.tsx",
+      "lines": 193,
+      "size": 16263
+    },
+    {
+      "path": "src/components/HighlightedCode.tsx",
+      "lines": 190,
+      "size": 17579
+    },
+    {
+      "path": "src/components/HistorySearchDialog.tsx",
+      "lines": 118,
+      "size": 19923
+    },
+    {
+      "path": "src/components/IdeAutoConnectDialog.tsx",
+      "lines": 154,
+      "size": 13271
+    },
+    {
+      "path": "src/components/IdeOnboardingDialog.tsx",
+      "lines": 167,
+      "size": 16399
+    },
+    {
+      "path": "src/components/IdeStatusIndicator.tsx",
+      "lines": 58,
+      "size": 6430
+    },
+    {
+      "path": "src/components/IdleReturnDialog.tsx",
+      "lines": 118,
+      "size": 9861
+    },
+    {
+      "path": "src/components/InterruptedByUser.tsx",
+      "lines": 15,
+      "size": 1962
+    },
+    {
+      "path": "src/components/InvalidConfigDialog.tsx",
+      "lines": 156,
+      "size": 15252
+    },
+    {
+      "path": "src/components/InvalidSettingsDialog.tsx",
+      "lines": 89,
+      "size": 7063
+    },
+    {
+      "path": "src/components/KeybindingWarnings.tsx",
+      "lines": 55,
+      "size": 9534
+    },
+    {
+      "path": "src/components/LanguagePicker.tsx",
+      "lines": 86,
+      "size": 8664
+    },
+    {
+      "path": "src/components/LogSelector.tsx",
+      "lines": 1575,
+      "size": 200487
+    },
+    {
+      "path": "src/components/LogoV2/AnimatedAsterisk.tsx",
+      "lines": 50,
+      "size": 7562
+    },
+    {
+      "path": "src/components/LogoV2/AnimatedClawd.tsx",
+      "lines": 124,
+      "size": 14054
+    },
+    {
+      "path": "src/components/LogoV2/ChannelsNotice.tsx",
+      "lines": 266,
+      "size": 29503
+    },
+    {
+      "path": "src/components/LogoV2/Clawd.tsx",
+      "lines": 240,
+      "size": 18574
+    },
+    {
+      "path": "src/components/LogoV2/CondensedLogo.tsx",
+      "lines": 161,
+      "size": 19395
+    },
+    {
+      "path": "src/components/LogoV2/EmergencyTip.tsx",
+      "lines": 58,
+      "size": 6707
+    },
+    {
+      "path": "src/components/LogoV2/Feed.tsx",
+      "lines": 112,
+      "size": 13804
+    },
+    {
+      "path": "src/components/LogoV2/FeedColumn.tsx",
+      "lines": 59,
+      "size": 5379
+    },
+    {
+      "path": "src/components/LogoV2/GuestPassesUpsell.tsx",
+      "lines": 70,
+      "size": 9122
+    },
+    {
+      "path": "src/components/LogoV2/LogoV2.tsx",
+      "lines": 543,
+      "size": 75183
+    },
+    {
+      "path": "src/components/LogoV2/Opus1mMergeNotice.tsx",
+      "lines": 55,
+      "size": 5812
+    },
+    {
+      "path": "src/components/LogoV2/OverageCreditUpsell.tsx",
+      "lines": 166,
+      "size": 18347
+    },
+    {
+      "path": "src/components/LogoV2/VoiceModeNotice.tsx",
+      "lines": 68,
+      "size": 7668
+    },
+    {
+      "path": "src/components/LogoV2/WelcomeV2.tsx",
+      "lines": 433,
+      "size": 57864
+    },
+    {
+      "path": "src/components/LogoV2/feedConfigs.tsx",
+      "lines": 92,
+      "size": 12205
+    },
+    {
+      "path": "src/components/LspRecommendation/LspRecommendationMenu.tsx",
+      "lines": 88,
+      "size": 10247
+    },
+    {
+      "path": "src/components/MCPServerApprovalDialog.tsx",
+      "lines": 115,
+      "size": 11563
+    },
+    {
+      "path": "src/components/MCPServerDesktopImportDialog.tsx",
+      "lines": 203,
+      "size": 21016
+    },
+    {
+      "path": "src/components/MCPServerDialogCopy.tsx",
+      "lines": 15,
+      "size": 1829
+    },
+    {
+      "path": "src/components/MCPServerMultiselectDialog.tsx",
+      "lines": 133,
+      "size": 16029
+    },
+    {
+      "path": "src/components/ManagedSettingsSecurityDialog/ManagedSettingsSecurityDialog.tsx",
+      "lines": 149,
+      "size": 14484
+    },
+    {
+      "path": "src/components/ManagedSettingsSecurityDialog/utils.ts",
+      "lines": 144,
+      "size": 3979
+    },
+    {
+      "path": "src/components/Markdown.tsx",
+      "lines": 236,
+      "size": 28160
+    },
+    {
+      "path": "src/components/MarkdownTable.tsx",
+      "lines": 322,
+      "size": 47567
+    },
+    {
+      "path": "src/components/MemoryUsageIndicator.tsx",
+      "lines": 37,
+      "size": 4377
+    },
+    {
+      "path": "src/components/Message.tsx",
+      "lines": 627,
+      "size": 79113
+    },
+    {
+      "path": "src/components/MessageModel.tsx",
+      "lines": 43,
+      "size": 4110
+    },
+    {
+      "path": "src/components/MessageResponse.tsx",
+      "lines": 78,
+      "size": 6933
+    },
+    {
+      "path": "src/components/MessageRow.tsx",
+      "lines": 383,
+      "size": 48342
+    },
+    {
+      "path": "src/components/MessageSelector.tsx",
+      "lines": 831,
+      "size": 115618
+    },
+    {
+      "path": "src/components/MessageTimestamp.tsx",
+      "lines": 63,
+      "size": 5448
+    },
+    {
+      "path": "src/components/Messages.tsx",
+      "lines": 834,
+      "size": 147457
+    },
+    {
+      "path": "src/components/ModelPicker.tsx",
+      "lines": 448,
+      "size": 54246
+    },
+    {
+      "path": "src/components/NativeAutoUpdater.tsx",
+      "lines": 193,
+      "size": 26514
+    },
+    {
+      "path": "src/components/NotebookEditToolUseRejectedMessage.tsx",
+      "lines": 92,
+      "size": 8447
+    },
+    {
+      "path": "src/components/OffscreenFreeze.tsx",
+      "lines": 44,
+      "size": 5664
+    },
+    {
+      "path": "src/components/Onboarding.tsx",
+      "lines": 244,
+      "size": 31528
+    },
+    {
+      "path": "src/components/OutputStylePicker.tsx",
+      "lines": 112,
+      "size": 13233
+    },
+    {
+      "path": "src/components/PackageManagerAutoUpdater.tsx",
+      "lines": 104,
+      "size": 13907
+    },
+    {
+      "path": "src/components/Passes/Passes.tsx",
+      "lines": 184,
+      "size": 27380
+    },
+    {
+      "path": "src/components/PrBadge.tsx",
+      "lines": 97,
+      "size": 7703
+    },
+    {
+      "path": "src/components/PressEnterToContinue.tsx",
+      "lines": 15,
+      "size": 1526
+    },
+    {
+      "path": "src/components/PromptInput/HistorySearchInput.tsx",
+      "lines": 51,
+      "size": 5005
+    },
+    {
+      "path": "src/components/PromptInput/IssueFlagBanner.tsx",
+      "lines": 12,
+      "size": 1914
+    },
+    {
+      "path": "src/components/PromptInput/Notifications.tsx",
+      "lines": 332,
+      "size": 48104
+    },
+    {
+      "path": "src/components/PromptInput/PromptInput.tsx",
+      "lines": 2339,
+      "size": 355032
+    },
+    {
+      "path": "src/components/PromptInput/PromptInputFooter.tsx",
+      "lines": 191,
+      "size": 33176
+    },
+    {
+      "path": "src/components/PromptInput/PromptInputFooterLeftSide.tsx",
+      "lines": 517,
+      "size": 87315
+    },
+    {
+      "path": "src/components/PromptInput/PromptInputFooterSuggestions.tsx",
+      "lines": 293,
+      "size": 34158
+    },
+    {
+      "path": "src/components/PromptInput/PromptInputHelpMenu.tsx",
+      "lines": 358,
+      "size": 32811
+    },
+    {
+      "path": "src/components/PromptInput/PromptInputModeIndicator.tsx",
+      "lines": 93,
+      "size": 11127
+    },
+    {
+      "path": "src/components/PromptInput/PromptInputQueuedCommands.tsx",
+      "lines": 117,
+      "size": 19587
+    },
+    {
+      "path": "src/components/PromptInput/PromptInputStashNotice.tsx",
+      "lines": 25,
+      "size": 2291
+    },
+    {
+      "path": "src/components/PromptInput/SandboxPromptFooterHint.tsx",
+      "lines": 64,
+      "size": 8031
+    },
+    {
+      "path": "src/components/PromptInput/ShimmeredInput.tsx",
+      "lines": 143,
+      "size": 16680
+    },
+    {
+      "path": "src/components/PromptInput/VoiceIndicator.tsx",
+      "lines": 137,
+      "size": 10810
+    },
+    {
+      "path": "src/components/PromptInput/inputModes.ts",
+      "lines": 33,
+      "size": 731
+    },
+    {
+      "path": "src/components/PromptInput/inputPaste.ts",
+      "lines": 90,
+      "size": 2693
+    },
+    {
+      "path": "src/components/PromptInput/useMaybeTruncateInput.ts",
+      "lines": 58,
+      "size": 1468
+    },
+    {
+      "path": "src/components/PromptInput/usePromptInputPlaceholder.ts",
+      "lines": 76,
+      "size": 2391
+    },
+    {
+      "path": "src/components/PromptInput/useShowFastIconHint.ts",
+      "lines": 31,
+      "size": 696
+    },
+    {
+      "path": "src/components/PromptInput/useSwarmBanner.ts",
+      "lines": 155,
+      "size": 5344
+    },
+    {
+      "path": "src/components/PromptInput/utils.ts",
+      "lines": 60,
+      "size": 1744
+    },
+    {
+      "path": "src/components/QuickOpenDialog.tsx",
+      "lines": 244,
+      "size": 28556
+    },
+    {
+      "path": "src/components/RemoteCallout.tsx",
+      "lines": 76,
+      "size": 9978
+    },
+    {
+      "path": "src/components/RemoteEnvironmentDialog.tsx",
+      "lines": 340,
+      "size": 33519
+    },
+    {
+      "path": "src/components/ResumeTask.tsx",
+      "lines": 268,
+      "size": 38550
+    },
+    {
+      "path": "src/components/SandboxViolationExpandedView.tsx",
+      "lines": 99,
+      "size": 11401
+    },
+    {
+      "path": "src/components/ScrollKeybindingHandler.tsx",
+      "lines": 1012,
+      "size": 149202
+    },
+    {
+      "path": "src/components/SearchBox.tsx",
+      "lines": 72,
+      "size": 9421
+    },
+    {
+      "path": "src/components/SentryErrorBoundary.ts",
+      "lines": 28,
+      "size": 487
+    },
+    {
+      "path": "src/components/SessionBackgroundHint.tsx",
+      "lines": 108,
+      "size": 13154
+    },
+    {
+      "path": "src/components/SessionPreview.tsx",
+      "lines": 194,
+      "size": 19227
+    },
+    {
+      "path": "src/components/Settings/Config.tsx",
+      "lines": 1822,
+      "size": 271407
+    },
+    {
+      "path": "src/components/Settings/Settings.tsx",
+      "lines": 137,
+      "size": 18641
+    },
+    {
+      "path": "src/components/Settings/Status.tsx",
+      "lines": 241,
+      "size": 25871
+    },
+    {
+      "path": "src/components/Settings/Usage.tsx",
+      "lines": 377,
+      "size": 39524
+    },
+    {
+      "path": "src/components/ShowInIDEPrompt.tsx",
+      "lines": 170,
+      "size": 17230
+    },
+    {
+      "path": "src/components/SkillImprovementSurvey.tsx",
+      "lines": 152,
+      "size": 15172
+    },
+    {
+      "path": "src/components/Spinner/FlashingChar.tsx",
+      "lines": 61,
+      "size": 6310
+    },
+    {
+      "path": "src/components/Spinner/GlimmerMessage.tsx",
+      "lines": 328,
+      "size": 26955
+    },
+    {
+      "path": "src/components/Spinner/ShimmerChar.tsx",
+      "lines": 36,
+      "size": 3357
+    },
+    {
+      "path": "src/components/Spinner/SpinnerAnimationRow.tsx",
+      "lines": 265,
+      "size": 42767
+    },
+    {
+      "path": "src/components/Spinner/SpinnerGlyph.tsx",
+      "lines": 80,
+      "size": 10291
+    },
+    {
+      "path": "src/components/Spinner/TeammateSpinnerLine.tsx",
+      "lines": 233,
+      "size": 38859
+    },
+    {
+      "path": "src/components/Spinner/TeammateSpinnerTree.tsx",
+      "lines": 272,
+      "size": 28052
+    },
+    {
+      "path": "src/components/Spinner/index.ts",
+      "lines": 10,
+      "size": 602
+    },
+    {
+      "path": "src/components/Spinner/teammateSelectHint.ts",
+      "lines": 1,
+      "size": 64
+    },
+    {
+      "path": "src/components/Spinner/types.ts",
+      "lines": 6,
+      "size": 96
+    },
+    {
+      "path": "src/components/Spinner/useShimmerAnimation.ts",
+      "lines": 31,
+      "size": 1236
+    },
+    {
+      "path": "src/components/Spinner/useStalledAnimation.ts",
+      "lines": 75,
+      "size": 2500
+    },
+    {
+      "path": "src/components/Spinner/utils.ts",
+      "lines": 84,
+      "size": 2261
+    },
+    {
+      "path": "src/components/Spinner.tsx",
+      "lines": 562,
+      "size": 87940
+    },
+    {
+      "path": "src/components/Stats.tsx",
+      "lines": 1228,
+      "size": 152782
+    },
+    {
+      "path": "src/components/StatusLine.tsx",
+      "lines": 324,
+      "size": 49465
+    },
+    {
+      "path": "src/components/StatusNotices.tsx",
+      "lines": 55,
+      "size": 5694
+    },
+    {
+      "path": "src/components/StructuredDiff/Fallback.tsx",
+      "lines": 487,
+      "size": 56579
+    },
+    {
+      "path": "src/components/StructuredDiff/colorDiff.ts",
+      "lines": 37,
+      "size": 1137
+    },
+    {
+      "path": "src/components/StructuredDiff.tsx",
+      "lines": 190,
+      "size": 25007
+    },
+    {
+      "path": "src/components/StructuredDiffList.tsx",
+      "lines": 30,
+      "size": 4252
+    },
+    {
+      "path": "src/components/TagTabs.tsx",
+      "lines": 139,
+      "size": 20853
+    },
+    {
+      "path": "src/components/TaskListV2.tsx",
+      "lines": 378,
+      "size": 50200
+    },
+    {
+      "path": "src/components/TeammateViewHeader.tsx",
+      "lines": 82,
+      "size": 7415
+    },
+    {
+      "path": "src/components/TeleportError.tsx",
+      "lines": 189,
+      "size": 18824
+    },
+    {
+      "path": "src/components/TeleportProgress.tsx",
+      "lines": 140,
+      "size": 16142
+    },
+    {
+      "path": "src/components/TeleportRepoMismatchDialog.tsx",
+      "lines": 104,
+      "size": 13046
+    },
+    {
+      "path": "src/components/TeleportResumeWrapper.tsx",
+      "lines": 167,
+      "size": 15381
+    },
+    {
+      "path": "src/components/TeleportStash.tsx",
+      "lines": 116,
+      "size": 15582
+    },
+    {
+      "path": "src/components/TextInput.tsx",
+      "lines": 124,
+      "size": 20998
+    },
+    {
+      "path": "src/components/ThemePicker.tsx",
+      "lines": 333,
+      "size": 35662
+    },
+    {
+      "path": "src/components/ThinkingToggle.tsx",
+      "lines": 153,
+      "size": 18209
+    },
+    {
+      "path": "src/components/TokenWarning.tsx",
+      "lines": 179,
+      "size": 21485
+    },
+    {
+      "path": "src/components/ToolUseLoader.tsx",
+      "lines": 42,
+      "size": 4843
+    },
+    {
+      "path": "src/components/TrustDialog/TrustDialog.tsx",
+      "lines": 290,
+      "size": 32481
+    },
+    {
+      "path": "src/components/TrustDialog/utils.ts",
+      "lines": 245,
+      "size": 7005
+    },
+    {
+      "path": "src/components/UndercoverAutoCallout.tsx",
+      "lines": 3,
+      "size": 58
+    },
+    {
+      "path": "src/components/ValidationErrorsList.tsx",
+      "lines": 148,
+      "size": 19567
+    },
+    {
+      "path": "src/components/VimTextInput.tsx",
+      "lines": 140,
+      "size": 16170
+    },
+    {
+      "path": "src/components/VirtualMessageList.tsx",
+      "lines": 1082,
+      "size": 148516
+    },
+    {
+      "path": "src/components/WorkflowMultiselectDialog.tsx",
+      "lines": 128,
+      "size": 14276
+    },
+    {
+      "path": "src/components/WorktreeExitDialog.tsx",
+      "lines": 231,
+      "size": 35484
+    },
+    {
+      "path": "src/components/agents/AgentDetail.tsx",
+      "lines": 220,
+      "size": 23566
+    },
+    {
+      "path": "src/components/agents/AgentEditor.tsx",
+      "lines": 178,
+      "size": 26437
+    },
+    {
+      "path": "src/components/agents/AgentNavigationFooter.tsx",
+      "lines": 26,
+      "size": 3067
+    },
+    {
+      "path": "src/components/agents/AgentsList.tsx",
+      "lines": 440,
+      "size": 52257
+    },
+    {
+      "path": "src/components/agents/AgentsMenu.tsx",
+      "lines": 800,
+      "size": 70586
+    },
+    {
+      "path": "src/components/agents/ColorPicker.tsx",
+      "lines": 112,
+      "size": 14204
+    },
+    {
+      "path": "src/components/agents/ModelSelector.tsx",
+      "lines": 68,
+      "size": 6927
+    },
+    {
+      "path": "src/components/agents/ToolSelector.tsx",
+      "lines": 562,
+      "size": 64871
+    },
+    {
+      "path": "src/components/agents/agentFileUtils.ts",
+      "lines": 272,
+      "size": 7487
+    },
+    {
+      "path": "src/components/agents/generateAgent.ts",
+      "lines": 197,
+      "size": 10151
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/CreateAgentWizard.tsx",
+      "lines": 97,
+      "size": 10427
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/types.ts",
+      "lines": 1,
+      "size": 54
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/ColorStep.tsx",
+      "lines": 84,
+      "size": 10430
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/ConfirmStep.tsx",
+      "lines": 378,
+      "size": 35034
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/ConfirmStepWrapper.tsx",
+      "lines": 74,
+      "size": 14450
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/DescriptionStep.tsx",
+      "lines": 123,
+      "size": 14331
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/GenerateStep.tsx",
+      "lines": 143,
+      "size": 22113
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/LocationStep.tsx",
+      "lines": 80,
+      "size": 8280
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/MemoryStep.tsx",
+      "lines": 113,
+      "size": 14084
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/MethodStep.tsx",
+      "lines": 80,
+      "size": 8516
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/ModelStep.tsx",
+      "lines": 52,
+      "size": 6321
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/PromptStep.tsx",
+      "lines": 128,
+      "size": 14831
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/ToolsStep.tsx",
+      "lines": 61,
+      "size": 7220
+    },
+    {
+      "path": "src/components/agents/new-agent-creation/wizard-steps/TypeStep.tsx",
+      "lines": 103,
+      "size": 12474
+    },
+    {
+      "path": "src/components/agents/types.ts",
+      "lines": 6,
+      "size": 129
+    },
+    {
+      "path": "src/components/agents/utils.ts",
+      "lines": 18,
+      "size": 528
+    },
+    {
+      "path": "src/components/agents/validateAgent.ts",
+      "lines": 109,
+      "size": 3150
+    },
+    {
+      "path": "src/components/design-system/Byline.tsx",
+      "lines": 77,
+      "size": 6493
+    },
+    {
+      "path": "src/components/design-system/Dialog.tsx",
+      "lines": 138,
+      "size": 14112
+    },
+    {
+      "path": "src/components/design-system/Divider.tsx",
+      "lines": 149,
+      "size": 11094
+    },
+    {
+      "path": "src/components/design-system/FuzzyPicker.tsx",
+      "lines": 312,
+      "size": 40862
+    },
+    {
+      "path": "src/components/design-system/KeyboardShortcutHint.tsx",
+      "lines": 81,
+      "size": 6847
+    },
+    {
+      "path": "src/components/design-system/ListItem.tsx",
+      "lines": 244,
+      "size": 19535
+    },
+    {
+      "path": "src/components/design-system/LoadingState.tsx",
+      "lines": 94,
+      "size": 6448
+    },
+    {
+      "path": "src/components/design-system/Pane.tsx",
+      "lines": 77,
+      "size": 6907
+    },
+    {
+      "path": "src/components/design-system/ProgressBar.tsx",
+      "lines": 86,
+      "size": 7170
+    },
+    {
+      "path": "src/components/design-system/Ratchet.tsx",
+      "lines": 80,
+      "size": 7166
+    },
+    {
+      "path": "src/components/design-system/StatusIcon.tsx",
+      "lines": 95,
+      "size": 7568
+    },
+    {
+      "path": "src/components/design-system/Tabs.tsx",
+      "lines": 340,
+      "size": 41447
+    },
+    {
+      "path": "src/components/design-system/ThemeProvider.tsx",
+      "lines": 170,
+      "size": 18852
+    },
+    {
+      "path": "src/components/design-system/ThemedBox.tsx",
+      "lines": 156,
+      "size": 18043
+    },
+    {
+      "path": "src/components/design-system/ThemedText.tsx",
+      "lines": 124,
+      "size": 13877
+    },
+    {
+      "path": "src/components/design-system/color.ts",
+      "lines": 30,
+      "size": 853
+    },
+    {
+      "path": "src/components/diff/DiffDetailView.tsx",
+      "lines": 281,
+      "size": 22615
+    },
+    {
+      "path": "src/components/diff/DiffDialog.tsx",
+      "lines": 383,
+      "size": 43407
+    },
+    {
+      "path": "src/components/diff/DiffFileList.tsx",
+      "lines": 292,
+      "size": 25342
+    },
+    {
+      "path": "src/components/grove/Grove.tsx",
+      "lines": 463,
+      "size": 49525
+    },
+    {
+      "path": "src/components/hooks/HooksConfigMenu.tsx",
+      "lines": 578,
+      "size": 54469
+    },
+    {
+      "path": "src/components/hooks/PromptDialog.tsx",
+      "lines": 90,
+      "size": 7482
+    },
+    {
+      "path": "src/components/hooks/SelectEventMode.tsx",
+      "lines": 127,
+      "size": 13555
+    },
+    {
+      "path": "src/components/hooks/SelectHookMode.tsx",
+      "lines": 112,
+      "size": 12907
+    },
+    {
+      "path": "src/components/hooks/SelectMatcherMode.tsx",
+      "lines": 144,
+      "size": 14809
+    },
+    {
+      "path": "src/components/hooks/ViewHookMode.tsx",
+      "lines": 199,
+      "size": 17969
+    },
+    {
+      "path": "src/components/mcp/CapabilitiesSection.tsx",
+      "lines": 61,
+      "size": 4957
+    },
+    {
+      "path": "src/components/mcp/ElicitationDialog.tsx",
+      "lines": 1169,
+      "size": 179643
+    },
+    {
+      "path": "src/components/mcp/MCPAgentServerMenu.tsx",
+      "lines": 183,
+      "size": 26662
+    },
+    {
+      "path": "src/components/mcp/MCPListPanel.tsx",
+      "lines": 504,
+      "size": 58231
+    },
+    {
+      "path": "src/components/mcp/MCPReconnect.tsx",
+      "lines": 167,
+      "size": 16195
+    },
+    {
+      "path": "src/components/mcp/MCPRemoteServerMenu.tsx",
+      "lines": 649,
+      "size": 102489
+    },
+    {
+      "path": "src/components/mcp/MCPSettings.tsx",
+      "lines": 398,
+      "size": 40386
+    },
+    {
+      "path": "src/components/mcp/MCPStdioServerMenu.tsx",
+      "lines": 177,
+      "size": 28394
+    },
+    {
+      "path": "src/components/mcp/MCPToolDetailView.tsx",
+      "lines": 212,
+      "size": 23139
+    },
+    {
+      "path": "src/components/mcp/MCPToolListView.tsx",
+      "lines": 141,
+      "size": 16252
+    },
+    {
+      "path": "src/components/mcp/McpParsingWarnings.tsx",
+      "lines": 213,
+      "size": 22079
+    },
+    {
+      "path": "src/components/mcp/index.ts",
+      "lines": 9,
+      "size": 523
+    },
+    {
+      "path": "src/components/mcp/types.ts",
+      "lines": 7,
+      "size": 356
+    },
+    {
+      "path": "src/components/mcp/utils/reconnectHelpers.tsx",
+      "lines": 49,
+      "size": 5292
+    },
+    {
+      "path": "src/components/memory/MemoryFileSelector.tsx",
+      "lines": 438,
+      "size": 48121
+    },
+    {
+      "path": "src/components/memory/MemoryUpdateNotification.tsx",
+      "lines": 45,
+      "size": 5100
+    },
+    {
+      "path": "src/components/messageActions.tsx",
+      "lines": 450,
+      "size": 54948
+    },
+    {
+      "path": "src/components/messages/AdvisorMessage.tsx",
+      "lines": 158,
+      "size": 14479
+    },
+    {
+      "path": "src/components/messages/AssistantRedactedThinkingMessage.tsx",
+      "lines": 31,
+      "size": 2603
+    },
+    {
+      "path": "src/components/messages/AssistantTextMessage.tsx",
+      "lines": 270,
+      "size": 30427
+    },
+    {
+      "path": "src/components/messages/AssistantThinkingMessage.tsx",
+      "lines": 86,
+      "size": 8082
+    },
+    {
+      "path": "src/components/messages/AssistantToolUseMessage.tsx",
+      "lines": 368,
+      "size": 45285
+    },
+    {
+      "path": "src/components/messages/AttachmentMessage.tsx",
+      "lines": 536,
+      "size": 71430
+    },
+    {
+      "path": "src/components/messages/CollapsedReadSearchContent.tsx",
+      "lines": 484,
+      "size": 78078
+    },
+    {
+      "path": "src/components/messages/CompactBoundaryMessage.tsx",
+      "lines": 18,
+      "size": 2275
+    },
+    {
+      "path": "src/components/messages/GroupedToolUseContent.tsx",
+      "lines": 58,
+      "size": 8289
+    },
+    {
+      "path": "src/components/messages/HighlightedThinkingText.tsx",
+      "lines": 162,
+      "size": 14902
+    },
+    {
+      "path": "src/components/messages/HookProgressMessage.tsx",
+      "lines": 116,
+      "size": 10613
+    },
+    {
+      "path": "src/components/messages/PlanApprovalMessage.tsx",
+      "lines": 222,
+      "size": 25339
+    },
+    {
+      "path": "src/components/messages/RateLimitMessage.tsx",
+      "lines": 161,
+      "size": 17162
+    },
+    {
+      "path": "src/components/messages/ShutdownMessage.tsx",
+      "lines": 132,
+      "size": 14493
+    },
+    {
+      "path": "src/components/messages/SnipBoundaryMessage.tsx",
+      "lines": 3,
+      "size": 56
+    },
+    {
+      "path": "src/components/messages/SystemAPIErrorMessage.tsx",
+      "lines": 141,
+      "size": 12285
+    },
+    {
+      "path": "src/components/messages/SystemTextMessage.tsx",
+      "lines": 827,
+      "size": 79395
+    },
+    {
+      "path": "src/components/messages/TaskAssignmentMessage.tsx",
+      "lines": 76,
+      "size": 8186
+    },
+    {
+      "path": "src/components/messages/UserAgentNotificationMessage.tsx",
+      "lines": 83,
+      "size": 6151
+    },
+    {
+      "path": "src/components/messages/UserBashInputMessage.tsx",
+      "lines": 58,
+      "size": 4503
+    },
+    {
+      "path": "src/components/messages/UserBashOutputMessage.tsx",
+      "lines": 54,
+      "size": 4188
+    },
+    {
+      "path": "src/components/messages/UserChannelMessage.tsx",
+      "lines": 137,
+      "size": 11325
+    },
+    {
+      "path": "src/components/messages/UserCommandMessage.tsx",
+      "lines": 108,
+      "size": 9210
+    },
+    {
+      "path": "src/components/messages/UserCrossSessionMessage.tsx",
+      "lines": 3,
+      "size": 60
+    },
+    {
+      "path": "src/components/messages/UserForkBoilerplateMessage.tsx",
+      "lines": 3,
+      "size": 63
+    },
+    {
+      "path": "src/components/messages/UserGitHubWebhookMessage.tsx",
+      "lines": 3,
+      "size": 61
+    },
+    {
+      "path": "src/components/messages/UserImageMessage.tsx",
+      "lines": 59,
+      "size": 5897
+    },
+    {
+      "path": "src/components/messages/UserLocalCommandOutputMessage.tsx",
+      "lines": 167,
+      "size": 14566
+    },
+    {
+      "path": "src/components/messages/UserMemoryInputMessage.tsx",
+      "lines": 75,
+      "size": 6516
+    },
+    {
+      "path": "src/components/messages/UserPlanMessage.tsx",
+      "lines": 42,
+      "size": 3743
+    },
+    {
+      "path": "src/components/messages/UserPromptMessage.tsx",
+      "lines": 80,
+      "size": 15172
+    },
+    {
+      "path": "src/components/messages/UserResourceUpdateMessage.tsx",
+      "lines": 121,
+      "size": 12363
+    },
+    {
+      "path": "src/components/messages/UserTeammateMessage.tsx",
+      "lines": 206,
+      "size": 24126
+    },
+    {
+      "path": "src/components/messages/UserTextMessage.tsx",
+      "lines": 275,
+      "size": 29051
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/RejectedPlanMessage.tsx",
+      "lines": 31,
+      "size": 3409
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/RejectedToolUseMessage.tsx",
+      "lines": 16,
+      "size": 1763
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/UserToolCanceledMessage.tsx",
+      "lines": 16,
+      "size": 1777
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/UserToolErrorMessage.tsx",
+      "lines": 103,
+      "size": 12222
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/UserToolRejectMessage.tsx",
+      "lines": 95,
+      "size": 8570
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/UserToolResultMessage.tsx",
+      "lines": 106,
+      "size": 13742
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/UserToolSuccessMessage.tsx",
+      "lines": 104,
+      "size": 16409
+    },
+    {
+      "path": "src/components/messages/UserToolResultMessage/utils.tsx",
+      "lines": 44,
+      "size": 3938
+    },
+    {
+      "path": "src/components/messages/nullRenderingAttachments.ts",
+      "lines": 70,
+      "size": 2257
+    },
+    {
+      "path": "src/components/messages/teamMemCollapsed.tsx",
+      "lines": 140,
+      "size": 13711
+    },
+    {
+      "path": "src/components/messages/teamMemSaved.ts",
+      "lines": 19,
+      "size": 711
+    },
+    {
+      "path": "src/components/permissions/AskUserQuestionPermissionRequest/AskUserQuestionPermissionRequest.tsx",
+      "lines": 645,
+      "size": 82469
+    },
+    {
+      "path": "src/components/permissions/AskUserQuestionPermissionRequest/PreviewBox.tsx",
+      "lines": 229,
+      "size": 25959
+    },
+    {
+      "path": "src/components/permissions/AskUserQuestionPermissionRequest/PreviewQuestionView.tsx",
+      "lines": 328,
+      "size": 52983
+    },
+    {
+      "path": "src/components/permissions/AskUserQuestionPermissionRequest/QuestionNavigationBar.tsx",
+      "lines": 178,
+      "size": 22963
+    },
+    {
+      "path": "src/components/permissions/AskUserQuestionPermissionRequest/QuestionView.tsx",
+      "lines": 465,
+      "size": 58579
+    },
+    {
+      "path": "src/components/permissions/AskUserQuestionPermissionRequest/SubmitQuestionsView.tsx",
+      "lines": 144,
+      "size": 16641
+    },
+    {
+      "path": "src/components/permissions/AskUserQuestionPermissionRequest/use-multiple-choice-state.ts",
+      "lines": 179,
+      "size": 4142
+    },
+    {
+      "path": "src/components/permissions/BashPermissionRequest/BashPermissionRequest.tsx",
+      "lines": 482,
+      "size": 75744
+    },
+    {
+      "path": "src/components/permissions/BashPermissionRequest/bashToolUseOptions.tsx",
+      "lines": 147,
+      "size": 21446
+    },
+    {
+      "path": "src/components/permissions/ComputerUseApproval/ComputerUseApproval.tsx",
+      "lines": 441,
+      "size": 44745
+    },
+    {
+      "path": "src/components/permissions/EnterPlanModePermissionRequest/EnterPlanModePermissionRequest.tsx",
+      "lines": 122,
+      "size": 13340
+    },
+    {
+      "path": "src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx",
+      "lines": 768,
+      "size": 121607
+    },
+    {
+      "path": "src/components/permissions/FallbackPermissionRequest.tsx",
+      "lines": 333,
+      "size": 30677
+    },
+    {
+      "path": "src/components/permissions/FileEditPermissionRequest/FileEditPermissionRequest.tsx",
+      "lines": 182,
+      "size": 16257
+    },
+    {
+      "path": "src/components/permissions/FilePermissionDialog/FilePermissionDialog.tsx",
+      "lines": 204,
+      "size": 30317
+    },
+    {
+      "path": "src/components/permissions/FilePermissionDialog/ideDiffConfig.ts",
+      "lines": 42,
+      "size": 858
+    },
+    {
+      "path": "src/components/permissions/FilePermissionDialog/permissionOptions.tsx",
+      "lines": 177,
+      "size": 22367
+    },
+    {
+      "path": "src/components/permissions/FilePermissionDialog/useFilePermissionDialog.ts",
+      "lines": 212,
+      "size": 6809
+    },
+    {
+      "path": "src/components/permissions/FilePermissionDialog/usePermissionHandler.ts",
+      "lines": 185,
+      "size": 5105
+    },
+    {
+      "path": "src/components/permissions/FileWritePermissionRequest/FileWritePermissionRequest.tsx",
+      "lines": 161,
+      "size": 16526
+    },
+    {
+      "path": "src/components/permissions/FileWritePermissionRequest/FileWriteToolDiff.tsx",
+      "lines": 89,
+      "size": 9672
+    },
+    {
+      "path": "src/components/permissions/FilesystemPermissionRequest/FilesystemPermissionRequest.tsx",
+      "lines": 115,
+      "size": 13085
+    },
+    {
+      "path": "src/components/permissions/MonitorPermissionRequest/MonitorPermissionRequest.tsx",
+      "lines": 3,
+      "size": 61
+    },
+    {
+      "path": "src/components/permissions/NotebookEditPermissionRequest/NotebookEditPermissionRequest.tsx",
+      "lines": 166,
+      "size": 16494
+    },
+    {
+      "path": "src/components/permissions/NotebookEditPermissionRequest/NotebookEditToolDiff.tsx",
+      "lines": 235,
+      "size": 24680
+    },
+    {
+      "path": "src/components/permissions/PermissionDecisionDebugInfo.tsx",
+      "lines": 460,
+      "size": 52533
+    },
+    {
+      "path": "src/components/permissions/PermissionDialog.tsx",
+      "lines": 72,
+      "size": 7317
+    },
+    {
+      "path": "src/components/permissions/PermissionExplanation.tsx",
+      "lines": 272,
+      "size": 23700
+    },
+    {
+      "path": "src/components/permissions/PermissionPrompt.tsx",
+      "lines": 336,
+      "size": 37391
+    },
+    {
+      "path": "src/components/permissions/PermissionRequest.tsx",
+      "lines": 217,
+      "size": 33579
+    },
+    {
+      "path": "src/components/permissions/PermissionRequestTitle.tsx",
+      "lines": 66,
+      "size": 5781
+    },
+    {
+      "path": "src/components/permissions/PermissionRuleExplanation.tsx",
+      "lines": 121,
+      "size": 14921
+    },
+    {
+      "path": "src/components/permissions/PowerShellPermissionRequest/PowerShellPermissionRequest.tsx",
+      "lines": 235,
+      "size": 38696
+    },
+    {
+      "path": "src/components/permissions/PowerShellPermissionRequest/powershellToolUseOptions.tsx",
+      "lines": 91,
+      "size": 11950
+    },
+    {
+      "path": "src/components/permissions/ReviewArtifactPermissionRequest/ReviewArtifactPermissionRequest.tsx",
+      "lines": 3,
+      "size": 68
+    },
+    {
+      "path": "src/components/permissions/SandboxPermissionRequest.tsx",
+      "lines": 163,
+      "size": 14272
+    },
+    {
+      "path": "src/components/permissions/SedEditPermissionRequest/SedEditPermissionRequest.tsx",
+      "lines": 230,
+      "size": 20862
+    },
+    {
+      "path": "src/components/permissions/SkillPermissionRequest/SkillPermissionRequest.tsx",
+      "lines": 369,
+      "size": 36531
+    },
+    {
+      "path": "src/components/permissions/WebFetchPermissionRequest/WebFetchPermissionRequest.tsx",
+      "lines": 258,
+      "size": 22888
+    },
+    {
+      "path": "src/components/permissions/WorkerBadge.tsx",
+      "lines": 49,
+      "size": 3850
+    },
+    {
+      "path": "src/components/permissions/WorkerPendingPermission.tsx",
+      "lines": 105,
+      "size": 9365
+    },
+    {
+      "path": "src/components/permissions/hooks.ts",
+      "lines": 209,
+      "size": 8453
+    },
+    {
+      "path": "src/components/permissions/rules/AddPermissionRules.tsx",
+      "lines": 180,
+      "size": 22020
+    },
+    {
+      "path": "src/components/permissions/rules/AddWorkspaceDirectory.tsx",
+      "lines": 340,
+      "size": 37741
+    },
+    {
+      "path": "src/components/permissions/rules/PermissionRuleDescription.tsx",
+      "lines": 76,
+      "size": 6900
+    },
+    {
+      "path": "src/components/permissions/rules/PermissionRuleInput.tsx",
+      "lines": 138,
+      "size": 16427
+    },
+    {
+      "path": "src/components/permissions/rules/PermissionRuleList.tsx",
+      "lines": 1179,
+      "size": 118930
+    },
+    {
+      "path": "src/components/permissions/rules/RecentDenialsTab.tsx",
+      "lines": 207,
+      "size": 18857
+    },
+    {
+      "path": "src/components/permissions/rules/RemoveWorkspaceDirectory.tsx",
+      "lines": 110,
+      "size": 9757
+    },
+    {
+      "path": "src/components/permissions/rules/WorkspaceTab.tsx",
+      "lines": 150,
+      "size": 15172
+    },
+    {
+      "path": "src/components/permissions/shellPermissionHelpers.tsx",
+      "lines": 164,
+      "size": 22517
+    },
+    {
+      "path": "src/components/permissions/useShellPermissionFeedback.ts",
+      "lines": 148,
+      "size": 4605
+    },
+    {
+      "path": "src/components/permissions/utils.ts",
+      "lines": 25,
+      "size": 660
+    },
+    {
+      "path": "src/components/sandbox/SandboxConfigTab.tsx",
+      "lines": 45,
+      "size": 16895
+    },
+    {
+      "path": "src/components/sandbox/SandboxDependenciesTab.tsx",
+      "lines": 120,
+      "size": 17402
+    },
+    {
+      "path": "src/components/sandbox/SandboxDoctorSection.tsx",
+      "lines": 46,
+      "size": 6190
+    },
+    {
+      "path": "src/components/sandbox/SandboxOverridesTab.tsx",
+      "lines": 193,
+      "size": 20473
+    },
+    {
+      "path": "src/components/sandbox/SandboxSettings.tsx",
+      "lines": 296,
+      "size": 29988
+    },
+    {
+      "path": "src/components/shell/ExpandShellOutputContext.tsx",
+      "lines": 36,
+      "size": 3504
+    },
+    {
+      "path": "src/components/shell/OutputLine.tsx",
+      "lines": 118,
+      "size": 14388
+    },
+    {
+      "path": "src/components/shell/ShellProgressMessage.tsx",
+      "lines": 150,
+      "size": 14373
+    },
+    {
+      "path": "src/components/shell/ShellTimeDisplay.tsx",
+      "lines": 74,
+      "size": 5229
+    },
+    {
+      "path": "src/components/skills/SkillsMenu.tsx",
+      "lines": 237,
+      "size": 27508
+    },
+    {
+      "path": "src/components/tasks/AsyncAgentDetailDialog.tsx",
+      "lines": 229,
+      "size": 29805
+    },
+    {
+      "path": "src/components/tasks/BackgroundTask.tsx",
+      "lines": 345,
+      "size": 31248
+    },
+    {
+      "path": "src/components/tasks/BackgroundTaskStatus.tsx",
+      "lines": 429,
+      "size": 43375
+    },
+    {
+      "path": "src/components/tasks/BackgroundTasksDialog.tsx",
+      "lines": 652,
+      "size": 116395
+    },
+    {
+      "path": "src/components/tasks/DreamDetailDialog.tsx",
+      "lines": 251,
+      "size": 25889
+    },
+    {
+      "path": "src/components/tasks/InProcessTeammateDetailDialog.tsx",
+      "lines": 266,
+      "size": 31018
+    },
+    {
+      "path": "src/components/tasks/MonitorMcpDetailDialog.tsx",
+      "lines": 3,
+      "size": 59
+    },
+    {
+      "path": "src/components/tasks/RemoteSessionDetailDialog.tsx",
+      "lines": 904,
+      "size": 96185
+    },
+    {
+      "path": "src/components/tasks/RemoteSessionProgress.tsx",
+      "lines": 243,
+      "size": 27859
+    },
+    {
+      "path": "src/components/tasks/ShellDetailDialog.tsx",
+      "lines": 404,
+      "size": 39167
+    },
+    {
+      "path": "src/components/tasks/ShellProgress.tsx",
+      "lines": 87,
+      "size": 7004
+    },
+    {
+      "path": "src/components/tasks/WorkflowDetailDialog.tsx",
+      "lines": 3,
+      "size": 57
+    },
+    {
+      "path": "src/components/tasks/renderToolActivity.tsx",
+      "lines": 33,
+      "size": 4414
+    },
+    {
+      "path": "src/components/tasks/taskStatusUtils.tsx",
+      "lines": 107,
+      "size": 13548
+    },
+    {
+      "path": "src/components/teams/TeamStatus.tsx",
+      "lines": 80,
+      "size": 6897
+    },
+    {
+      "path": "src/components/teams/TeamsDialog.tsx",
+      "lines": 715,
+      "size": 94680
+    },
+    {
+      "path": "src/components/ui/OrderedList.tsx",
+      "lines": 71,
+      "size": 7294
+    },
+    {
+      "path": "src/components/ui/OrderedListItem.tsx",
+      "lines": 45,
+      "size": 3477
+    },
+    {
+      "path": "src/components/ui/TreeSelect.tsx",
+      "lines": 397,
+      "size": 38964
+    },
+    {
+      "path": "src/components/ui/option.tsx",
+      "lines": 3,
+      "size": 43
+    },
+    {
+      "path": "src/components/wizard/WizardDialogLayout.tsx",
+      "lines": 65,
+      "size": 6271
+    },
+    {
+      "path": "src/components/wizard/WizardNavigationFooter.tsx",
+      "lines": 24,
+      "size": 4246
+    },
+    {
+      "path": "src/components/wizard/WizardProvider.tsx",
+      "lines": 213,
+      "size": 18665
+    },
+    {
+      "path": "src/components/wizard/index.ts",
+      "lines": 9,
+      "size": 328
+    },
+    {
+      "path": "src/components/wizard/types.ts",
+      "lines": 13,
+      "size": 263
+    },
+    {
+      "path": "src/components/wizard/useWizard.ts",
+      "lines": 13,
+      "size": 447
+    }
+  ]
+}

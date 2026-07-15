@@ -1,0 +1,14 @@
+{
+  "name": "voice",
+  "path": "src/voice/",
+  "ts_files": 1,
+  "tsx_files": 0,
+  "total_files": 1,
+  "files": [
+    {
+      "path": "src/voice/voiceModeEnabled.ts",
+      "lines": 54,
+      "size": 2332
+    }
+  ]
+}

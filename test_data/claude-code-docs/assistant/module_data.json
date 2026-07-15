@@ -1,0 +1,24 @@
+{
+  "name": "assistant",
+  "path": "src/assistant/",
+  "ts_files": 3,
+  "tsx_files": 0,
+  "total_files": 3,
+  "files": [
+    {
+      "path": "src/assistant/index.ts",
+      "lines": 14,
+      "size": 338
+    },
+    {
+      "path": "src/assistant/sessionDiscovery.ts",
+      "lines": 3,
+      "size": 66
+    },
+    {
+      "path": "src/assistant/sessionHistory.ts",
+      "lines": 87,
+      "size": 2503
+    }
+  ]
+}

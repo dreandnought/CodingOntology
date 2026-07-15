@@ -1,0 +1,14 @@
+{
+  "name": "moreright",
+  "path": "src/moreright/",
+  "ts_files": 0,
+  "tsx_files": 1,
+  "total_files": 1,
+  "files": [
+    {
+      "path": "src/moreright/useMoreRight.tsx",
+      "lines": 26,
+      "size": 3535
+    }
+  ]
+}

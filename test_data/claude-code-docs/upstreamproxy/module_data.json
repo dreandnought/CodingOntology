@@ -1,0 +1,19 @@
+{
+  "name": "upstreamproxy",
+  "path": "src/upstreamproxy/",
+  "ts_files": 2,
+  "tsx_files": 0,
+  "total_files": 2,
+  "files": [
+    {
+      "path": "src/upstreamproxy/relay.ts",
+      "lines": 455,
+      "size": 14937
+    },
+    {
+      "path": "src/upstreamproxy/upstreamproxy.ts",
+      "lines": 285,
+      "size": 9812
+    }
+  ]
+}

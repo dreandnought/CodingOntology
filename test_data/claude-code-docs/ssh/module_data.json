@@ -1,0 +1,19 @@
+{
+  "name": "ssh",
+  "path": "src/ssh/",
+  "ts_files": 2,
+  "tsx_files": 0,
+  "total_files": 2,
+  "files": [
+    {
+      "path": "src/ssh/SSHSessionManager.ts",
+      "lines": 1,
+      "size": 34
+    },
+    {
+      "path": "src/ssh/createSSHSession.ts",
+      "lines": 5,
+      "size": 128
+    }
+  ]
+}

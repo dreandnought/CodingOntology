@@ -1,0 +1,54 @@
+{
+  "name": "memdir",
+  "path": "src/memdir/",
+  "ts_files": 9,
+  "tsx_files": 0,
+  "total_files": 9,
+  "files": [
+    {
+      "path": "src/memdir/findRelevantMemories.ts",
+      "lines": 141,
+      "size": 5305
+    },
+    {
+      "path": "src/memdir/memdir.ts",
+      "lines": 507,
+      "size": 21174
+    },
+    {
+      "path": "src/memdir/memoryAge.ts",
+      "lines": 53,
+      "size": 1931
+    },
+    {
+      "path": "src/memdir/memoryScan.ts",
+      "lines": 94,
+      "size": 3105
+    },
+    {
+      "path": "src/memdir/memoryShapeTelemetry.ts",
+      "lines": 1,
+      "size": 54
+    },
+    {
+      "path": "src/memdir/memoryTypes.ts",
+      "lines": 271,
+      "size": 22866
+    },
+    {
+      "path": "src/memdir/paths.ts",
+      "lines": 278,
+      "size": 10668
+    },
+    {
+      "path": "src/memdir/teamMemPaths.ts",
+      "lines": 292,
+      "size": 11691
+    },
+    {
+      "path": "src/memdir/teamMemPrompts.ts",
+      "lines": 100,
+      "size": 5998
+    }
+  ]
+}

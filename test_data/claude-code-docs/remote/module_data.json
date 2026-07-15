@@ -1,0 +1,29 @@
+{
+  "name": "remote",
+  "path": "src/remote/",
+  "ts_files": 4,
+  "tsx_files": 0,
+  "total_files": 4,
+  "files": [
+    {
+      "path": "src/remote/RemoteSessionManager.ts",
+      "lines": 343,
+      "size": 9320
+    },
+    {
+      "path": "src/remote/SessionsWebSocket.ts",
+      "lines": 404,
+      "size": 12505
+    },
+    {
+      "path": "src/remote/remotePermissionBridge.ts",
+      "lines": 78,
+      "size": 2378
+    },
+    {
+      "path": "src/remote/sdkMessageAdapter.ts",
+      "lines": 302,
+      "size": 9060
+    }
+  ]
+}

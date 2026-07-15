@@ -1,0 +1,34 @@
+{
+  "name": "vim",
+  "path": "src/vim/",
+  "ts_files": 5,
+  "tsx_files": 0,
+  "total_files": 5,
+  "files": [
+    {
+      "path": "src/vim/motions.ts",
+      "lines": 82,
+      "size": 1902
+    },
+    {
+      "path": "src/vim/operators.ts",
+      "lines": 556,
+      "size": 15966
+    },
+    {
+      "path": "src/vim/textObjects.ts",
+      "lines": 186,
+      "size": 5029
+    },
+    {
+      "path": "src/vim/transitions.ts",
+      "lines": 490,
+      "size": 12381
+    },
+    {
+      "path": "src/vim/types.ts",
+      "lines": 199,
+      "size": 6332
+    }
+  ]
+}

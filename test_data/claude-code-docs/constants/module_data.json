@@ -1,0 +1,119 @@
+{
+  "name": "constants",
+  "path": "src/constants/",
+  "ts_files": 22,
+  "tsx_files": 0,
+  "total_files": 22,
+  "files": [
+    {
+      "path": "src/constants/apiLimits.ts",
+      "lines": 94,
+      "size": 3443
+    },
+    {
+      "path": "src/constants/betas.ts",
+      "lines": 52,
+      "size": 2218
+    },
+    {
+      "path": "src/constants/common.ts",
+      "lines": 33,
+      "size": 1516
+    },
+    {
+      "path": "src/constants/cyberRiskInstruction.ts",
+      "lines": 24,
+      "size": 1525
+    },
+    {
+      "path": "src/constants/errorIds.ts",
+      "lines": 15,
+      "size": 476
+    },
+    {
+      "path": "src/constants/figures.ts",
+      "lines": 45,
+      "size": 2063
+    },
+    {
+      "path": "src/constants/files.ts",
+      "lines": 156,
+      "size": 2625
+    },
+    {
+      "path": "src/constants/github-app.ts",
+      "lines": 144,
+      "size": 5347
+    },
+    {
+      "path": "src/constants/keys.ts",
+      "lines": 11,
+      "size": 444
+    },
+    {
+      "path": "src/constants/messages.ts",
+      "lines": 1,
+      "size": 49
+    },
+    {
+      "path": "src/constants/oauth.ts",
+      "lines": 234,
+      "size": 8970
+    },
+    {
+      "path": "src/constants/outputStyles.ts",
+      "lines": 216,
+      "size": 9886
+    },
+    {
+      "path": "src/constants/product.ts",
+      "lines": 76,
+      "size": 2563
+    },
+    {
+      "path": "src/constants/prompts.ts",
+      "lines": 914,
+      "size": 54320
+    },
+    {
+      "path": "src/constants/querySource.ts",
+      "lines": 1,
+      "size": 33
+    },
+    {
+      "path": "src/constants/spinnerVerbs.ts",
+      "lines": 204,
+      "size": 3453
+    },
+    {
+      "path": "src/constants/system.ts",
+      "lines": 95,
+      "size": 3859
+    },
+    {
+      "path": "src/constants/systemPromptSections.ts",
+      "lines": 68,
+      "size": 1794
+    },
+    {
+      "path": "src/constants/toolLimits.ts",
+      "lines": 56,
+      "size": 2169
+    },
+    {
+      "path": "src/constants/tools.ts",
+      "lines": 112,
+      "size": 4690
+    },
+    {
+      "path": "src/constants/turnCompletionVerbs.ts",
+      "lines": 12,
+      "size": 269
+    },
+    {
+      "path": "src/constants/xml.ts",
+      "lines": 86,
+      "size": 3325
+    }
+  ]
+}

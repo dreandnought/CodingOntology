@@ -1,0 +1,534 @@
+{
+  "name": "hooks",
+  "path": "src/hooks/",
+  "ts_files": 77,
+  "tsx_files": 28,
+  "total_files": 105,
+  "files": [
+    {
+      "path": "src/hooks/fileSuggestions.ts",
+      "lines": 811,
+      "size": 27152
+    },
+    {
+      "path": "src/hooks/notifs/useAntOrgWarningNotification.ts",
+      "lines": 1,
+      "size": 56
+    },
+    {
+      "path": "src/hooks/notifs/useAutoModeUnavailableNotification.ts",
+      "lines": 56,
+      "size": 1965
+    },
+    {
+      "path": "src/hooks/notifs/useCanSwitchToExistingSubscription.tsx",
+      "lines": 60,
+      "size": 7274
+    },
+    {
+      "path": "src/hooks/notifs/useDeprecationWarningNotification.tsx",
+      "lines": 44,
+      "size": 4605
+    },
+    {
+      "path": "src/hooks/notifs/useFastModeNotification.tsx",
+      "lines": 162,
+      "size": 14961
+    },
+    {
+      "path": "src/hooks/notifs/useIDEStatusIndicator.tsx",
+      "lines": 186,
+      "size": 20764
+    },
+    {
+      "path": "src/hooks/notifs/useInstallMessages.tsx",
+      "lines": 26,
+      "size": 3180
+    },
+    {
+      "path": "src/hooks/notifs/useLspInitializationNotification.tsx",
+      "lines": 143,
+      "size": 16569
+    },
+    {
+      "path": "src/hooks/notifs/useMcpConnectivityStatus.tsx",
+      "lines": 88,
+      "size": 14710
+    },
+    {
+      "path": "src/hooks/notifs/useModelMigrationNotifications.tsx",
+      "lines": 52,
+      "size": 6988
+    },
+    {
+      "path": "src/hooks/notifs/useNpmDeprecationNotification.tsx",
+      "lines": 25,
+      "size": 3602
+    },
+    {
+      "path": "src/hooks/notifs/usePluginAutoupdateNotification.tsx",
+      "lines": 83,
+      "size": 9015
+    },
+    {
+      "path": "src/hooks/notifs/usePluginInstallationStatus.tsx",
+      "lines": 128,
+      "size": 12012
+    },
+    {
+      "path": "src/hooks/notifs/useRateLimitWarningNotification.tsx",
+      "lines": 114,
+      "size": 12250
+    },
+    {
+      "path": "src/hooks/notifs/useSettingsErrors.tsx",
+      "lines": 69,
+      "size": 6756
+    },
+    {
+      "path": "src/hooks/notifs/useStartupNotification.ts",
+      "lines": 41,
+      "size": 1278
+    },
+    {
+      "path": "src/hooks/notifs/useTeammateShutdownNotification.ts",
+      "lines": 78,
+      "size": 2296
+    },
+    {
+      "path": "src/hooks/renderPlaceholder.ts",
+      "lines": 51,
+      "size": 1280
+    },
+    {
+      "path": "src/hooks/toolPermission/PermissionContext.ts",
+      "lines": 388,
+      "size": 12768
+    },
+    {
+      "path": "src/hooks/toolPermission/handlers/coordinatorHandler.ts",
+      "lines": 65,
+      "size": 2374
+    },
+    {
+      "path": "src/hooks/toolPermission/handlers/interactiveHandler.ts",
+      "lines": 536,
+      "size": 20194
+    },
+    {
+      "path": "src/hooks/toolPermission/handlers/swarmWorkerHandler.ts",
+      "lines": 159,
+      "size": 5537
+    },
+    {
+      "path": "src/hooks/toolPermission/permissionLogging.ts",
+      "lines": 238,
+      "size": 7286
+    },
+    {
+      "path": "src/hooks/unifiedSuggestions.ts",
+      "lines": 202,
+      "size": 5837
+    },
+    {
+      "path": "src/hooks/useAfterFirstRender.ts",
+      "lines": 17,
+      "size": 485
+    },
+    {
+      "path": "src/hooks/useApiKeyVerification.ts",
+      "lines": 84,
+      "size": 2678
+    },
+    {
+      "path": "src/hooks/useArrowKeyHistory.tsx",
+      "lines": 229,
+      "size": 34135
+    },
+    {
+      "path": "src/hooks/useAssistantHistory.ts",
+      "lines": 250,
+      "size": 9228
+    },
+    {
+      "path": "src/hooks/useAwaySummary.ts",
+      "lines": 125,
+      "size": 3835
+    },
+    {
+      "path": "src/hooks/useBackgroundTaskNavigation.ts",
+      "lines": 251,
+      "size": 8553
+    },
+    {
+      "path": "src/hooks/useBlink.ts",
+      "lines": 34,
+      "size": 1279
+    },
+    {
+      "path": "src/hooks/useCanUseTool.tsx",
+      "lines": 204,
+      "size": 40206
+    },
+    {
+      "path": "src/hooks/useCancelRequest.ts",
+      "lines": 276,
+      "size": 10127
+    },
+    {
+      "path": "src/hooks/useChromeExtensionNotification.tsx",
+      "lines": 50,
+      "size": 6779
+    },
+    {
+      "path": "src/hooks/useClaudeCodeHintRecommendation.tsx",
+      "lines": 129,
+      "size": 15388
+    },
+    {
+      "path": "src/hooks/useClipboardImageHint.ts",
+      "lines": 77,
+      "size": 2458
+    },
+    {
+      "path": "src/hooks/useCommandKeybindings.tsx",
+      "lines": 108,
+      "size": 11023
+    },
+    {
+      "path": "src/hooks/useCommandQueue.ts",
+      "lines": 15,
+      "size": 543
+    },
+    {
+      "path": "src/hooks/useCopyOnSelect.ts",
+      "lines": 98,
+      "size": 4287
+    },
+    {
+      "path": "src/hooks/useDeferredHookMessages.ts",
+      "lines": 46,
+      "size": 1499
+    },
+    {
+      "path": "src/hooks/useDiffData.ts",
+      "lines": 110,
+      "size": 2839
+    },
+    {
+      "path": "src/hooks/useDiffInIDE.ts",
+      "lines": 379,
+      "size": 9867
+    },
+    {
+      "path": "src/hooks/useDirectConnect.ts",
+      "lines": 229,
+      "size": 7504
+    },
+    {
+      "path": "src/hooks/useDoublePress.ts",
+      "lines": 62,
+      "size": 1651
+    },
+    {
+      "path": "src/hooks/useDynamicConfig.ts",
+      "lines": 22,
+      "size": 703
+    },
+    {
+      "path": "src/hooks/useElapsedTime.ts",
+      "lines": 37,
+      "size": 1226
+    },
+    {
+      "path": "src/hooks/useExitOnCtrlCD.ts",
+      "lines": 95,
+      "size": 3226
+    },
+    {
+      "path": "src/hooks/useExitOnCtrlCDWithKeybindings.ts",
+      "lines": 24,
+      "size": 948
+    },
+    {
+      "path": "src/hooks/useFileHistorySnapshotInit.ts",
+      "lines": 25,
+      "size": 767
+    },
+    {
+      "path": "src/hooks/useGlobalKeybindings.tsx",
+      "lines": 249,
+      "size": 31213
+    },
+    {
+      "path": "src/hooks/useHistorySearch.ts",
+      "lines": 303,
+      "size": 9488
+    },
+    {
+      "path": "src/hooks/useIDEIntegration.tsx",
+      "lines": 70,
+      "size": 10517
+    },
+    {
+      "path": "src/hooks/useIdeAtMentioned.ts",
+      "lines": 76,
+      "size": 2217
+    },
+    {
+      "path": "src/hooks/useIdeConnectionStatus.ts",
+      "lines": 33,
+      "size": 981
+    },
+    {
+      "path": "src/hooks/useIdeLogging.ts",
+      "lines": 41,
+      "size": 1201
+    },
+    {
+      "path": "src/hooks/useIdeSelection.ts",
+      "lines": 150,
+      "size": 4349
+    },
+    {
+      "path": "src/hooks/useInboxPoller.ts",
+      "lines": 969,
+      "size": 34375
+    },
+    {
+      "path": "src/hooks/useInputBuffer.ts",
+      "lines": 132,
+      "size": 3386
+    },
+    {
+      "path": "src/hooks/useIssueFlagBanner.ts",
+      "lines": 133,
+      "size": 3828
+    },
+    {
+      "path": "src/hooks/useLogMessages.ts",
+      "lines": 119,
+      "size": 5710
+    },
+    {
+      "path": "src/hooks/useLspPluginRecommendation.tsx",
+      "lines": 194,
+      "size": 21588
+    },
+    {
+      "path": "src/hooks/useMailboxBridge.ts",
+      "lines": 21,
+      "size": 716
+    },
+    {
+      "path": "src/hooks/useMainLoopModel.ts",
+      "lines": 34,
+      "size": 1509
+    },
+    {
+      "path": "src/hooks/useManagePlugins.ts",
+      "lines": 304,
+      "size": 11888
+    },
+    {
+      "path": "src/hooks/useMemoryUsage.ts",
+      "lines": 39,
+      "size": 1293
+    },
+    {
+      "path": "src/hooks/useMergedClients.ts",
+      "lines": 23,
+      "size": 745
+    },
+    {
+      "path": "src/hooks/useMergedCommands.ts",
+      "lines": 15,
+      "size": 423
+    },
+    {
+      "path": "src/hooks/useMergedTools.ts",
+      "lines": 44,
+      "size": 1645
+    },
+    {
+      "path": "src/hooks/useMinDisplayTime.ts",
+      "lines": 35,
+      "size": 1010
+    },
+    {
+      "path": "src/hooks/useNotifyAfterTimeout.ts",
+      "lines": 65,
+      "size": 2471
+    },
+    {
+      "path": "src/hooks/useOfficialMarketplaceNotification.tsx",
+      "lines": 48,
+      "size": 7299
+    },
+    {
+      "path": "src/hooks/usePasteHandler.ts",
+      "lines": 285,
+      "size": 10146
+    },
+    {
+      "path": "src/hooks/usePluginRecommendationBase.tsx",
+      "lines": 105,
+      "size": 11418
+    },
+    {
+      "path": "src/hooks/usePrStatus.ts",
+      "lines": 106,
+      "size": 3202
+    },
+    {
+      "path": "src/hooks/usePromptSuggestion.ts",
+      "lines": 177,
+      "size": 5315
+    },
+    {
+      "path": "src/hooks/usePromptsFromClaudeInChrome.tsx",
+      "lines": 71,
+      "size": 11623
+    },
+    {
+      "path": "src/hooks/useQueueProcessor.ts",
+      "lines": 68,
+      "size": 2547
+    },
+    {
+      "path": "src/hooks/useRemoteSession.ts",
+      "lines": 605,
+      "size": 23010
+    },
+    {
+      "path": "src/hooks/useReplBridge.tsx",
+      "lines": 723,
+      "size": 115652
+    },
+    {
+      "path": "src/hooks/useSSHSession.ts",
+      "lines": 241,
+      "size": 8316
+    },
+    {
+      "path": "src/hooks/useScheduledTasks.ts",
+      "lines": 139,
+      "size": 5975
+    },
+    {
+      "path": "src/hooks/useSearchInput.ts",
+      "lines": 364,
+      "size": 10327
+    },
+    {
+      "path": "src/hooks/useSessionBackgrounding.ts",
+      "lines": 158,
+      "size": 4944
+    },
+    {
+      "path": "src/hooks/useSettings.ts",
+      "lines": 17,
+      "size": 618
+    },
+    {
+      "path": "src/hooks/useSettingsChange.ts",
+      "lines": 25,
+      "size": 946
+    },
+    {
+      "path": "src/hooks/useSkillImprovementSurvey.ts",
+      "lines": 105,
+      "size": 3528
+    },
+    {
+      "path": "src/hooks/useSkillsChange.ts",
+      "lines": 62,
+      "size": 2084
+    },
+    {
+      "path": "src/hooks/useSwarmInitialization.ts",
+      "lines": 81,
+      "size": 3151
+    },
+    {
+      "path": "src/hooks/useSwarmPermissionPoller.ts",
+      "lines": 330,
+      "size": 9617
+    },
+    {
+      "path": "src/hooks/useTaskListWatcher.ts",
+      "lines": 221,
+      "size": 6822
+    },
+    {
+      "path": "src/hooks/useTasksV2.ts",
+      "lines": 250,
+      "size": 8808
+    },
+    {
+      "path": "src/hooks/useTeammateViewAutoExit.ts",
+      "lines": 63,
+      "size": 2189
+    },
+    {
+      "path": "src/hooks/useTeleportResume.tsx",
+      "lines": 85,
+      "size": 9840
+    },
+    {
+      "path": "src/hooks/useTerminalSize.ts",
+      "lines": 15,
+      "size": 354
+    },
+    {
+      "path": "src/hooks/useTextInput.ts",
+      "lines": 529,
+      "size": 17027
+    },
+    {
+      "path": "src/hooks/useTimeout.ts",
+      "lines": 14,
+      "size": 362
+    },
+    {
+      "path": "src/hooks/useTurnDiffs.ts",
+      "lines": 213,
+      "size": 6686
+    },
+    {
+      "path": "src/hooks/useTypeahead.tsx",
+      "lines": 1385,
+      "size": 212610
+    },
+    {
+      "path": "src/hooks/useUpdateNotification.ts",
+      "lines": 34,
+      "size": 982
+    },
+    {
+      "path": "src/hooks/useVimInput.ts",
+      "lines": 316,
+      "size": 9741
+    },
+    {
+      "path": "src/hooks/useVirtualScroll.ts",
+      "lines": 721,
+      "size": 35122
+    },
+    {
+      "path": "src/hooks/useVoice.ts",
+      "lines": 1144,
+      "size": 45802
+    },
+    {
+      "path": "src/hooks/useVoiceEnabled.ts",
+      "lines": 25,
+      "size": 1134
+    },
+    {
+      "path": "src/hooks/useVoiceIntegration.tsx",
+      "lines": 677,
+      "size": 99464
+    }
+  ]
+}

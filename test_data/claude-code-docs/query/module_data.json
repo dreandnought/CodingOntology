@@ -1,0 +1,34 @@
+{
+  "name": "query",
+  "path": "src/query/",
+  "ts_files": 5,
+  "tsx_files": 0,
+  "total_files": 5,
+  "files": [
+    {
+      "path": "src/query/config.ts",
+      "lines": 46,
+      "size": 1808
+    },
+    {
+      "path": "src/query/deps.ts",
+      "lines": 40,
+      "size": 1445
+    },
+    {
+      "path": "src/query/stopHooks.ts",
+      "lines": 473,
+      "size": 17290
+    },
+    {
+      "path": "src/query/tokenBudget.ts",
+      "lines": 93,
+      "size": 2320
+    },
+    {
+      "path": "src/query/transitions.ts",
+      "lines": 3,
+      "size": 72
+    }
+  ]
+}

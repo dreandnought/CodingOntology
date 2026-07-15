@@ -1,0 +1,129 @@
+{
+  "name": "skills",
+  "path": "src/skills/",
+  "ts_files": 24,
+  "tsx_files": 0,
+  "total_files": 24,
+  "files": [
+    {
+      "path": "src/skills/bundled/batch.ts",
+      "lines": 124,
+      "size": 7177
+    },
+    {
+      "path": "src/skills/bundled/claudeApi.ts",
+      "lines": 196,
+      "size": 6323
+    },
+    {
+      "path": "src/skills/bundled/claudeApiContent.ts",
+      "lines": 75,
+      "size": 4280
+    },
+    {
+      "path": "src/skills/bundled/claudeInChrome.ts",
+      "lines": 34,
+      "size": 1760
+    },
+    {
+      "path": "src/skills/bundled/debug.ts",
+      "lines": 103,
+      "size": 4219
+    },
+    {
+      "path": "src/skills/bundled/dream.ts",
+      "lines": 1,
+      "size": 46
+    },
+    {
+      "path": "src/skills/bundled/hunter.ts",
+      "lines": 1,
+      "size": 47
+    },
+    {
+      "path": "src/skills/bundled/index.ts",
+      "lines": 79,
+      "size": 3252
+    },
+    {
+      "path": "src/skills/bundled/keybindings.ts",
+      "lines": 339,
+      "size": 10412
+    },
+    {
+      "path": "src/skills/bundled/loop.ts",
+      "lines": 92,
+      "size": 4667
+    },
+    {
+      "path": "src/skills/bundled/loremIpsum.ts",
+      "lines": 282,
+      "size": 4400
+    },
+    {
+      "path": "src/skills/bundled/remember.ts",
+      "lines": 82,
+      "size": 4227
+    },
+    {
+      "path": "src/skills/bundled/runSkillGenerator.ts",
+      "lines": 1,
+      "size": 58
+    },
+    {
+      "path": "src/skills/bundled/scheduleRemoteAgents.ts",
+      "lines": 447,
+      "size": 19048
+    },
+    {
+      "path": "src/skills/bundled/simplify.ts",
+      "lines": 69,
+      "size": 4466
+    },
+    {
+      "path": "src/skills/bundled/skillify.ts",
+      "lines": 197,
+      "size": 9483
+    },
+    {
+      "path": "src/skills/bundled/stuck.ts",
+      "lines": 79,
+      "size": 4254
+    },
+    {
+      "path": "src/skills/bundled/updateConfig.ts",
+      "lines": 475,
+      "size": 17453
+    },
+    {
+      "path": "src/skills/bundled/verify.ts",
+      "lines": 30,
+      "size": 893
+    },
+    {
+      "path": "src/skills/bundled/verifyContent.ts",
+      "lines": 13,
+      "size": 414
+    },
+    {
+      "path": "src/skills/bundledSkills.ts",
+      "lines": 220,
+      "size": 7497
+    },
+    {
+      "path": "src/skills/loadSkillsDir.ts",
+      "lines": 1086,
+      "size": 34415
+    },
+    {
+      "path": "src/skills/mcpSkillBuilders.ts",
+      "lines": 44,
+      "size": 1627
+    },
+    {
+      "path": "src/skills/mcpSkills.ts",
+      "lines": 3,
+      "size": 64
+    }
+  ]
+}

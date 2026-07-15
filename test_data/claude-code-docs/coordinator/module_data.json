@@ -1,0 +1,19 @@
+{
+  "name": "coordinator",
+  "path": "src/coordinator/",
+  "ts_files": 2,
+  "tsx_files": 0,
+  "total_files": 2,
+  "files": [
+    {
+      "path": "src/coordinator/coordinatorMode.ts",
+      "lines": 369,
+      "size": 19020
+    },
+    {
+      "path": "src/coordinator/workerAgent.ts",
+      "lines": 1,
+      "size": 37
+    }
+  ]
+}

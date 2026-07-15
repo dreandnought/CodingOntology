@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "path": "src/server/",
+  "ts_files": 3,
+  "tsx_files": 0,
+  "total_files": 3,
+  "files": [
+    {
+      "path": "src/server/createDirectConnectSession.ts",
+      "lines": 88,
+      "size": 2193
+    },
+    {
+      "path": "src/server/directConnectManager.ts",
+      "lines": 213,
+      "size": 5898
+    },
+    {
+      "path": "src/server/types.ts",
+      "lines": 57,
+      "size": 1466
+    }
+  ]
+}

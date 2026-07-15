@@ -1,0 +1,14 @@
+{
+  "name": "jobs",
+  "path": "src/jobs/",
+  "ts_files": 1,
+  "tsx_files": 0,
+  "total_files": 1,
+  "files": [
+    {
+      "path": "src/jobs/classifier.ts",
+      "lines": 3,
+      "size": 56
+    }
+  ]
+}

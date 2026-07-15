@@ -1,0 +1,54 @@
+{
+  "name": "context",
+  "path": "src/context/",
+  "ts_files": 0,
+  "tsx_files": 9,
+  "total_files": 9,
+  "files": [
+    {
+      "path": "src/context/QueuedMessageContext.tsx",
+      "lines": 63,
+      "size": 5598
+    },
+    {
+      "path": "src/context/fpsMetrics.tsx",
+      "lines": 30,
+      "size": 3158
+    },
+    {
+      "path": "src/context/mailbox.tsx",
+      "lines": 38,
+      "size": 3436
+    },
+    {
+      "path": "src/context/modalContext.tsx",
+      "lines": 58,
+      "size": 6266
+    },
+    {
+      "path": "src/context/notifications.tsx",
+      "lines": 240,
+      "size": 33050
+    },
+    {
+      "path": "src/context/overlayContext.tsx",
+      "lines": 151,
+      "size": 14123
+    },
+    {
+      "path": "src/context/promptOverlayContext.tsx",
+      "lines": 125,
+      "size": 12138
+    },
+    {
+      "path": "src/context/stats.tsx",
+      "lines": 220,
+      "size": 22006
+    },
+    {
+      "path": "src/context/voice.tsx",
+      "lines": 88,
+      "size": 8784
+    }
+  ]
+}

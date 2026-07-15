@@ -1,0 +1,29 @@
+{
+  "name": "native-ts",
+  "path": "src/native-ts/",
+  "ts_files": 4,
+  "tsx_files": 0,
+  "total_files": 4,
+  "files": [
+    {
+      "path": "src/native-ts/color-diff/index.ts",
+      "lines": 999,
+      "size": 30042
+    },
+    {
+      "path": "src/native-ts/file-index/index.ts",
+      "lines": 370,
+      "size": 12006
+    },
+    {
+      "path": "src/native-ts/yoga-layout/enums.ts",
+      "lines": 134,
+      "size": 2823
+    },
+    {
+      "path": "src/native-ts/yoga-layout/index.ts",
+      "lines": 2578,
+      "size": 83377
+    }
+  ]
+}

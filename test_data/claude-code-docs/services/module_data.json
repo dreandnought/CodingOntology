@@ -1,0 +1,749 @@
+{
+  "name": "services",
+  "path": "src/services/",
+  "ts_files": 145,
+  "tsx_files": 3,
+  "total_files": 148,
+  "files": [
+    {
+      "path": "src/services/AgentSummary/agentSummary.ts",
+      "lines": 179,
+      "size": 6407
+    },
+    {
+      "path": "src/services/MagicDocs/magicDocs.ts",
+      "lines": 254,
+      "size": 7683
+    },
+    {
+      "path": "src/services/MagicDocs/prompts.ts",
+      "lines": 127,
+      "size": 5595
+    },
+    {
+      "path": "src/services/PromptSuggestion/promptSuggestion.ts",
+      "lines": 523,
+      "size": 17065
+    },
+    {
+      "path": "src/services/PromptSuggestion/speculation.ts",
+      "lines": 991,
+      "size": 30680
+    },
+    {
+      "path": "src/services/SessionMemory/prompts.ts",
+      "lines": 324,
+      "size": 12629
+    },
+    {
+      "path": "src/services/SessionMemory/sessionMemory.ts",
+      "lines": 495,
+      "size": 16561
+    },
+    {
+      "path": "src/services/SessionMemory/sessionMemoryUtils.ts",
+      "lines": 207,
+      "size": 6110
+    },
+    {
+      "path": "src/services/analytics/config.ts",
+      "lines": 38,
+      "size": 1237
+    },
+    {
+      "path": "src/services/analytics/datadog.ts",
+      "lines": 307,
+      "size": 9101
+    },
+    {
+      "path": "src/services/analytics/firstPartyEventLogger.ts",
+      "lines": 449,
+      "size": 14590
+    },
+    {
+      "path": "src/services/analytics/firstPartyEventLoggingExporter.ts",
+      "lines": 806,
+      "size": 26362
+    },
+    {
+      "path": "src/services/analytics/growthbook.ts",
+      "lines": 1155,
+      "size": 40526
+    },
+    {
+      "path": "src/services/analytics/index.ts",
+      "lines": 173,
+      "size": 5542
+    },
+    {
+      "path": "src/services/analytics/metadata.ts",
+      "lines": 973,
+      "size": 32617
+    },
+    {
+      "path": "src/services/analytics/sink.ts",
+      "lines": 114,
+      "size": 3542
+    },
+    {
+      "path": "src/services/analytics/sinkKillswitch.ts",
+      "lines": 25,
+      "size": 1063
+    },
+    {
+      "path": "src/services/api/adminRequests.ts",
+      "lines": 119,
+      "size": 3208
+    },
+    {
+      "path": "src/services/api/bootstrap.ts",
+      "lines": 141,
+      "size": 4634
+    },
+    {
+      "path": "src/services/api/claude.ts",
+      "lines": 3419,
+      "size": 125779
+    },
+    {
+      "path": "src/services/api/client.ts",
+      "lines": 197,
+      "size": 6845
+    },
+    {
+      "path": "src/services/api/dumpPrompts.ts",
+      "lines": 226,
+      "size": 7332
+    },
+    {
+      "path": "src/services/api/emptyUsage.ts",
+      "lines": 22,
+      "size": 712
+    },
+    {
+      "path": "src/services/api/errorUtils.ts",
+      "lines": 260,
+      "size": 8405
+    },
+    {
+      "path": "src/services/api/errors.ts",
+      "lines": 1207,
+      "size": 41735
+    },
+    {
+      "path": "src/services/api/filesApi.ts",
+      "lines": 748,
+      "size": 21494
+    },
+    {
+      "path": "src/services/api/firstTokenDate.ts",
+      "lines": 60,
+      "size": 1765
+    },
+    {
+      "path": "src/services/api/grove.ts",
+      "lines": 357,
+      "size": 11543
+    },
+    {
+      "path": "src/services/api/logging.ts",
+      "lines": 788,
+      "size": 24191
+    },
+    {
+      "path": "src/services/api/metricsOptOut.ts",
+      "lines": 159,
+      "size": 5355
+    },
+    {
+      "path": "src/services/api/overageCreditGrant.ts",
+      "lines": 137,
+      "size": 4913
+    },
+    {
+      "path": "src/services/api/promptCacheBreakDetection.ts",
+      "lines": 727,
+      "size": 26288
+    },
+    {
+      "path": "src/services/api/referral.ts",
+      "lines": 281,
+      "size": 7985
+    },
+    {
+      "path": "src/services/api/sessionIngress.ts",
+      "lines": 514,
+      "size": 17055
+    },
+    {
+      "path": "src/services/api/ultrareviewQuota.ts",
+      "lines": 38,
+      "size": 1219
+    },
+    {
+      "path": "src/services/api/usage.ts",
+      "lines": 63,
+      "size": 1685
+    },
+    {
+      "path": "src/services/api/withRetry.ts",
+      "lines": 822,
+      "size": 28238
+    },
+    {
+      "path": "src/services/autoDream/autoDream.ts",
+      "lines": 324,
+      "size": 11259
+    },
+    {
+      "path": "src/services/autoDream/config.ts",
+      "lines": 21,
+      "size": 892
+    },
+    {
+      "path": "src/services/autoDream/consolidationLock.ts",
+      "lines": 140,
+      "size": 4548
+    },
+    {
+      "path": "src/services/autoDream/consolidationPrompt.ts",
+      "lines": 65,
+      "size": 3225
+    },
+    {
+      "path": "src/services/awaySummary.ts",
+      "lines": 74,
+      "size": 2671
+    },
+    {
+      "path": "src/services/claudeAiLimits.ts",
+      "lines": 515,
+      "size": 16803
+    },
+    {
+      "path": "src/services/claudeAiLimitsHook.ts",
+      "lines": 23,
+      "size": 515
+    },
+    {
+      "path": "src/services/compact/apiMicrocompact.ts",
+      "lines": 153,
+      "size": 4996
+    },
+    {
+      "path": "src/services/compact/autoCompact.ts",
+      "lines": 351,
+      "size": 12905
+    },
+    {
+      "path": "src/services/compact/cachedMCConfig.ts",
+      "lines": 3,
+      "size": 54
+    },
+    {
+      "path": "src/services/compact/cachedMicrocompact.ts",
+      "lines": 20,
+      "size": 376
+    },
+    {
+      "path": "src/services/compact/compact.ts",
+      "lines": 1705,
+      "size": 60814
+    },
+    {
+      "path": "src/services/compact/compactWarningHook.ts",
+      "lines": 16,
+      "size": 568
+    },
+    {
+      "path": "src/services/compact/compactWarningState.ts",
+      "lines": 18,
+      "size": 693
+    },
+    {
+      "path": "src/services/compact/grouping.ts",
+      "lines": 63,
+      "size": 2794
+    },
+    {
+      "path": "src/services/compact/microCompact.ts",
+      "lines": 530,
+      "size": 19544
+    },
+    {
+      "path": "src/services/compact/postCompactCleanup.ts",
+      "lines": 77,
+      "size": 3778
+    },
+    {
+      "path": "src/services/compact/prompt.ts",
+      "lines": 374,
+      "size": 16278
+    },
+    {
+      "path": "src/services/compact/reactiveCompact.ts",
+      "lines": 3,
+      "size": 91
+    },
+    {
+      "path": "src/services/compact/sessionMemoryCompact.ts",
+      "lines": 630,
+      "size": 21058
+    },
+    {
+      "path": "src/services/compact/snipCompact.ts",
+      "lines": 10,
+      "size": 221
+    },
+    {
+      "path": "src/services/compact/snipProjection.ts",
+      "lines": 7,
+      "size": 149
+    },
+    {
+      "path": "src/services/compact/timeBasedMCConfig.ts",
+      "lines": 43,
+      "size": 1766
+    },
+    {
+      "path": "src/services/contextCollapse/index.ts",
+      "lines": 51,
+      "size": 984
+    },
+    {
+      "path": "src/services/contextCollapse/operations.ts",
+      "lines": 7,
+      "size": 127
+    },
+    {
+      "path": "src/services/contextCollapse/persist.ts",
+      "lines": 1,
+      "size": 46
+    },
+    {
+      "path": "src/services/diagnosticTracking.ts",
+      "lines": 397,
+      "size": 12315
+    },
+    {
+      "path": "src/services/extractMemories/extractMemories.ts",
+      "lines": 615,
+      "size": 21684
+    },
+    {
+      "path": "src/services/extractMemories/prompts.ts",
+      "lines": 154,
+      "size": 7673
+    },
+    {
+      "path": "src/services/internalLogging.ts",
+      "lines": 90,
+      "size": 2799
+    },
+    {
+      "path": "src/services/lsp/LSPClient.ts",
+      "lines": 447,
+      "size": 14361
+    },
+    {
+      "path": "src/services/lsp/LSPDiagnosticRegistry.ts",
+      "lines": 386,
+      "size": 11957
+    },
+    {
+      "path": "src/services/lsp/LSPServerInstance.ts",
+      "lines": 511,
+      "size": 16864
+    },
+    {
+      "path": "src/services/lsp/LSPServerManager.ts",
+      "lines": 420,
+      "size": 13394
+    },
+    {
+      "path": "src/services/lsp/config.ts",
+      "lines": 79,
+      "size": 2857
+    },
+    {
+      "path": "src/services/lsp/manager.ts",
+      "lines": 289,
+      "size": 10067
+    },
+    {
+      "path": "src/services/lsp/passiveFeedback.ts",
+      "lines": 328,
+      "size": 11190
+    },
+    {
+      "path": "src/services/lsp/types.ts",
+      "lines": 2,
+      "size": 96
+    },
+    {
+      "path": "src/services/mcp/InProcessTransport.ts",
+      "lines": 63,
+      "size": 1772
+    },
+    {
+      "path": "src/services/mcp/MCPConnectionManager.tsx",
+      "lines": 73,
+      "size": 8186
+    },
+    {
+      "path": "src/services/mcp/SdkControlTransport.ts",
+      "lines": 136,
+      "size": 4503
+    },
+    {
+      "path": "src/services/mcp/auth.ts",
+      "lines": 2465,
+      "size": 88879
+    },
+    {
+      "path": "src/services/mcp/channelAllowlist.ts",
+      "lines": 76,
+      "size": 2838
+    },
+    {
+      "path": "src/services/mcp/channelNotification.ts",
+      "lines": 316,
+      "size": 12540
+    },
+    {
+      "path": "src/services/mcp/channelPermissions.ts",
+      "lines": 240,
+      "size": 8981
+    },
+    {
+      "path": "src/services/mcp/claudeai.ts",
+      "lines": 164,
+      "size": 6126
+    },
+    {
+      "path": "src/services/mcp/client.ts",
+      "lines": 3348,
+      "size": 119060
+    },
+    {
+      "path": "src/services/mcp/config.ts",
+      "lines": 1578,
+      "size": 51130
+    },
+    {
+      "path": "src/services/mcp/elicitationHandler.ts",
+      "lines": 313,
+      "size": 10166
+    },
+    {
+      "path": "src/services/mcp/envExpansion.ts",
+      "lines": 38,
+      "size": 1047
+    },
+    {
+      "path": "src/services/mcp/headersHelper.ts",
+      "lines": 138,
+      "size": 4718
+    },
+    {
+      "path": "src/services/mcp/mcpStringUtils.ts",
+      "lines": 106,
+      "size": 3968
+    },
+    {
+      "path": "src/services/mcp/normalization.ts",
+      "lines": 23,
+      "size": 879
+    },
+    {
+      "path": "src/services/mcp/oauthPort.ts",
+      "lines": 78,
+      "size": 2325
+    },
+    {
+      "path": "src/services/mcp/officialRegistry.ts",
+      "lines": 72,
+      "size": 2013
+    },
+    {
+      "path": "src/services/mcp/types.ts",
+      "lines": 258,
+      "size": 6962
+    },
+    {
+      "path": "src/services/mcp/useManageMCPConnections.ts",
+      "lines": 1141,
+      "size": 44866
+    },
+    {
+      "path": "src/services/mcp/utils.ts",
+      "lines": 575,
+      "size": 17931
+    },
+    {
+      "path": "src/services/mcp/vscodeSdkMcp.ts",
+      "lines": 112,
+      "size": 3703
+    },
+    {
+      "path": "src/services/mcp/xaa.ts",
+      "lines": 511,
+      "size": 18286
+    },
+    {
+      "path": "src/services/mcp/xaaIdpLogin.ts",
+      "lines": 487,
+      "size": 16271
+    },
+    {
+      "path": "src/services/mcpServerApproval.tsx",
+      "lines": 41,
+      "size": 6400
+    },
+    {
+      "path": "src/services/mockRateLimits.ts",
+      "lines": 882,
+      "size": 29698
+    },
+    {
+      "path": "src/services/notifier.ts",
+      "lines": 156,
+      "size": 4256
+    },
+    {
+      "path": "src/services/oauth/auth-code-listener.ts",
+      "lines": 211,
+      "size": 6650
+    },
+    {
+      "path": "src/services/oauth/client.ts",
+      "lines": 577,
+      "size": 18647
+    },
+    {
+      "path": "src/services/oauth/crypto.ts",
+      "lines": 23,
+      "size": 566
+    },
+    {
+      "path": "src/services/oauth/getOauthProfile.ts",
+      "lines": 53,
+      "size": 1611
+    },
+    {
+      "path": "src/services/oauth/index.ts",
+      "lines": 198,
+      "size": 6554
+    },
+    {
+      "path": "src/services/oauth/types.ts",
+      "lines": 13,
+      "size": 443
+    },
+    {
+      "path": "src/services/plugins/PluginInstallationManager.ts",
+      "lines": 184,
+      "size": 6017
+    },
+    {
+      "path": "src/services/plugins/pluginCliCommands.ts",
+      "lines": 344,
+      "size": 10894
+    },
+    {
+      "path": "src/services/plugins/pluginOperations.ts",
+      "lines": 1088,
+      "size": 35619
+    },
+    {
+      "path": "src/services/policyLimits/index.ts",
+      "lines": 663,
+      "size": 18064
+    },
+    {
+      "path": "src/services/policyLimits/types.ts",
+      "lines": 27,
+      "size": 792
+    },
+    {
+      "path": "src/services/preventSleep.ts",
+      "lines": 165,
+      "size": 4586
+    },
+    {
+      "path": "src/services/rateLimitMessages.ts",
+      "lines": 344,
+      "size": 10858
+    },
+    {
+      "path": "src/services/rateLimitMocking.ts",
+      "lines": 144,
+      "size": 4420
+    },
+    {
+      "path": "src/services/remoteManagedSettings/index.ts",
+      "lines": 638,
+      "size": 20911
+    },
+    {
+      "path": "src/services/remoteManagedSettings/securityCheck.tsx",
+      "lines": 74,
+      "size": 10513
+    },
+    {
+      "path": "src/services/remoteManagedSettings/syncCache.ts",
+      "lines": 112,
+      "size": 4229
+    },
+    {
+      "path": "src/services/remoteManagedSettings/syncCacheState.ts",
+      "lines": 96,
+      "size": 4004
+    },
+    {
+      "path": "src/services/remoteManagedSettings/types.ts",
+      "lines": 31,
+      "size": 1060
+    },
+    {
+      "path": "src/services/settingsSync/index.ts",
+      "lines": 581,
+      "size": 17924
+    },
+    {
+      "path": "src/services/settingsSync/types.ts",
+      "lines": 67,
+      "size": 1668
+    },
+    {
+      "path": "src/services/skillSearch/featureCheck.ts",
+      "lines": 3,
+      "size": 67
+    },
+    {
+      "path": "src/services/skillSearch/localSearch.ts",
+      "lines": 3,
+      "size": 57
+    },
+    {
+      "path": "src/services/skillSearch/prefetch.ts",
+      "lines": 1,
+      "size": 47
+    },
+    {
+      "path": "src/services/skillSearch/remoteSkillLoader.ts",
+      "lines": 3,
+      "size": 58
+    },
+    {
+      "path": "src/services/skillSearch/remoteSkillState.ts",
+      "lines": 3,
+      "size": 56
+    },
+    {
+      "path": "src/services/skillSearch/signals.ts",
+      "lines": 3,
+      "size": 60
+    },
+    {
+      "path": "src/services/skillSearch/telemetry.ts",
+      "lines": 1,
+      "size": 51
+    },
+    {
+      "path": "src/services/teamMemorySync/index.ts",
+      "lines": 1256,
+      "size": 44153
+    },
+    {
+      "path": "src/services/teamMemorySync/secretScanner.ts",
+      "lines": 324,
+      "size": 9458
+    },
+    {
+      "path": "src/services/teamMemorySync/teamMemSecretGuard.ts",
+      "lines": 44,
+      "size": 1552
+    },
+    {
+      "path": "src/services/teamMemorySync/types.ts",
+      "lines": 156,
+      "size": 4906
+    },
+    {
+      "path": "src/services/teamMemorySync/watcher.ts",
+      "lines": 387,
+      "size": 13405
+    },
+    {
+      "path": "src/services/tips/tipHistory.ts",
+      "lines": 17,
+      "size": 601
+    },
+    {
+      "path": "src/services/tips/tipRegistry.ts",
+      "lines": 686,
+      "size": 23154
+    },
+    {
+      "path": "src/services/tips/tipScheduler.ts",
+      "lines": 58,
+      "size": 1664
+    },
+    {
+      "path": "src/services/tips/types.ts",
+      "lines": 2,
+      "size": 91
+    },
+    {
+      "path": "src/services/tokenEstimation.ts",
+      "lines": 495,
+      "size": 16883
+    },
+    {
+      "path": "src/services/toolUseSummary/toolUseSummaryGenerator.ts",
+      "lines": 112,
+      "size": 3376
+    },
+    {
+      "path": "src/services/tools/StreamingToolExecutor.ts",
+      "lines": 530,
+      "size": 17196
+    },
+    {
+      "path": "src/services/tools/toolExecution.ts",
+      "lines": 1745,
+      "size": 60309
+    },
+    {
+      "path": "src/services/tools/toolHooks.ts",
+      "lines": 650,
+      "size": 22333
+    },
+    {
+      "path": "src/services/tools/toolOrchestration.ts",
+      "lines": 188,
+      "size": 5501
+    },
+    {
+      "path": "src/services/vcr.ts",
+      "lines": 406,
+      "size": 12166
+    },
+    {
+      "path": "src/services/voice.ts",
+      "lines": 525,
+      "size": 17116
+    },
+    {
+      "path": "src/services/voiceKeyterms.ts",
+      "lines": 106,
+      "size": 3462
+    },
+    {
+      "path": "src/services/voiceStreamSTT.ts",
+      "lines": 544,
+      "size": 21375
+    }
+  ]
+}

@@ -1,0 +1,1004 @@
+{
+  "name": "tools",
+  "path": "src/tools/",
+  "ts_files": 161,
+  "tsx_files": 38,
+  "total_files": 199,
+  "files": [
+    {
+      "path": "src/tools/AgentTool/AgentTool.tsx",
+      "lines": 1398,
+      "size": 233734
+    },
+    {
+      "path": "src/tools/AgentTool/UI.tsx",
+      "lines": 872,
+      "size": 125359
+    },
+    {
+      "path": "src/tools/AgentTool/agentColorManager.ts",
+      "lines": 66,
+      "size": 1499
+    },
+    {
+      "path": "src/tools/AgentTool/agentDisplay.ts",
+      "lines": 104,
+      "size": 3269
+    },
+    {
+      "path": "src/tools/AgentTool/agentMemory.ts",
+      "lines": 177,
+      "size": 5853
+    },
+    {
+      "path": "src/tools/AgentTool/agentMemorySnapshot.ts",
+      "lines": 197,
+      "size": 5633
+    },
+    {
+      "path": "src/tools/AgentTool/agentToolUtils.ts",
+      "lines": 686,
+      "size": 22739
+    },
+    {
+      "path": "src/tools/AgentTool/built-in/claudeCodeGuideAgent.ts",
+      "lines": 205,
+      "size": 8959
+    },
+    {
+      "path": "src/tools/AgentTool/built-in/exploreAgent.ts",
+      "lines": 83,
+      "size": 4686
+    },
+    {
+      "path": "src/tools/AgentTool/built-in/generalPurposeAgent.ts",
+      "lines": 34,
+      "size": 2185
+    },
+    {
+      "path": "src/tools/AgentTool/built-in/planAgent.ts",
+      "lines": 92,
+      "size": 4318
+    },
+    {
+      "path": "src/tools/AgentTool/built-in/statuslineSetup.ts",
+      "lines": 144,
+      "size": 7477
+    },
+    {
+      "path": "src/tools/AgentTool/built-in/verificationAgent.ts",
+      "lines": 152,
+      "size": 11410
+    },
+    {
+      "path": "src/tools/AgentTool/builtInAgents.ts",
+      "lines": 72,
+      "size": 2756
+    },
+    {
+      "path": "src/tools/AgentTool/constants.ts",
+      "lines": 12,
+      "size": 547
+    },
+    {
+      "path": "src/tools/AgentTool/forkSubagent.ts",
+      "lines": 210,
+      "size": 8678
+    },
+    {
+      "path": "src/tools/AgentTool/loadAgentsDir.ts",
+      "lines": 755,
+      "size": 26220
+    },
+    {
+      "path": "src/tools/AgentTool/prompt.ts",
+      "lines": 287,
+      "size": 16671
+    },
+    {
+      "path": "src/tools/AgentTool/resumeAgent.ts",
+      "lines": 265,
+      "size": 9339
+    },
+    {
+      "path": "src/tools/AgentTool/runAgent.ts",
+      "lines": 973,
+      "size": 35768
+    },
+    {
+      "path": "src/tools/AskUserQuestionTool/AskUserQuestionTool.tsx",
+      "lines": 266,
+      "size": 39887
+    },
+    {
+      "path": "src/tools/AskUserQuestionTool/prompt.ts",
+      "lines": 44,
+      "size": 2903
+    },
+    {
+      "path": "src/tools/BashTool/BashTool.tsx",
+      "lines": 1144,
+      "size": 160530
+    },
+    {
+      "path": "src/tools/BashTool/BashToolResultMessage.tsx",
+      "lines": 191,
+      "size": 19215
+    },
+    {
+      "path": "src/tools/BashTool/UI.tsx",
+      "lines": 185,
+      "size": 25213
+    },
+    {
+      "path": "src/tools/BashTool/bashCommandHelpers.ts",
+      "lines": 265,
+      "size": 8589
+    },
+    {
+      "path": "src/tools/BashTool/bashPermissions.ts",
+      "lines": 2621,
+      "size": 98756
+    },
+    {
+      "path": "src/tools/BashTool/bashSecurity.ts",
+      "lines": 2592,
+      "size": 102561
+    },
+    {
+      "path": "src/tools/BashTool/commandSemantics.ts",
+      "lines": 140,
+      "size": 3658
+    },
+    {
+      "path": "src/tools/BashTool/commentLabel.ts",
+      "lines": 13,
+      "size": 637
+    },
+    {
+      "path": "src/tools/BashTool/destructiveCommandWarning.ts",
+      "lines": 102,
+      "size": 2935
+    },
+    {
+      "path": "src/tools/BashTool/modeValidation.ts",
+      "lines": 115,
+      "size": 3266
+    },
+    {
+      "path": "src/tools/BashTool/pathValidation.ts",
+      "lines": 1303,
+      "size": 43679
+    },
+    {
+      "path": "src/tools/BashTool/prompt.ts",
+      "lines": 369,
+      "size": 21130
+    },
+    {
+      "path": "src/tools/BashTool/readOnlyValidation.ts",
+      "lines": 1990,
+      "size": 68322
+    },
+    {
+      "path": "src/tools/BashTool/sedEditParser.ts",
+      "lines": 322,
+      "size": 9562
+    },
+    {
+      "path": "src/tools/BashTool/sedValidation.ts",
+      "lines": 684,
+      "size": 21518
+    },
+    {
+      "path": "src/tools/BashTool/shouldUseSandbox.ts",
+      "lines": 153,
+      "size": 5185
+    },
+    {
+      "path": "src/tools/BashTool/toolName.ts",
+      "lines": 2,
+      "size": 89
+    },
+    {
+      "path": "src/tools/BashTool/utils.ts",
+      "lines": 223,
+      "size": 7207
+    },
+    {
+      "path": "src/tools/BriefTool/BriefTool.ts",
+      "lines": 204,
+      "size": 7677
+    },
+    {
+      "path": "src/tools/BriefTool/UI.tsx",
+      "lines": 101,
+      "size": 14303
+    },
+    {
+      "path": "src/tools/BriefTool/attachments.ts",
+      "lines": 110,
+      "size": 3889
+    },
+    {
+      "path": "src/tools/BriefTool/prompt.ts",
+      "lines": 22,
+      "size": 1933
+    },
+    {
+      "path": "src/tools/BriefTool/upload.ts",
+      "lines": 174,
+      "size": 5815
+    },
+    {
+      "path": "src/tools/ConfigTool/ConfigTool.ts",
+      "lines": 467,
+      "size": 13478
+    },
+    {
+      "path": "src/tools/ConfigTool/UI.tsx",
+      "lines": 38,
+      "size": 5717
+    },
+    {
+      "path": "src/tools/ConfigTool/constants.ts",
+      "lines": 1,
+      "size": 41
+    },
+    {
+      "path": "src/tools/ConfigTool/prompt.ts",
+      "lines": 93,
+      "size": 2881
+    },
+    {
+      "path": "src/tools/ConfigTool/supportedSettings.ts",
+      "lines": 211,
+      "size": 6374
+    },
+    {
+      "path": "src/tools/DiscoverSkillsTool/prompt.ts",
+      "lines": 1,
+      "size": 59
+    },
+    {
+      "path": "src/tools/EnterPlanModeTool/EnterPlanModeTool.ts",
+      "lines": 126,
+      "size": 4101
+    },
+    {
+      "path": "src/tools/EnterPlanModeTool/UI.tsx",
+      "lines": 33,
+      "size": 5315
+    },
+    {
+      "path": "src/tools/EnterPlanModeTool/constants.ts",
+      "lines": 1,
+      "size": 57
+    },
+    {
+      "path": "src/tools/EnterPlanModeTool/prompt.ts",
+      "lines": 170,
+      "size": 7752
+    },
+    {
+      "path": "src/tools/EnterWorktreeTool/EnterWorktreeTool.ts",
+      "lines": 127,
+      "size": 4364
+    },
+    {
+      "path": "src/tools/EnterWorktreeTool/UI.tsx",
+      "lines": 20,
+      "size": 3312
+    },
+    {
+      "path": "src/tools/EnterWorktreeTool/constants.ts",
+      "lines": 1,
+      "size": 56
+    },
+    {
+      "path": "src/tools/EnterWorktreeTool/prompt.ts",
+      "lines": 30,
+      "size": 1412
+    },
+    {
+      "path": "src/tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts",
+      "lines": 493,
+      "size": 17006
+    },
+    {
+      "path": "src/tools/ExitPlanModeTool/UI.tsx",
+      "lines": 82,
+      "size": 11418
+    },
+    {
+      "path": "src/tools/ExitPlanModeTool/constants.ts",
+      "lines": 2,
+      "size": 113
+    },
+    {
+      "path": "src/tools/ExitPlanModeTool/prompt.ts",
+      "lines": 29,
+      "size": 2139
+    },
+    {
+      "path": "src/tools/ExitWorktreeTool/ExitWorktreeTool.ts",
+      "lines": 329,
+      "size": 11649
+    },
+    {
+      "path": "src/tools/ExitWorktreeTool/UI.tsx",
+      "lines": 25,
+      "size": 4044
+    },
+    {
+      "path": "src/tools/ExitWorktreeTool/constants.ts",
+      "lines": 1,
+      "size": 54
+    },
+    {
+      "path": "src/tools/ExitWorktreeTool/prompt.ts",
+      "lines": 32,
+      "size": 2021
+    },
+    {
+      "path": "src/tools/FileEditTool/FileEditTool.ts",
+      "lines": 625,
+      "size": 20502
+    },
+    {
+      "path": "src/tools/FileEditTool/UI.tsx",
+      "lines": 289,
+      "size": 34832
+    },
+    {
+      "path": "src/tools/FileEditTool/constants.ts",
+      "lines": 11,
+      "size": 538
+    },
+    {
+      "path": "src/tools/FileEditTool/prompt.ts",
+      "lines": 28,
+      "size": 1895
+    },
+    {
+      "path": "src/tools/FileEditTool/types.ts",
+      "lines": 85,
+      "size": 2612
+    },
+    {
+      "path": "src/tools/FileEditTool/utils.ts",
+      "lines": 775,
+      "size": 22516
+    },
+    {
+      "path": "src/tools/FileReadTool/FileReadTool.ts",
+      "lines": 1183,
+      "size": 39073
+    },
+    {
+      "path": "src/tools/FileReadTool/UI.tsx",
+      "lines": 185,
+      "size": 22540
+    },
+    {
+      "path": "src/tools/FileReadTool/imageProcessor.ts",
+      "lines": 94,
+      "size": 2881
+    },
+    {
+      "path": "src/tools/FileReadTool/limits.ts",
+      "lines": 92,
+      "size": 3219
+    },
+    {
+      "path": "src/tools/FileReadTool/prompt.ts",
+      "lines": 49,
+      "size": 2868
+    },
+    {
+      "path": "src/tools/FileWriteTool/FileWriteTool.ts",
+      "lines": 434,
+      "size": 14927
+    },
+    {
+      "path": "src/tools/FileWriteTool/UI.tsx",
+      "lines": 405,
+      "size": 43788
+    },
+    {
+      "path": "src/tools/FileWriteTool/prompt.ts",
+      "lines": 18,
+      "size": 969
+    },
+    {
+      "path": "src/tools/GlobTool/GlobTool.ts",
+      "lines": 198,
+      "size": 6064
+    },
+    {
+      "path": "src/tools/GlobTool/UI.tsx",
+      "lines": 63,
+      "size": 8040
+    },
+    {
+      "path": "src/tools/GlobTool/prompt.ts",
+      "lines": 7,
+      "size": 439
+    },
+    {
+      "path": "src/tools/GrepTool/GrepTool.ts",
+      "lines": 577,
+      "size": 20087
+    },
+    {
+      "path": "src/tools/GrepTool/UI.tsx",
+      "lines": 201,
+      "size": 21784
+    },
+    {
+      "path": "src/tools/GrepTool/prompt.ts",
+      "lines": 18,
+      "size": 1150
+    },
+    {
+      "path": "src/tools/LSPTool/LSPTool.ts",
+      "lines": 860,
+      "size": 25710
+    },
+    {
+      "path": "src/tools/LSPTool/UI.tsx",
+      "lines": 228,
+      "size": 25038
+    },
+    {
+      "path": "src/tools/LSPTool/formatters.ts",
+      "lines": 592,
+      "size": 17399
+    },
+    {
+      "path": "src/tools/LSPTool/prompt.ts",
+      "lines": 21,
+      "size": 1114
+    },
+    {
+      "path": "src/tools/LSPTool/schemas.ts",
+      "lines": 215,
+      "size": 6064
+    },
+    {
+      "path": "src/tools/LSPTool/symbolContext.ts",
+      "lines": 90,
+      "size": 3392
+    },
+    {
+      "path": "src/tools/ListMcpResourcesTool/ListMcpResourcesTool.ts",
+      "lines": 123,
+      "size": 3907
+    },
+    {
+      "path": "src/tools/ListMcpResourcesTool/UI.tsx",
+      "lines": 29,
+      "size": 4757
+    },
+    {
+      "path": "src/tools/ListMcpResourcesTool/prompt.ts",
+      "lines": 20,
+      "size": 776
+    },
+    {
+      "path": "src/tools/MCPTool/MCPTool.ts",
+      "lines": 77,
+      "size": 2170
+    },
+    {
+      "path": "src/tools/MCPTool/UI.tsx",
+      "lines": 403,
+      "size": 50730
+    },
+    {
+      "path": "src/tools/MCPTool/classifyForCollapse.ts",
+      "lines": 604,
+      "size": 15178
+    },
+    {
+      "path": "src/tools/MCPTool/prompt.ts",
+      "lines": 3,
+      "size": 119
+    },
+    {
+      "path": "src/tools/McpAuthTool/McpAuthTool.ts",
+      "lines": 215,
+      "size": 7873
+    },
+    {
+      "path": "src/tools/MonitorTool/MonitorTool.ts",
+      "lines": 1,
+      "size": 32
+    },
+    {
+      "path": "src/tools/NotebookEditTool/NotebookEditTool.ts",
+      "lines": 490,
+      "size": 15271
+    },
+    {
+      "path": "src/tools/NotebookEditTool/UI.tsx",
+      "lines": 93,
+      "size": 13540
+    },
+    {
+      "path": "src/tools/NotebookEditTool/constants.ts",
+      "lines": 2,
+      "size": 104
+    },
+    {
+      "path": "src/tools/NotebookEditTool/prompt.ts",
+      "lines": 3,
+      "size": 632
+    },
+    {
+      "path": "src/tools/OverflowTestTool/OverflowTestTool.ts",
+      "lines": 1,
+      "size": 37
+    },
+    {
+      "path": "src/tools/PowerShellTool/PowerShellTool.tsx",
+      "lines": 1001,
+      "size": 144624
+    },
+    {
+      "path": "src/tools/PowerShellTool/UI.tsx",
+      "lines": 131,
+      "size": 19768
+    },
+    {
+      "path": "src/tools/PowerShellTool/clmTypes.ts",
+      "lines": 211,
+      "size": 7229
+    },
+    {
+      "path": "src/tools/PowerShellTool/commandSemantics.ts",
+      "lines": 142,
+      "size": 5459
+    },
+    {
+      "path": "src/tools/PowerShellTool/commonParameters.ts",
+      "lines": 30,
+      "size": 894
+    },
+    {
+      "path": "src/tools/PowerShellTool/destructiveCommandWarning.ts",
+      "lines": 109,
+      "size": 3402
+    },
+    {
+      "path": "src/tools/PowerShellTool/gitSafety.ts",
+      "lines": 176,
+      "size": 7695
+    },
+    {
+      "path": "src/tools/PowerShellTool/modeValidation.ts",
+      "lines": 404,
+      "size": 17399
+    },
+    {
+      "path": "src/tools/PowerShellTool/pathValidation.ts",
+      "lines": 2049,
+      "size": 73059
+    },
+    {
+      "path": "src/tools/PowerShellTool/powershellPermissions.ts",
+      "lines": 1648,
+      "size": 67606
+    },
+    {
+      "path": "src/tools/PowerShellTool/powershellSecurity.ts",
+      "lines": 1090,
+      "size": 37651
+    },
+    {
+      "path": "src/tools/PowerShellTool/prompt.ts",
+      "lines": 145,
+      "size": 9826
+    },
+    {
+      "path": "src/tools/PowerShellTool/readOnlyValidation.ts",
+      "lines": 1823,
+      "size": 67327
+    },
+    {
+      "path": "src/tools/PowerShellTool/toolName.ts",
+      "lines": 2,
+      "size": 110
+    },
+    {
+      "path": "src/tools/REPLTool/constants.ts",
+      "lines": 46,
+      "size": 1799
+    },
+    {
+      "path": "src/tools/REPLTool/primitiveTools.ts",
+      "lines": 39,
+      "size": 1532
+    },
+    {
+      "path": "src/tools/ReadMcpResourceTool/ReadMcpResourceTool.ts",
+      "lines": 158,
+      "size": 4654
+    },
+    {
+      "path": "src/tools/ReadMcpResourceTool/UI.tsx",
+      "lines": 37,
+      "size": 6109
+    },
+    {
+      "path": "src/tools/ReadMcpResourceTool/prompt.ts",
+      "lines": 16,
+      "size": 544
+    },
+    {
+      "path": "src/tools/RemoteTriggerTool/RemoteTriggerTool.ts",
+      "lines": 161,
+      "size": 4715
+    },
+    {
+      "path": "src/tools/RemoteTriggerTool/UI.tsx",
+      "lines": 17,
+      "size": 3096
+    },
+    {
+      "path": "src/tools/RemoteTriggerTool/prompt.ts",
+      "lines": 15,
+      "size": 697
+    },
+    {
+      "path": "src/tools/ReviewArtifactTool/ReviewArtifactTool.ts",
+      "lines": 1,
+      "size": 39
+    },
+    {
+      "path": "src/tools/ScheduleCronTool/CronCreateTool.ts",
+      "lines": 157,
+      "size": 5710
+    },
+    {
+      "path": "src/tools/ScheduleCronTool/CronDeleteTool.ts",
+      "lines": 95,
+      "size": 2616
+    },
+    {
+      "path": "src/tools/ScheduleCronTool/CronListTool.ts",
+      "lines": 97,
+      "size": 2888
+    },
+    {
+      "path": "src/tools/ScheduleCronTool/UI.tsx",
+      "lines": 60,
+      "size": 8075
+    },
+    {
+      "path": "src/tools/ScheduleCronTool/prompt.ts",
+      "lines": 135,
+      "size": 7518
+    },
+    {
+      "path": "src/tools/SendMessageTool/SendMessageTool.ts",
+      "lines": 917,
+      "size": 27506
+    },
+    {
+      "path": "src/tools/SendMessageTool/UI.tsx",
+      "lines": 31,
+      "size": 4679
+    },
+    {
+      "path": "src/tools/SendMessageTool/constants.ts",
+      "lines": 1,
+      "size": 52
+    },
+    {
+      "path": "src/tools/SendMessageTool/prompt.ts",
+      "lines": 49,
+      "size": 2356
+    },
+    {
+      "path": "src/tools/SendUserFileTool/prompt.ts",
+      "lines": 1,
+      "size": 57
+    },
+    {
+      "path": "src/tools/SkillTool/SkillTool.ts",
+      "lines": 1108,
+      "size": 38175
+    },
+    {
+      "path": "src/tools/SkillTool/UI.tsx",
+      "lines": 128,
+      "size": 19189
+    },
+    {
+      "path": "src/tools/SkillTool/constants.ts",
+      "lines": 1,
+      "size": 39
+    },
+    {
+      "path": "src/tools/SkillTool/prompt.ts",
+      "lines": 241,
+      "size": 8221
+    },
+    {
+      "path": "src/tools/SleepTool/prompt.ts",
+      "lines": 17,
+      "size": 774
+    },
+    {
+      "path": "src/tools/SnipTool/prompt.ts",
+      "lines": 1,
+      "size": 37
+    },
+    {
+      "path": "src/tools/SyntheticOutputTool/SyntheticOutputTool.ts",
+      "lines": 163,
+      "size": 5468
+    },
+    {
+      "path": "src/tools/TaskCreateTool/TaskCreateTool.ts",
+      "lines": 138,
+      "size": 3441
+    },
+    {
+      "path": "src/tools/TaskCreateTool/constants.ts",
+      "lines": 1,
+      "size": 50
+    },
+    {
+      "path": "src/tools/TaskCreateTool/prompt.ts",
+      "lines": 56,
+      "size": 2760
+    },
+    {
+      "path": "src/tools/TaskGetTool/TaskGetTool.ts",
+      "lines": 128,
+      "size": 2881
+    },
+    {
+      "path": "src/tools/TaskGetTool/constants.ts",
+      "lines": 1,
+      "size": 44
+    },
+    {
+      "path": "src/tools/TaskGetTool/prompt.ts",
+      "lines": 24,
+      "size": 823
+    },
+    {
+      "path": "src/tools/TaskListTool/TaskListTool.ts",
+      "lines": 116,
+      "size": 2803
+    },
+    {
+      "path": "src/tools/TaskListTool/constants.ts",
+      "lines": 1,
+      "size": 46
+    },
+    {
+      "path": "src/tools/TaskListTool/prompt.ts",
+      "lines": 49,
+      "size": 2066
+    },
+    {
+      "path": "src/tools/TaskOutputTool/TaskOutputTool.tsx",
+      "lines": 584,
+      "size": 66568
+    },
+    {
+      "path": "src/tools/TaskOutputTool/constants.ts",
+      "lines": 1,
+      "size": 50
+    },
+    {
+      "path": "src/tools/TaskStopTool/TaskStopTool.ts",
+      "lines": 131,
+      "size": 3935
+    },
+    {
+      "path": "src/tools/TaskStopTool/UI.tsx",
+      "lines": 41,
+      "size": 5672
+    },
+    {
+      "path": "src/tools/TaskStopTool/prompt.ts",
+      "lines": 8,
+      "size": 280
+    },
+    {
+      "path": "src/tools/TaskUpdateTool/TaskUpdateTool.ts",
+      "lines": 406,
+      "size": 12161
+    },
+    {
+      "path": "src/tools/TaskUpdateTool/constants.ts",
+      "lines": 1,
+      "size": 50
+    },
+    {
+      "path": "src/tools/TaskUpdateTool/prompt.ts",
+      "lines": 77,
+      "size": 2375
+    },
+    {
+      "path": "src/tools/TeamCreateTool/TeamCreateTool.ts",
+      "lines": 240,
+      "size": 7665
+    },
+    {
+      "path": "src/tools/TeamCreateTool/UI.tsx",
+      "lines": 6,
+      "size": 1038
+    },
+    {
+      "path": "src/tools/TeamCreateTool/constants.ts",
+      "lines": 1,
+      "size": 50
+    },
+    {
+      "path": "src/tools/TeamCreateTool/prompt.ts",
+      "lines": 113,
+      "size": 6900
+    },
+    {
+      "path": "src/tools/TeamDeleteTool/TeamDeleteTool.ts",
+      "lines": 139,
+      "size": 4221
+    },
+    {
+      "path": "src/tools/TeamDeleteTool/UI.tsx",
+      "lines": 20,
+      "size": 2906
+    },
+    {
+      "path": "src/tools/TeamDeleteTool/constants.ts",
+      "lines": 1,
+      "size": 50
+    },
+    {
+      "path": "src/tools/TeamDeleteTool/prompt.ts",
+      "lines": 16,
+      "size": 684
+    },
+    {
+      "path": "src/tools/TerminalCaptureTool/prompt.ts",
+      "lines": 1,
+      "size": 61
+    },
+    {
+      "path": "src/tools/TodoWriteTool/TodoWriteTool.ts",
+      "lines": 115,
+      "size": 3881
+    },
+    {
+      "path": "src/tools/TodoWriteTool/constants.ts",
+      "lines": 1,
+      "size": 48
+    },
+    {
+      "path": "src/tools/TodoWriteTool/prompt.ts",
+      "lines": 184,
+      "size": 9527
+    },
+    {
+      "path": "src/tools/ToolSearchTool/ToolSearchTool.ts",
+      "lines": 471,
+      "size": 14275
+    },
+    {
+      "path": "src/tools/ToolSearchTool/constants.ts",
+      "lines": 1,
+      "size": 50
+    },
+    {
+      "path": "src/tools/ToolSearchTool/prompt.ts",
+      "lines": 121,
+      "size": 5227
+    },
+    {
+      "path": "src/tools/TungstenTool/TungstenLiveMonitor.tsx",
+      "lines": 3,
+      "size": 56
+    },
+    {
+      "path": "src/tools/TungstenTool/TungstenTool.ts",
+      "lines": 50,
+      "size": 1157
+    },
+    {
+      "path": "src/tools/VerifyPlanExecutionTool/constants.ts",
+      "lines": 1,
+      "size": 71
+    },
+    {
+      "path": "src/tools/WebBrowserTool/WebBrowserPanel.tsx",
+      "lines": 3,
+      "size": 52
+    },
+    {
+      "path": "src/tools/WebFetchTool/UI.tsx",
+      "lines": 72,
+      "size": 8083
+    },
+    {
+      "path": "src/tools/WebFetchTool/WebFetchTool.ts",
+      "lines": 318,
+      "size": 9324
+    },
+    {
+      "path": "src/tools/WebFetchTool/preapproved.ts",
+      "lines": 166,
+      "size": 5248
+    },
+    {
+      "path": "src/tools/WebFetchTool/prompt.ts",
+      "lines": 46,
+      "size": 2200
+    },
+    {
+      "path": "src/tools/WebFetchTool/utils.ts",
+      "lines": 530,
+      "size": 16761
+    },
+    {
+      "path": "src/tools/WebSearchTool/UI.tsx",
+      "lines": 101,
+      "size": 12160
+    },
+    {
+      "path": "src/tools/WebSearchTool/WebSearchTool.ts",
+      "lines": 435,
+      "size": 13548
+    },
+    {
+      "path": "src/tools/WebSearchTool/prompt.ts",
+      "lines": 34,
+      "size": 1545
+    },
+    {
+      "path": "src/tools/WorkflowTool/WorkflowPermissionRequest.tsx",
+      "lines": 3,
+      "size": 62
+    },
+    {
+      "path": "src/tools/WorkflowTool/WorkflowTool.ts",
+      "lines": 1,
+      "size": 33
+    },
+    {
+      "path": "src/tools/WorkflowTool/constants.ts",
+      "lines": 1,
+      "size": 45
+    },
+    {
+      "path": "src/tools/WorkflowTool/createWorkflowCommand.ts",
+      "lines": 3,
+      "size": 58
+    },
+    {
+      "path": "src/tools/shared/gitOperationTracking.ts",
+      "lines": 277,
+      "size": 9485
+    },
+    {
+      "path": "src/tools/shared/spawnMultiAgent.ts",
+      "lines": 1093,
+      "size": 35553
+    },
+    {
+      "path": "src/tools/testing/TestingPermissionTool.tsx",
+      "lines": 74,
+      "size": 7312
+    },
+    {
+      "path": "src/tools/utils.ts",
+      "lines": 40,
+      "size": 1105
+    }
+  ]
+}

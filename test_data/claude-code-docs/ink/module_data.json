@@ -1,0 +1,509 @@
+{
+  "name": "ink",
+  "path": "src/ink/",
+  "ts_files": 83,
+  "tsx_files": 17,
+  "total_files": 100,
+  "files": [
+    {
+      "path": "src/ink/Ansi.tsx",
+      "lines": 292,
+      "size": 33264
+    },
+    {
+      "path": "src/ink/bidi.ts",
+      "lines": 139,
+      "size": 4290
+    },
+    {
+      "path": "src/ink/clearTerminal.ts",
+      "lines": 74,
+      "size": 1901
+    },
+    {
+      "path": "src/ink/colorize.ts",
+      "lines": 231,
+      "size": 7647
+    },
+    {
+      "path": "src/ink/components/AlternateScreen.tsx",
+      "lines": 80,
+      "size": 10377
+    },
+    {
+      "path": "src/ink/components/App.tsx",
+      "lines": 685,
+      "size": 99323
+    },
+    {
+      "path": "src/ink/components/AppContext.ts",
+      "lines": 21,
+      "size": 523
+    },
+    {
+      "path": "src/ink/components/Box.tsx",
+      "lines": 214,
+      "size": 21652
+    },
+    {
+      "path": "src/ink/components/Button.tsx",
+      "lines": 192,
+      "size": 16523
+    },
+    {
+      "path": "src/ink/components/ClockContext.tsx",
+      "lines": 112,
+      "size": 12091
+    },
+    {
+      "path": "src/ink/components/CursorDeclarationContext.ts",
+      "lines": 32,
+      "size": 1119
+    },
+    {
+      "path": "src/ink/components/ErrorOverview.tsx",
+      "lines": 109,
+      "size": 15405
+    },
+    {
+      "path": "src/ink/components/Link.tsx",
+      "lines": 42,
+      "size": 3556
+    },
+    {
+      "path": "src/ink/components/Newline.tsx",
+      "lines": 39,
+      "size": 2356
+    },
+    {
+      "path": "src/ink/components/NoSelect.tsx",
+      "lines": 68,
+      "size": 5899
+    },
+    {
+      "path": "src/ink/components/RawAnsi.tsx",
+      "lines": 57,
+      "size": 5157
+    },
+    {
+      "path": "src/ink/components/ScrollBox.tsx",
+      "lines": 237,
+      "size": 31814
+    },
+    {
+      "path": "src/ink/components/Spacer.tsx",
+      "lines": 20,
+      "size": 1563
+    },
+    {
+      "path": "src/ink/components/StdinContext.ts",
+      "lines": 49,
+      "size": 1678
+    },
+    {
+      "path": "src/ink/components/TerminalFocusContext.tsx",
+      "lines": 52,
+      "size": 5955
+    },
+    {
+      "path": "src/ink/components/TerminalSizeContext.tsx",
+      "lines": 7,
+      "size": 983
+    },
+    {
+      "path": "src/ink/components/Text.tsx",
+      "lines": 254,
+      "size": 16811
+    },
+    {
+      "path": "src/ink/constants.ts",
+      "lines": 2,
+      "size": 107
+    },
+    {
+      "path": "src/ink/cursor.ts",
+      "lines": 7,
+      "size": 107
+    },
+    {
+      "path": "src/ink/dom.ts",
+      "lines": 484,
+      "size": 15126
+    },
+    {
+      "path": "src/ink/events/click-event.ts",
+      "lines": 38,
+      "size": 1332
+    },
+    {
+      "path": "src/ink/events/dispatcher.ts",
+      "lines": 233,
+      "size": 6004
+    },
+    {
+      "path": "src/ink/events/emitter.ts",
+      "lines": 39,
+      "size": 1125
+    },
+    {
+      "path": "src/ink/events/event-handlers.ts",
+      "lines": 73,
+      "size": 2202
+    },
+    {
+      "path": "src/ink/events/event.ts",
+      "lines": 11,
+      "size": 250
+    },
+    {
+      "path": "src/ink/events/focus-event.ts",
+      "lines": 21,
+      "size": 687
+    },
+    {
+      "path": "src/ink/events/input-event.ts",
+      "lines": 205,
+      "size": 7306
+    },
+    {
+      "path": "src/ink/events/keyboard-event.ts",
+      "lines": 51,
+      "size": 1765
+    },
+    {
+      "path": "src/ink/events/paste-event.ts",
+      "lines": 1,
+      "size": 27
+    },
+    {
+      "path": "src/ink/events/resize-event.ts",
+      "lines": 1,
+      "size": 28
+    },
+    {
+      "path": "src/ink/events/terminal-event.ts",
+      "lines": 107,
+      "size": 2526
+    },
+    {
+      "path": "src/ink/events/terminal-focus-event.ts",
+      "lines": 19,
+      "size": 512
+    },
+    {
+      "path": "src/ink/focus.ts",
+      "lines": 181,
+      "size": 5142
+    },
+    {
+      "path": "src/ink/frame.ts",
+      "lines": 124,
+      "size": 4209
+    },
+    {
+      "path": "src/ink/get-max-width.ts",
+      "lines": 27,
+      "size": 1149
+    },
+    {
+      "path": "src/ink/global.d.ts",
+      "lines": 1,
+      "size": 10
+    },
+    {
+      "path": "src/ink/hit-test.ts",
+      "lines": 130,
+      "size": 4228
+    },
+    {
+      "path": "src/ink/hooks/use-animation-frame.ts",
+      "lines": 57,
+      "size": 1933
+    },
+    {
+      "path": "src/ink/hooks/use-app.ts",
+      "lines": 8,
+      "size": 251
+    },
+    {
+      "path": "src/ink/hooks/use-declared-cursor.ts",
+      "lines": 73,
+      "size": 2996
+    },
+    {
+      "path": "src/ink/hooks/use-input.ts",
+      "lines": 92,
+      "size": 3107
+    },
+    {
+      "path": "src/ink/hooks/use-interval.ts",
+      "lines": 67,
+      "size": 1796
+    },
+    {
+      "path": "src/ink/hooks/use-search-highlight.ts",
+      "lines": 53,
+      "size": 2158
+    },
+    {
+      "path": "src/ink/hooks/use-selection.ts",
+      "lines": 104,
+      "size": 4421
+    },
+    {
+      "path": "src/ink/hooks/use-stdin.ts",
+      "lines": 8,
+      "size": 232
+    },
+    {
+      "path": "src/ink/hooks/use-tab-status.ts",
+      "lines": 72,
+      "size": 2175
+    },
+    {
+      "path": "src/ink/hooks/use-terminal-focus.ts",
+      "lines": 16,
+      "size": 556
+    },
+    {
+      "path": "src/ink/hooks/use-terminal-title.ts",
+      "lines": 31,
+      "size": 1020
+    },
+    {
+      "path": "src/ink/hooks/use-terminal-viewport.ts",
+      "lines": 96,
+      "size": 3977
+    },
+    {
+      "path": "src/ink/ink.tsx",
+      "lines": 1723,
+      "size": 251886
+    },
+    {
+      "path": "src/ink/instances.ts",
+      "lines": 10,
+      "size": 410
+    },
+    {
+      "path": "src/ink/layout/engine.ts",
+      "lines": 6,
+      "size": 177
+    },
+    {
+      "path": "src/ink/layout/geometry.ts",
+      "lines": 97,
+      "size": 2471
+    },
+    {
+      "path": "src/ink/layout/node.ts",
+      "lines": 152,
+      "size": 4346
+    },
+    {
+      "path": "src/ink/layout/yoga.ts",
+      "lines": 308,
+      "size": 7400
+    },
+    {
+      "path": "src/ink/line-width-cache.ts",
+      "lines": 24,
+      "size": 734
+    },
+    {
+      "path": "src/ink/log-update.ts",
+      "lines": 773,
+      "size": 27210
+    },
+    {
+      "path": "src/ink/measure-element.ts",
+      "lines": 23,
+      "size": 419
+    },
+    {
+      "path": "src/ink/measure-text.ts",
+      "lines": 47,
+      "size": 1138
+    },
+    {
+      "path": "src/ink/node-cache.ts",
+      "lines": 54,
+      "size": 1654
+    },
+    {
+      "path": "src/ink/optimizer.ts",
+      "lines": 93,
+      "size": 2588
+    },
+    {
+      "path": "src/ink/output.ts",
+      "lines": 797,
+      "size": 26183
+    },
+    {
+      "path": "src/ink/parse-keypress.ts",
+      "lines": 801,
+      "size": 23458
+    },
+    {
+      "path": "src/ink/reconciler.ts",
+      "lines": 512,
+      "size": 14594
+    },
+    {
+      "path": "src/ink/render-border.ts",
+      "lines": 231,
+      "size": 6642
+    },
+    {
+      "path": "src/ink/render-node-to-output.ts",
+      "lines": 1462,
+      "size": 63281
+    },
+    {
+      "path": "src/ink/render-to-screen.ts",
+      "lines": 231,
+      "size": 8570
+    },
+    {
+      "path": "src/ink/renderer.ts",
+      "lines": 178,
+      "size": 7665
+    },
+    {
+      "path": "src/ink/root.ts",
+      "lines": 184,
+      "size": 4600
+    },
+    {
+      "path": "src/ink/screen.ts",
+      "lines": 1486,
+      "size": 49323
+    },
+    {
+      "path": "src/ink/searchHighlight.ts",
+      "lines": 93,
+      "size": 3325
+    },
+    {
+      "path": "src/ink/selection.ts",
+      "lines": 917,
+      "size": 34933
+    },
+    {
+      "path": "src/ink/squash-text-nodes.ts",
+      "lines": 92,
+      "size": 2293
+    },
+    {
+      "path": "src/ink/stringWidth.ts",
+      "lines": 222,
+      "size": 7156
+    },
+    {
+      "path": "src/ink/styles.ts",
+      "lines": 771,
+      "size": 20889
+    },
+    {
+      "path": "src/ink/supports-hyperlinks.ts",
+      "lines": 57,
+      "size": 1596
+    },
+    {
+      "path": "src/ink/tabstops.ts",
+      "lines": 46,
+      "size": 1113
+    },
+    {
+      "path": "src/ink/terminal-focus-state.ts",
+      "lines": 47,
+      "size": 1305
+    },
+    {
+      "path": "src/ink/terminal-querier.ts",
+      "lines": 212,
+      "size": 7843
+    },
+    {
+      "path": "src/ink/terminal.ts",
+      "lines": 248,
+      "size": 8190
+    },
+    {
+      "path": "src/ink/termio/ansi.ts",
+      "lines": 75,
+      "size": 1490
+    },
+    {
+      "path": "src/ink/termio/csi.ts",
+      "lines": 319,
+      "size": 8677
+    },
+    {
+      "path": "src/ink/termio/dec.ts",
+      "lines": 60,
+      "size": 1935
+    },
+    {
+      "path": "src/ink/termio/esc.ts",
+      "lines": 67,
+      "size": 1444
+    },
+    {
+      "path": "src/ink/termio/osc.ts",
+      "lines": 493,
+      "size": 16842
+    },
+    {
+      "path": "src/ink/termio/parser.ts",
+      "lines": 394,
+      "size": 11546
+    },
+    {
+      "path": "src/ink/termio/sgr.ts",
+      "lines": 308,
+      "size": 6400
+    },
+    {
+      "path": "src/ink/termio/tokenize.ts",
+      "lines": 319,
+      "size": 9284
+    },
+    {
+      "path": "src/ink/termio/types.ts",
+      "lines": 236,
+      "size": 7076
+    },
+    {
+      "path": "src/ink/termio.ts",
+      "lines": 42,
+      "size": 1036
+    },
+    {
+      "path": "src/ink/useTerminalNotification.ts",
+      "lines": 126,
+      "size": 3857
+    },
+    {
+      "path": "src/ink/warn.ts",
+      "lines": 9,
+      "size": 295
+    },
+    {
+      "path": "src/ink/widest-line.ts",
+      "lines": 19,
+      "size": 434
+    },
+    {
+      "path": "src/ink/wrap-text.ts",
+      "lines": 74,
+      "size": 1806
+    },
+    {
+      "path": "src/ink/wrapAnsi.ts",
+      "lines": 20,
+      "size": 383
+    }
+  ]
+}

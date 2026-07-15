@@ -1,0 +1,19 @@
+{
+  "name": "plugins",
+  "path": "src/plugins/",
+  "ts_files": 2,
+  "tsx_files": 0,
+  "total_files": 2,
+  "files": [
+    {
+      "path": "src/plugins/builtinPlugins.ts",
+      "lines": 159,
+      "size": 4980
+    },
+    {
+      "path": "src/plugins/bundled/index.ts",
+      "lines": 23,
+      "size": 843
+    }
+  ]
+}

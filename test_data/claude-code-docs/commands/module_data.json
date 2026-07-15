@@ -1,0 +1,984 @@
+{
+  "name": "commands",
+  "path": "src/commands/",
+  "ts_files": 116,
+  "tsx_files": 79,
+  "total_files": 195,
+  "files": [
+    {
+      "path": "src/commands/add-dir/add-dir.tsx",
+      "lines": 126,
+      "size": 18017
+    },
+    {
+      "path": "src/commands/add-dir/index.ts",
+      "lines": 11,
+      "size": 260
+    },
+    {
+      "path": "src/commands/add-dir/validation.ts",
+      "lines": 110,
+      "size": 3207
+    },
+    {
+      "path": "src/commands/advisor.ts",
+      "lines": 109,
+      "size": 3182
+    },
+    {
+      "path": "src/commands/agents/agents.tsx",
+      "lines": 12,
+      "size": 2500
+    },
+    {
+      "path": "src/commands/agents/index.ts",
+      "lines": 10,
+      "size": 232
+    },
+    {
+      "path": "src/commands/agents-platform/index.ts",
+      "lines": 21,
+      "size": 686
+    },
+    {
+      "path": "src/commands/branch/branch.ts",
+      "lines": 296,
+      "size": 9580
+    },
+    {
+      "path": "src/commands/branch/index.ts",
+      "lines": 14,
+      "size": 445
+    },
+    {
+      "path": "src/commands/bridge/bridge.tsx",
+      "lines": 509,
+      "size": 46907
+    },
+    {
+      "path": "src/commands/bridge/index.ts",
+      "lines": 26,
+      "size": 604
+    },
+    {
+      "path": "src/commands/bridge-kick.ts",
+      "lines": 200,
+      "size": 6703
+    },
+    {
+      "path": "src/commands/brief.ts",
+      "lines": 130,
+      "size": 5173
+    },
+    {
+      "path": "src/commands/btw/btw.tsx",
+      "lines": 243,
+      "size": 30250
+    },
+    {
+      "path": "src/commands/btw/index.ts",
+      "lines": 13,
+      "size": 314
+    },
+    {
+      "path": "src/commands/chrome/chrome.tsx",
+      "lines": 285,
+      "size": 31974
+    },
+    {
+      "path": "src/commands/chrome/index.ts",
+      "lines": 13,
+      "size": 381
+    },
+    {
+      "path": "src/commands/clear/caches.ts",
+      "lines": 144,
+      "size": 6370
+    },
+    {
+      "path": "src/commands/clear/clear/caches.ts",
+      "lines": 1,
+      "size": 18
+    },
+    {
+      "path": "src/commands/clear/clear/conversation.ts",
+      "lines": 1,
+      "size": 18
+    },
+    {
+      "path": "src/commands/clear/clear.ts",
+      "lines": 7,
+      "size": 254
+    },
+    {
+      "path": "src/commands/clear/conversation.ts",
+      "lines": 251,
+      "size": 9325
+    },
+    {
+      "path": "src/commands/clear/index.ts",
+      "lines": 19,
+      "size": 603
+    },
+    {
+      "path": "src/commands/color/color.ts",
+      "lines": 93,
+      "size": 2712
+    },
+    {
+      "path": "src/commands/color/index.ts",
+      "lines": 16,
+      "size": 417
+    },
+    {
+      "path": "src/commands/commit-push-pr.ts",
+      "lines": 158,
+      "size": 6309
+    },
+    {
+      "path": "src/commands/commit.ts",
+      "lines": 92,
+      "size": 3492
+    },
+    {
+      "path": "src/commands/compact/compact.ts",
+      "lines": 287,
+      "size": 10079
+    },
+    {
+      "path": "src/commands/compact/index.ts",
+      "lines": 15,
+      "size": 530
+    },
+    {
+      "path": "src/commands/config/config.tsx",
+      "lines": 7,
+      "size": 1408
+    },
+    {
+      "path": "src/commands/config/index.ts",
+      "lines": 11,
+      "size": 247
+    },
+    {
+      "path": "src/commands/context/context-noninteractive.ts",
+      "lines": 325,
+      "size": 10781
+    },
+    {
+      "path": "src/commands/context/context.tsx",
+      "lines": 64,
+      "size": 9099
+    },
+    {
+      "path": "src/commands/context/index.ts",
+      "lines": 24,
+      "size": 695
+    },
+    {
+      "path": "src/commands/copy/copy.tsx",
+      "lines": 371,
+      "size": 42252
+    },
+    {
+      "path": "src/commands/copy/index.ts",
+      "lines": 15,
+      "size": 393
+    },
+    {
+      "path": "src/commands/cost/cost.ts",
+      "lines": 24,
+      "size": 909
+    },
+    {
+      "path": "src/commands/cost/index.ts",
+      "lines": 23,
+      "size": 668
+    },
+    {
+      "path": "src/commands/createMovedToPluginCommand.ts",
+      "lines": 65,
+      "size": 1789
+    },
+    {
+      "path": "src/commands/desktop/desktop.tsx",
+      "lines": 9,
+      "size": 1645
+    },
+    {
+      "path": "src/commands/desktop/index.ts",
+      "lines": 26,
+      "size": 601
+    },
+    {
+      "path": "src/commands/diff/diff.tsx",
+      "lines": 9,
+      "size": 1461
+    },
+    {
+      "path": "src/commands/diff/index.ts",
+      "lines": 8,
+      "size": 221
+    },
+    {
+      "path": "src/commands/doctor/doctor.tsx",
+      "lines": 7,
+      "size": 1309
+    },
+    {
+      "path": "src/commands/doctor/index.ts",
+      "lines": 12,
+      "size": 381
+    },
+    {
+      "path": "src/commands/effort/effort.tsx",
+      "lines": 183,
+      "size": 22128
+    },
+    {
+      "path": "src/commands/effort/index.ts",
+      "lines": 13,
+      "size": 428
+    },
+    {
+      "path": "src/commands/exit/exit.tsx",
+      "lines": 33,
+      "size": 5272
+    },
+    {
+      "path": "src/commands/exit/index.ts",
+      "lines": 12,
+      "size": 250
+    },
+    {
+      "path": "src/commands/export/export.tsx",
+      "lines": 91,
+      "size": 15104
+    },
+    {
+      "path": "src/commands/export/index.ts",
+      "lines": 11,
+      "size": 303
+    },
+    {
+      "path": "src/commands/extra-usage/extra-usage-core.ts",
+      "lines": 118,
+      "size": 4000
+    },
+    {
+      "path": "src/commands/extra-usage/extra-usage-noninteractive.ts",
+      "lines": 16,
+      "size": 466
+    },
+    {
+      "path": "src/commands/extra-usage/extra-usage.tsx",
+      "lines": 17,
+      "size": 3134
+    },
+    {
+      "path": "src/commands/extra-usage/index.ts",
+      "lines": 31,
+      "size": 1101
+    },
+    {
+      "path": "src/commands/fast/fast.tsx",
+      "lines": 269,
+      "size": 33931
+    },
+    {
+      "path": "src/commands/fast/index.ts",
+      "lines": 26,
+      "size": 693
+    },
+    {
+      "path": "src/commands/feedback/feedback.tsx",
+      "lines": 25,
+      "size": 5095
+    },
+    {
+      "path": "src/commands/feedback/index.ts",
+      "lines": 26,
+      "size": 931
+    },
+    {
+      "path": "src/commands/files/files.ts",
+      "lines": 19,
+      "size": 688
+    },
+    {
+      "path": "src/commands/files/index.ts",
+      "lines": 12,
+      "size": 316
+    },
+    {
+      "path": "src/commands/heapdump/heapdump.ts",
+      "lines": 17,
+      "size": 398
+    },
+    {
+      "path": "src/commands/heapdump/index.ts",
+      "lines": 12,
+      "size": 288
+    },
+    {
+      "path": "src/commands/help/help.tsx",
+      "lines": 11,
+      "size": 1432
+    },
+    {
+      "path": "src/commands/help/index.ts",
+      "lines": 10,
+      "size": 229
+    },
+    {
+      "path": "src/commands/hooks/hooks.tsx",
+      "lines": 13,
+      "size": 2679
+    },
+    {
+      "path": "src/commands/hooks/index.ts",
+      "lines": 11,
+      "size": 260
+    },
+    {
+      "path": "src/commands/ide/ide.tsx",
+      "lines": 646,
+      "size": 77066
+    },
+    {
+      "path": "src/commands/ide/index.ts",
+      "lines": 11,
+      "size": 258
+    },
+    {
+      "path": "src/commands/init-verifiers.ts",
+      "lines": 262,
+      "size": 10315
+    },
+    {
+      "path": "src/commands/init.ts",
+      "lines": 256,
+      "size": 20961
+    },
+    {
+      "path": "src/commands/insights.ts",
+      "lines": 3200,
+      "size": 115949
+    },
+    {
+      "path": "src/commands/install-github-app/ApiKeyStep.tsx",
+      "lines": 231,
+      "size": 23518
+    },
+    {
+      "path": "src/commands/install-github-app/CheckExistingSecretStep.tsx",
+      "lines": 190,
+      "size": 18135
+    },
+    {
+      "path": "src/commands/install-github-app/CheckGitHubStep.tsx",
+      "lines": 15,
+      "size": 1248
+    },
+    {
+      "path": "src/commands/install-github-app/ChooseRepoStep.tsx",
+      "lines": 211,
+      "size": 21279
+    },
+    {
+      "path": "src/commands/install-github-app/CreatingStep.tsx",
+      "lines": 65,
+      "size": 9266
+    },
+    {
+      "path": "src/commands/install-github-app/ErrorStep.tsx",
+      "lines": 85,
+      "size": 8602
+    },
+    {
+      "path": "src/commands/install-github-app/ExistingWorkflowStep.tsx",
+      "lines": 103,
+      "size": 9833
+    },
+    {
+      "path": "src/commands/install-github-app/InstallAppStep.tsx",
+      "lines": 94,
+      "size": 9601
+    },
+    {
+      "path": "src/commands/install-github-app/OAuthFlowStep.tsx",
+      "lines": 276,
+      "size": 39935
+    },
+    {
+      "path": "src/commands/install-github-app/SuccessStep.tsx",
+      "lines": 96,
+      "size": 10170
+    },
+    {
+      "path": "src/commands/install-github-app/WarningsStep.tsx",
+      "lines": 73,
+      "size": 9132
+    },
+    {
+      "path": "src/commands/install-github-app/index.ts",
+      "lines": 13,
+      "size": 471
+    },
+    {
+      "path": "src/commands/install-github-app/install-github-app.tsx",
+      "lines": 587,
+      "size": 87155
+    },
+    {
+      "path": "src/commands/install-github-app/setupGitHubActions.ts",
+      "lines": 325,
+      "size": 10168
+    },
+    {
+      "path": "src/commands/install-github-app/types.ts",
+      "lines": 3,
+      "size": 137
+    },
+    {
+      "path": "src/commands/install-slack-app/index.ts",
+      "lines": 12,
+      "size": 333
+    },
+    {
+      "path": "src/commands/install-slack-app/install-slack-app.ts",
+      "lines": 30,
+      "size": 877
+    },
+    {
+      "path": "src/commands/install.tsx",
+      "lines": 300,
+      "size": 39068
+    },
+    {
+      "path": "src/commands/keybindings/index.ts",
+      "lines": 13,
+      "size": 448
+    },
+    {
+      "path": "src/commands/keybindings/keybindings.ts",
+      "lines": 53,
+      "size": 1645
+    },
+    {
+      "path": "src/commands/login/index.ts",
+      "lines": 14,
+      "size": 489
+    },
+    {
+      "path": "src/commands/login/login.tsx",
+      "lines": 104,
+      "size": 16109
+    },
+    {
+      "path": "src/commands/logout/index.ts",
+      "lines": 10,
+      "size": 341
+    },
+    {
+      "path": "src/commands/logout/logout.tsx",
+      "lines": 82,
+      "size": 10732
+    },
+    {
+      "path": "src/commands/mcp/addCommand.ts",
+      "lines": 280,
+      "size": 9848
+    },
+    {
+      "path": "src/commands/mcp/index.ts",
+      "lines": 12,
+      "size": 280
+    },
+    {
+      "path": "src/commands/mcp/mcp.tsx",
+      "lines": 85,
+      "size": 12126
+    },
+    {
+      "path": "src/commands/mcp/xaaIdpCommand.ts",
+      "lines": 266,
+      "size": 10290
+    },
+    {
+      "path": "src/commands/memory/index.ts",
+      "lines": 10,
+      "size": 220
+    },
+    {
+      "path": "src/commands/memory/memory.tsx",
+      "lines": 90,
+      "size": 12608
+    },
+    {
+      "path": "src/commands/mobile/index.ts",
+      "lines": 11,
+      "size": 282
+    },
+    {
+      "path": "src/commands/mobile/mobile.tsx",
+      "lines": 274,
+      "size": 21797
+    },
+    {
+      "path": "src/commands/model/index.ts",
+      "lines": 16,
+      "size": 559
+    },
+    {
+      "path": "src/commands/model/model.tsx",
+      "lines": 297,
+      "size": 37569
+    },
+    {
+      "path": "src/commands/output-style/index.ts",
+      "lines": 11,
+      "size": 291
+    },
+    {
+      "path": "src/commands/output-style/output-style.tsx",
+      "lines": 7,
+      "size": 1343
+    },
+    {
+      "path": "src/commands/passes/index.ts",
+      "lines": 22,
+      "size": 632
+    },
+    {
+      "path": "src/commands/passes/passes.tsx",
+      "lines": 24,
+      "size": 3783
+    },
+    {
+      "path": "src/commands/permissions/index.ts",
+      "lines": 11,
+      "size": 296
+    },
+    {
+      "path": "src/commands/permissions/permissions.tsx",
+      "lines": 10,
+      "size": 2223
+    },
+    {
+      "path": "src/commands/plan/index.ts",
+      "lines": 11,
+      "size": 286
+    },
+    {
+      "path": "src/commands/plan/plan.tsx",
+      "lines": 122,
+      "size": 13904
+    },
+    {
+      "path": "src/commands/plugin/AddMarketplace.tsx",
+      "lines": 162,
+      "size": 21821
+    },
+    {
+      "path": "src/commands/plugin/BrowseMarketplace.tsx",
+      "lines": 802,
+      "size": 119562
+    },
+    {
+      "path": "src/commands/plugin/DiscoverPlugins.tsx",
+      "lines": 781,
+      "size": 106666
+    },
+    {
+      "path": "src/commands/plugin/ManageMarketplaces.tsx",
+      "lines": 838,
+      "size": 118912
+    },
+    {
+      "path": "src/commands/plugin/ManagePlugins.tsx",
+      "lines": 2215,
+      "size": 321775
+    },
+    {
+      "path": "src/commands/plugin/PluginErrors.tsx",
+      "lines": 124,
+      "size": 23316
+    },
+    {
+      "path": "src/commands/plugin/PluginOptionsDialog.tsx",
+      "lines": 357,
+      "size": 34537
+    },
+    {
+      "path": "src/commands/plugin/PluginOptionsFlow.tsx",
+      "lines": 135,
+      "size": 18702
+    },
+    {
+      "path": "src/commands/plugin/PluginSettings.tsx",
+      "lines": 1072,
+      "size": 128668
+    },
+    {
+      "path": "src/commands/plugin/PluginTrustWarning.tsx",
+      "lines": 32,
+      "size": 3919
+    },
+    {
+      "path": "src/commands/plugin/UnifiedInstalledCell.tsx",
+      "lines": 565,
+      "size": 44441
+    },
+    {
+      "path": "src/commands/plugin/ValidatePlugin.tsx",
+      "lines": 98,
+      "size": 12369
+    },
+    {
+      "path": "src/commands/plugin/index.tsx",
+      "lines": 11,
+      "size": 1337
+    },
+    {
+      "path": "src/commands/plugin/parseArgs.ts",
+      "lines": 103,
+      "size": 2818
+    },
+    {
+      "path": "src/commands/plugin/plugin.tsx",
+      "lines": 7,
+      "size": 1590
+    },
+    {
+      "path": "src/commands/plugin/pluginDetailsHelpers.tsx",
+      "lines": 117,
+      "size": 12424
+    },
+    {
+      "path": "src/commands/plugin/types.ts",
+      "lines": 2,
+      "size": 89
+    },
+    {
+      "path": "src/commands/plugin/unifiedTypes.ts",
+      "lines": 2,
+      "size": 122
+    },
+    {
+      "path": "src/commands/plugin/usePagination.ts",
+      "lines": 171,
+      "size": 4990
+    },
+    {
+      "path": "src/commands/pr_comments/index.ts",
+      "lines": 50,
+      "size": 1848
+    },
+    {
+      "path": "src/commands/privacy-settings/index.ts",
+      "lines": 14,
+      "size": 399
+    },
+    {
+      "path": "src/commands/privacy-settings/privacy-settings.tsx",
+      "lines": 58,
+      "size": 10043
+    },
+    {
+      "path": "src/commands/rate-limit-options/index.ts",
+      "lines": 19,
+      "size": 511
+    },
+    {
+      "path": "src/commands/rate-limit-options/rate-limit-options.tsx",
+      "lines": 210,
+      "size": 23749
+    },
+    {
+      "path": "src/commands/release-notes/index.ts",
+      "lines": 11,
+      "size": 268
+    },
+    {
+      "path": "src/commands/release-notes/release-notes.ts",
+      "lines": 50,
+      "size": 1524
+    },
+    {
+      "path": "src/commands/reload-plugins/index.ts",
+      "lines": 18,
+      "size": 653
+    },
+    {
+      "path": "src/commands/reload-plugins/reload-plugins.ts",
+      "lines": 61,
+      "size": 2598
+    },
+    {
+      "path": "src/commands/remote-env/index.ts",
+      "lines": 15,
+      "size": 577
+    },
+    {
+      "path": "src/commands/remote-env/remote-env.tsx",
+      "lines": 7,
+      "size": 1454
+    },
+    {
+      "path": "src/commands/remote-setup/api.ts",
+      "lines": 182,
+      "size": 5519
+    },
+    {
+      "path": "src/commands/remote-setup/index.ts",
+      "lines": 20,
+      "size": 693
+    },
+    {
+      "path": "src/commands/remote-setup/remote-setup.tsx",
+      "lines": 187,
+      "size": 21786
+    },
+    {
+      "path": "src/commands/rename/generateSessionName.ts",
+      "lines": 67,
+      "size": 2297
+    },
+    {
+      "path": "src/commands/rename/index.ts",
+      "lines": 12,
+      "size": 281
+    },
+    {
+      "path": "src/commands/rename/rename.ts",
+      "lines": 87,
+      "size": 2759
+    },
+    {
+      "path": "src/commands/resume/index.ts",
+      "lines": 12,
+      "size": 303
+    },
+    {
+      "path": "src/commands/resume/resume.tsx",
+      "lines": 275,
+      "size": 37026
+    },
+    {
+      "path": "src/commands/review/UltrareviewOverageDialog.tsx",
+      "lines": 96,
+      "size": 9655
+    },
+    {
+      "path": "src/commands/review/reviewRemote.ts",
+      "lines": 316,
+      "size": 11926
+    },
+    {
+      "path": "src/commands/review/ultrareviewCommand.tsx",
+      "lines": 58,
+      "size": 9855
+    },
+    {
+      "path": "src/commands/review/ultrareviewEnabled.ts",
+      "lines": 14,
+      "size": 526
+    },
+    {
+      "path": "src/commands/review.ts",
+      "lines": 57,
+      "size": 2188
+    },
+    {
+      "path": "src/commands/rewind/index.ts",
+      "lines": 13,
+      "size": 337
+    },
+    {
+      "path": "src/commands/rewind/rewind.ts",
+      "lines": 13,
+      "size": 376
+    },
+    {
+      "path": "src/commands/sandbox-toggle/index.ts",
+      "lines": 50,
+      "size": 1520
+    },
+    {
+      "path": "src/commands/sandbox-toggle/sandbox-toggle.tsx",
+      "lines": 83,
+      "size": 13157
+    },
+    {
+      "path": "src/commands/security-review.ts",
+      "lines": 243,
+      "size": 12531
+    },
+    {
+      "path": "src/commands/session/index.ts",
+      "lines": 16,
+      "size": 418
+    },
+    {
+      "path": "src/commands/session/session.tsx",
+      "lines": 140,
+      "size": 13009
+    },
+    {
+      "path": "src/commands/skills/index.ts",
+      "lines": 10,
+      "size": 226
+    },
+    {
+      "path": "src/commands/skills/skills.tsx",
+      "lines": 8,
+      "size": 1888
+    },
+    {
+      "path": "src/commands/stats/index.ts",
+      "lines": 10,
+      "size": 252
+    },
+    {
+      "path": "src/commands/stats/stats.tsx",
+      "lines": 7,
+      "size": 1141
+    },
+    {
+      "path": "src/commands/status/index.ts",
+      "lines": 12,
+      "size": 322
+    },
+    {
+      "path": "src/commands/status/status.tsx",
+      "lines": 8,
+      "size": 1855
+    },
+    {
+      "path": "src/commands/statusline.tsx",
+      "lines": 24,
+      "size": 3568
+    },
+    {
+      "path": "src/commands/stickers/index.ts",
+      "lines": 11,
+      "size": 268
+    },
+    {
+      "path": "src/commands/stickers/stickers.ts",
+      "lines": 16,
+      "size": 476
+    },
+    {
+      "path": "src/commands/tag/index.ts",
+      "lines": 12,
+      "size": 321
+    },
+    {
+      "path": "src/commands/tag/tag.tsx",
+      "lines": 215,
+      "size": 20999
+    },
+    {
+      "path": "src/commands/tasks/index.ts",
+      "lines": 11,
+      "size": 256
+    },
+    {
+      "path": "src/commands/tasks/tasks.tsx",
+      "lines": 8,
+      "size": 1901
+    },
+    {
+      "path": "src/commands/terminalSetup/index.ts",
+      "lines": 23,
+      "size": 725
+    },
+    {
+      "path": "src/commands/terminalSetup/terminalSetup.tsx",
+      "lines": 531,
+      "size": 77528
+    },
+    {
+      "path": "src/commands/theme/index.ts",
+      "lines": 10,
+      "size": 217
+    },
+    {
+      "path": "src/commands/theme/theme.tsx",
+      "lines": 57,
+      "size": 5180
+    },
+    {
+      "path": "src/commands/thinkback/index.ts",
+      "lines": 13,
+      "size": 442
+    },
+    {
+      "path": "src/commands/thinkback/thinkback.tsx",
+      "lines": 554,
+      "size": 61993
+    },
+    {
+      "path": "src/commands/thinkback-play/index.ts",
+      "lines": 17,
+      "size": 608
+    },
+    {
+      "path": "src/commands/thinkback-play/thinkback-play.ts",
+      "lines": 43,
+      "size": 1430
+    },
+    {
+      "path": "src/commands/ultraplan.tsx",
+      "lines": 471,
+      "size": 66629
+    },
+    {
+      "path": "src/commands/upgrade/index.ts",
+      "lines": 16,
+      "size": 523
+    },
+    {
+      "path": "src/commands/upgrade/upgrade.tsx",
+      "lines": 38,
+      "size": 7438
+    },
+    {
+      "path": "src/commands/usage/index.ts",
+      "lines": 9,
+      "size": 233
+    },
+    {
+      "path": "src/commands/usage/usage.tsx",
+      "lines": 7,
+      "size": 1403
+    },
+    {
+      "path": "src/commands/version.ts",
+      "lines": 22,
+      "size": 577
+    },
+    {
+      "path": "src/commands/vim/index.ts",
+      "lines": 11,
+      "size": 273
+    },
+    {
+      "path": "src/commands/vim/vim.ts",
+      "lines": 38,
+      "size": 1139
+    },
+    {
+      "path": "src/commands/voice/index.ts",
+      "lines": 20,
+      "size": 482
+    },
+    {
+      "path": "src/commands/voice/voice.ts",
+      "lines": 150,
+      "size": 5264
+    }
+  ]
+}

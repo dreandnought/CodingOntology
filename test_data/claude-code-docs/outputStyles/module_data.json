@@ -1,0 +1,14 @@
+{
+  "name": "outputStyles",
+  "path": "src/outputStyles/",
+  "ts_files": 1,
+  "tsx_files": 0,
+  "total_files": 1,
+  "files": [
+    {
+      "path": "src/outputStyles/loadOutputStylesDir.ts",
+      "lines": 98,
+      "size": 3438
+    }
+  ]
+}

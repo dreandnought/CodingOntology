@@ -1,0 +1,104 @@
+{
+  "name": "types",
+  "path": "src/types/",
+  "ts_files": 19,
+  "tsx_files": 0,
+  "total_files": 19,
+  "files": [
+    {
+      "path": "src/types/command.ts",
+      "lines": 216,
+      "size": 7736
+    },
+    {
+      "path": "src/types/connectorText.ts",
+      "lines": 9,
+      "size": 275
+    },
+    {
+      "path": "src/types/fileSuggestion.ts",
+      "lines": 1,
+      "size": 53
+    },
+    {
+      "path": "src/types/generated/events_mono/claude_code/v1/claude_code_internal_event.ts",
+      "lines": 865,
+      "size": 30728
+    },
+    {
+      "path": "src/types/generated/events_mono/common/v1/auth.ts",
+      "lines": 100,
+      "size": 2822
+    },
+    {
+      "path": "src/types/generated/events_mono/growthbook/v1/growthbook_experiment_event.ts",
+      "lines": 223,
+      "size": 7591
+    },
+    {
+      "path": "src/types/generated/google/protobuf/timestamp.ts",
+      "lines": 187,
+      "size": 6565
+    },
+    {
+      "path": "src/types/hooks.ts",
+      "lines": 290,
+      "size": 9138
+    },
+    {
+      "path": "src/types/ids.ts",
+      "lines": 44,
+      "size": 1295
+    },
+    {
+      "path": "src/types/logs.ts",
+      "lines": 330,
+      "size": 11291
+    },
+    {
+      "path": "src/types/message.ts",
+      "lines": 134,
+      "size": 3211
+    },
+    {
+      "path": "src/types/messageQueueTypes.ts",
+      "lines": 1,
+      "size": 56
+    },
+    {
+      "path": "src/types/notebook.ts",
+      "lines": 1,
+      "size": 51
+    },
+    {
+      "path": "src/types/permissions.ts",
+      "lines": 441,
+      "size": 13145
+    },
+    {
+      "path": "src/types/plugin.ts",
+      "lines": 363,
+      "size": 11308
+    },
+    {
+      "path": "src/types/statusLine.ts",
+      "lines": 1,
+      "size": 53
+    },
+    {
+      "path": "src/types/textInputTypes.ts",
+      "lines": 387,
+      "size": 11628
+    },
+    {
+      "path": "src/types/tools.ts",
+      "lines": 15,
+      "size": 555
+    },
+    {
+      "path": "src/types/utils.ts",
+      "lines": 9,
+      "size": 273
+    }
+  ]
+}

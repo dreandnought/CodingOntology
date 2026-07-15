@@ -63,5 +63,31 @@ dry_run 阶段：
 
 ## 注意事项
 
-- 再次执行时建议同时传入原始 `content`，否则文档溯源记录的 content_hash/word_count 可能为空
+- **再次执行时建议同时传入原始 `content`**，否则文档溯源记录的 content_hash/word_count 可能为空
 - 实体按名称去重，关系按 source/target/type 去重
+- **⚠️ `plan` 必须是嵌套 dict 对象，不能是 JSON 字符串**。MCP 返回 dry_run 结果时，`plan` 被编码在 `text` 字段的 JSON 字符串中，调用方需要先反序列化成 Python dict，再以嵌套对象形式传入 `arguments.plan`
+- **`plan` 结构骨架**（必须与 dry_run 返回值保持一致）：
+
+```json
+{
+  "entities": {
+    "create": [
+      {"entity_id": "", "name": "", "type": "", "description": "", "confidence": 0.8}
+    ],
+    "update": [
+      {"entity_id": "", "name": "", "type": "", "description": "", "confidence": 0.8}
+    ],
+    "delete": []
+  },
+  "relations": {
+    "create": [
+      {"source_id": "", "target_id": "", "relation_type": "", "description": "", "confidence": 0.8}
+    ],
+    "update": [],
+    "delete": []
+  },
+  "skipped_relations": []
+}
+```
+
+- 若传入 `plan` 时结构错误，工具会返回 `plan_validation_error` 而不再崩溃

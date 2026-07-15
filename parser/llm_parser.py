@@ -88,7 +88,7 @@ def _call_llm(system_prompt: str, user_prompt: str, temperature: Optional[float]
     }
 
     try:
-        resp = requests.post(api_url, headers=headers, json=payload, timeout=120)
+        resp = requests.post(api_url, headers=headers, json=payload, timeout=300)
         resp.raise_for_status()
         data = resp.json()
         return data["choices"][0]["message"]["content"]

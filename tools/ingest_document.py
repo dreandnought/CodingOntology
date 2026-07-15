@@ -5,7 +5,9 @@ MCP Tool: ingest_document
 默认 dry_run=true，先返回变更计划；dry_run=false 时执行写入。
 """
 
-from typing import Optional
+from typing import List, Optional
+
+from pydantic import BaseModel, Field, field_validator
 
 from parser.llm_parser import extract_entities_and_relations
 from models.entity import (
@@ -17,6 +19,73 @@ from models.entity import (
 )
 from models.relation import create_relation
 from models.document import create_document
+
+
+class EntityChangeItem(BaseModel):
+    """实体变更项（创建或更新）。"""
+
+    entity_id: str = Field(..., description="实体 ID")
+    name: str = Field(..., description="实体名称")
+    type: str = Field(..., description="实体类型 ID")
+    description: str = Field(default="", description="实体描述")
+    confidence: float = Field(default=0.8, ge=0.0, le=1.0, description="置信度")
+
+
+class RelationChangeItem(BaseModel):
+    """关系变更项（创建）。"""
+
+    source_id: str = Field(..., description="源实体 ID")
+    target_id: str = Field(..., description="目标实体 ID")
+    relation_type: str = Field(..., description="关系类型 ID")
+    description: str = Field(default="", description="关系描述")
+    confidence: float = Field(default=0.8, ge=0.0, le=1.0, description="置信度")
+
+
+class SkippedRelationItem(BaseModel):
+    """被跳过的关系项。"""
+
+    source_name: str = Field(default="", description="源实体名称")
+    target_name: str = Field(default="", description="目标实体名称")
+    relation_type: str = Field(default="", description="关系类型")
+    reason: str = Field(default="", description="跳过原因")
+
+
+class EntityChangeGroup(BaseModel):
+    """实体变更分组。"""
+
+    create: List[EntityChangeItem] = Field(default_factory=list)
+    update: List[EntityChangeItem] = Field(default_factory=list)
+    delete: List[EntityChangeItem] = Field(default_factory=list)
+
+
+class RelationChangeGroup(BaseModel):
+    """关系变更分组。"""
+
+    create: List[RelationChangeItem] = Field(default_factory=list)
+    update: List[RelationChangeItem] = Field(default_factory=list)
+    delete: List[RelationChangeItem] = Field(default_factory=list)
+
+
+class IngestChangePlan(BaseModel):
+    """ingest_document 工具执行写入时接收的变更计划结构。"""
+
+    entities: EntityChangeGroup = Field(default_factory=EntityChangeGroup)
+    relations: RelationChangeGroup = Field(default_factory=RelationChangeGroup)
+    skipped_relations: List[SkippedRelationItem] = Field(default_factory=list)
+
+    @field_validator("entities", "relations", mode="before")
+    @classmethod
+    def _coerce_group(cls, value):
+        """允许前端传 None 时自动转为空分组，避免后续遍历报错。"""
+        if value is None:
+            return {}
+        return value
+
+    @field_validator("skipped_relations", mode="before")
+    @classmethod
+    def _coerce_skipped(cls, value):
+        """允许前端传 None 时自动转为空列表。"""
+        return value if value is not None else []
 
 
 def _allocate_entity_id(name, suggested_id, existing_ids, db_path):
@@ -229,6 +298,18 @@ def register(mcp):
                 "relations_extracted": len(extraction["relations"]),
             }
         else:
+            # 校验 plan 结构，防止传入畸形 plan 导致执行阶段崩溃
+            try:
+                validated_plan = IngestChangePlan.model_validate(plan)
+            except Exception as validation_error:
+                return {
+                    "dry_run": False,
+                    "success": False,
+                    "error": f"plan 结构校验失败: {validation_error}",
+                    "error_type": "plan_validation_error",
+                }
+            # 校验通过后转回 dict，保持 _execute_plan 的原有接口不变
+            plan = validated_plan.model_dump()
             extraction_summary = {"entities_extracted": None, "relations_extracted": None}
 
         if dry_run:
@@ -240,6 +321,7 @@ def register(mcp):
 
         result = _execute_plan(plan, title, content, db_path)
         result["dry_run"] = False
+        result["success"] = True
         return result
 
     return ingest_document
